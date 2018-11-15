@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/19/2017 13:48:11" ReportInfo.Modified="04/20/2018 16:14:59" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGlrTFaiay9rLcgIDd5TAks5PQixeTt3SsiwKhLlgSxWEoKt7NAYUs7j7lZ+zHvs+2pD70SpOgfRoyXkNguPyga+uUAYXY/FuhtgFe/hUtpEoU+orcw8adD2yTKTMcOOHgDECBbfsvbFX0qb+7/g9FPUYTe57fPwLziBxecX+BcTm">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT CASE WHEN SRT007='' THEN CASE WHEN SRT008='' THEN SRT009 ELSE SRT008 END ELSE SRT007 END SRT,SRT001,SRT002,SRT003,SRT004,SRT005,SRT006,SRT007,SRT008,SRT009 FROM MOXSRT&#13;&#10;">
+        <Column Name="SRT" DataType="System.String"/>
+        <Column Name="SRT001" DataType="System.String"/>
+        <Column Name="SRT002" DataType="System.String"/>
+        <Column Name="SRT003" DataType="System.String"/>
+        <Column Name="SRT004" DataType="System.String"/>
+        <Column Name="SRT005" DataType="System.String"/>
+        <Column Name="SRT006" DataType="System.Int32"/>
+        <Column Name="SRT007" DataType="System.String"/>
+        <Column Name="SRT008" DataType="System.String"/>
+        <Column Name="SRT009" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="40" PaperHeight="30" LeftMargin="5" TopMargin="5" RightMargin="5" BottomMargin="5" Columns.Count="2" Columns.Width="15" Columns.Positions="0,15" Guides="103.95">
+    <DataBand Name="Data1" Width="56.7" Height="85.05" Guides="18.9,75.6,56.7,66.15,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,66.15,66.15,75.6,75.6,66.15,66.15,66.15,66.15,75.6,75.6,66.15" DataSource="Table">
+      <TextObject Name="Text2" Top="56.7" Width="151.2" Height="18.9" Text="[Table.SRT005]" Font="宋体, 6pt"/>
+      <BarcodeObject Name="Barcode1" Top="18.9" Width="110.8" Height="37.8" CanGrow="true" EvenStylePriority="UseAll" AutoSize="false" DataColumn="Table.SRT" Text="002020381700008" Barcode="Code128" Barcode.CalcCheckSum="false" Barcode.AutoEncode="true"/>
+      <TextObject Name="Text1" Left="-18.9" Top="75.6" Width="85.05" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="9.45" Top="75.6" Width="94.5" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="9.45" Top="75.6" Width="94.5" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Top="66.15" Width="151.2" Height="9.45" Text="[Table.SRT002]" Font="宋体, 6pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

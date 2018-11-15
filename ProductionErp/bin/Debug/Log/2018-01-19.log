@@ -1,0 +1,1276 @@
+11:32:38.432 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:32:59.333 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:32:59.620 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:01.047 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:06.504 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:09.373 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:26.289 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:33:26.559 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:26.633 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:33:29.698 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:40.083 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:33:44.495 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:09.142 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:09.669 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:13.329 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:13.647 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:16.691 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:26.063 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:34:26.250 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:01.384    在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   在 System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   在 System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   在 System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\Project data\MaTuo\ProductionErp\ProductionErpBll\SqlHelper.cs:行号 268
+11:35:01.386 SELECT GETDATE() t 
+11:35:01.443 执行超时已过期。完成操作之前已超时或服务器未响应。 
+11:35:01.446 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:16.942 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:16.945 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:16.987 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:16.990 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.028 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.031 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.072 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.074 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.112 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.114 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.152 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.154 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.192 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.195 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.232 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.235 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.272 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.275 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+11:35:17.313 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+11:35:17.317 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:38.578 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:44.654 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:44.841 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:44.850 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:47.356 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:47.363 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:47.370 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:49.335 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:49.344 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:50.247 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:53.871 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.826 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.833 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.842 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.851 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.860 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.876 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.882 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.888 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.901 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.909 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.922 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.928 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.935 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.946 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.955 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.965 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.974 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:55.980 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.004 @SRT001 20180119001
+13:20:56.006 @SRT002 GD201711240001
+13:20:56.008 @SRT003 MTA1100F1
+13:20:56.009 @SRT004 定子绕组
+13:20:56.011 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.013 @SRT006 1
+13:20:56.014 @SRT007 0002010591800005
+13:20:56.017 @SRT008 
+13:20:56.019 @SRT009 
+13:20:56.084 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.116 @SRT001 20180119001
+13:20:56.118 @SRT002 GD201711240001
+13:20:56.120 @SRT003 MTA1100F1
+13:20:56.122 @SRT004 定子绕组
+13:20:56.123 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.125 @SRT006 1
+13:20:56.127 @SRT007 0002010591800002
+13:20:56.128 @SRT008 
+13:20:56.130 @SRT009 
+13:20:56.136 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.144 @SRT001 20180119001
+13:20:56.146 @SRT002 GD201711240001
+13:20:56.148 @SRT003 MTA1100F1
+13:20:56.149 @SRT004 定子绕组
+13:20:56.151 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.152 @SRT006 1
+13:20:56.154 @SRT007 0002010591800004
+13:20:56.156 @SRT008 
+13:20:56.158 @SRT009 
+13:20:56.166 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.172 @SRT001 20180119001
+13:20:56.175 @SRT002 GD201711240001
+13:20:56.176 @SRT003 MTA1100F1
+13:20:56.178 @SRT004 定子绕组
+13:20:56.179 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.181 @SRT006 1
+13:20:56.183 @SRT007 0002010591800003
+13:20:56.184 @SRT008 
+13:20:56.186 @SRT009 
+13:20:56.192 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.197 @SRT001 20180119001
+13:20:56.200 @SRT002 GD201711240001
+13:20:56.202 @SRT003 MTA1100F1
+13:20:56.204 @SRT004 定子绕组
+13:20:56.206 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.207 @SRT006 1
+13:20:56.209 @SRT007 0002010591800001
+13:20:56.211 @SRT008 
+13:20:56.212 @SRT009 
+13:20:56.218 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.243 @SRT001 20180119001
+13:20:56.245 @SRT002 GD201711240001
+13:20:56.247 @SRT003 MTA1100F1
+13:20:56.248 @SRT004 定子绕组
+13:20:56.250 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.252 @SRT006 1
+13:20:56.254 @SRT007 0002010591800006
+13:20:56.256 @SRT008 
+13:20:56.258 @SRT009 
+13:20:56.263 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.291 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:56.297 @SRT001 20180119001
+13:20:56.299 @SRT002 GD201711240001
+13:20:56.301 @SRT003 MTA1100F1
+13:20:56.303 @SRT004 定子绕组
+13:20:56.305 @SRT005 MY06-(320~450)/(040~060)K.2
+13:20:56.307 @SRT006 1
+13:20:56.309 @SRT007 0002010591800007
+13:20:56.311 @SRT008 
+13:20:56.312 @SRT009 
+13:20:56.318 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:59.219 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:20:59.226 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:00.606 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:10.254 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:10.278 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:10.292 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:12.229 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:14.978 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:14.985 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:14.992 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.000 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.009 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.017 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.023 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.030 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.046 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.055 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.064 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.076 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.086 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.096 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.117 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.136 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.175 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.195 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.215 @SRT001 20180119001
+13:21:15.218 @SRT002 GD201711240001
+13:21:15.221 @SRT003 MTA1100F1
+13:21:15.225 @SRT004 定子绕组
+13:21:15.228 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.231 @SRT006 1
+13:21:15.234 @SRT007 0002010591800005
+13:21:15.239 @SRT008 
+13:21:15.242 @SRT009 
+13:21:15.250 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.259 @SRT001 20180119001
+13:21:15.262 @SRT002 GD201711240001
+13:21:15.264 @SRT003 MTA1100F1
+13:21:15.266 @SRT004 定子绕组
+13:21:15.268 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.270 @SRT006 1
+13:21:15.271 @SRT007 0002010591800007
+13:21:15.273 @SRT008 
+13:21:15.275 @SRT009 
+13:21:15.280 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.287 @SRT001 20180119001
+13:21:15.289 @SRT002 GD201711240001
+13:21:15.291 @SRT003 MTA1100F1
+13:21:15.293 @SRT004 定子绕组
+13:21:15.295 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.297 @SRT006 1
+13:21:15.299 @SRT007 0002010591800004
+13:21:15.300 @SRT008 
+13:21:15.302 @SRT009 
+13:21:15.308 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.315 @SRT001 20180119001
+13:21:15.317 @SRT002 GD201711240001
+13:21:15.319 @SRT003 MTA1100F1
+13:21:15.320 @SRT004 定子绕组
+13:21:15.322 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.324 @SRT006 1
+13:21:15.325 @SRT007 0002010591800003
+13:21:15.327 @SRT008 
+13:21:15.328 @SRT009 
+13:21:15.333 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.342 @SRT001 20180119001
+13:21:15.344 @SRT002 GD201711240001
+13:21:15.346 @SRT003 MTA1100F1
+13:21:15.348 @SRT004 定子绕组
+13:21:15.350 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.351 @SRT006 1
+13:21:15.353 @SRT007 0002010591800001
+13:21:15.355 @SRT008 
+13:21:15.356 @SRT009 
+13:21:15.363 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.375 @SRT001 20180119001
+13:21:15.377 @SRT002 GD201711240001
+13:21:15.379 @SRT003 MTA1100F1
+13:21:15.381 @SRT004 定子绕组
+13:21:15.382 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.384 @SRT006 1
+13:21:15.386 @SRT007 0002010591800002
+13:21:15.388 @SRT008 
+13:21:15.389 @SRT009 
+13:21:15.395 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.404 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:15.410 @SRT001 20180119001
+13:21:15.412 @SRT002 GD201711240001
+13:21:15.415 @SRT003 MTA1100F1
+13:21:15.417 @SRT004 定子绕组
+13:21:15.419 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:15.421 @SRT006 1
+13:21:15.423 @SRT007 0002010591800006
+13:21:15.425 @SRT008 
+13:21:15.427 @SRT009 
+13:21:15.433 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:17.651 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:20.983 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:21.012 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:21.026 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:22.573 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.404 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.455 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.465 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.480 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.488 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.495 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.501 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.506 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.516 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.525 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.532 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.542 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.548 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.552 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.559 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.568 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.573 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.580 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.589 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.594 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.603 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.608 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.615 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.622 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.627 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.633 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.642 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.647 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.652 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.658 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.663 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.670 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.678 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.683 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.688 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.693 @SRT001 20180119001
+13:21:26.695 @SRT002 GD201711240001
+13:21:26.697 @SRT003 MTA1100F1
+13:21:26.699 @SRT004 定子绕组
+13:21:26.700 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:26.702 @SRT006 1
+13:21:26.705 @SRT007 0002010591800005
+13:21:26.706 @SRT008 
+13:21:26.708 @SRT009 
+13:21:26.716 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.722 @SRT001 20180119001
+13:21:26.725 @SRT002 GD201711240002
+13:21:26.727 @SRT003 MTA1100H4
+13:21:26.729 @SRT004 定子绕组
+13:21:26.730 @SRT005 MY07-800/175K
+13:21:26.732 @SRT006 1
+13:21:26.734 @SRT007 0002110011800008
+13:21:26.736 @SRT008 
+13:21:26.737 @SRT009 
+13:21:26.744 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.751 @SRT001 20180119001
+13:21:26.753 @SRT002 GD201711240002
+13:21:26.755 @SRT003 MTA1100H4
+13:21:26.757 @SRT004 定子绕组
+13:21:26.758 @SRT005 MY07-800/175K
+13:21:26.760 @SRT006 1
+13:21:26.762 @SRT007 0002110011800005
+13:21:26.763 @SRT008 
+13:21:26.765 @SRT009 
+13:21:26.770 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.776 @SRT001 20180119001
+13:21:26.778 @SRT002 GD201711240002
+13:21:26.780 @SRT003 MTA1100H4
+13:21:26.782 @SRT004 定子绕组
+13:21:26.784 @SRT005 MY07-800/175K
+13:21:26.786 @SRT006 1
+13:21:26.788 @SRT007 0002110011800006
+13:21:26.789 @SRT008 
+13:21:26.791 @SRT009 
+13:21:26.795 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.806 @SRT001 20180119001
+13:21:26.808 @SRT002 GD201711240002
+13:21:26.810 @SRT003 MTA1100H4
+13:21:26.812 @SRT004 定子绕组
+13:21:26.814 @SRT005 MY07-800/175K
+13:21:26.816 @SRT006 1
+13:21:26.817 @SRT007 0002110011800004
+13:21:26.819 @SRT008 
+13:21:26.821 @SRT009 
+13:21:26.827 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.839 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.848 @SRT001 20180119001
+13:21:26.850 @SRT002 GD201711240001
+13:21:26.852 @SRT003 MTA1100F1
+13:21:26.854 @SRT004 定子绕组
+13:21:26.856 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:26.857 @SRT006 1
+13:21:26.859 @SRT007 0002010591800006
+13:21:26.860 @SRT008 
+13:21:26.863 @SRT009 
+13:21:26.868 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.876 @SRT001 20180119001
+13:21:26.879 @SRT002 GD201711240001
+13:21:26.880 @SRT003 MTA1100F1
+13:21:26.882 @SRT004 定子绕组
+13:21:26.885 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:26.887 @SRT006 1
+13:21:26.889 @SRT007 0002010591800002
+13:21:26.892 @SRT008 
+13:21:26.893 @SRT009 
+13:21:26.899 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.908 @SRT001 20180119001
+13:21:26.910 @SRT002 GD201711240001
+13:21:26.912 @SRT003 MTA1100F1
+13:21:26.915 @SRT004 定子绕组
+13:21:26.917 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:26.918 @SRT006 1
+13:21:26.920 @SRT007 0002010591800007
+13:21:26.922 @SRT008 
+13:21:26.924 @SRT009 
+13:21:26.928 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.941 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.948 @SRT001 20180119001
+13:21:26.950 @SRT002 GD201711240001
+13:21:26.952 @SRT003 MTA1100F1
+13:21:26.954 @SRT004 定子绕组
+13:21:26.956 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:26.958 @SRT006 1
+13:21:26.959 @SRT007 0002010591800004
+13:21:26.961 @SRT008 
+13:21:26.962 @SRT009 
+13:21:26.967 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:26.972 @SRT001 20180119001
+13:21:26.974 @SRT002 GD201711240002
+13:21:26.976 @SRT003 MTA1100H4
+13:21:26.978 @SRT004 定子绕组
+13:21:26.980 @SRT005 MY07-800/175K
+13:21:26.981 @SRT006 1
+13:21:26.983 @SRT007 0002110011800001
+13:21:26.985 @SRT008 
+13:21:26.987 @SRT009 
+13:21:26.992 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:27.000 @SRT001 20180119001
+13:21:27.002 @SRT002 GD201711240001
+13:21:27.004 @SRT003 MTA1100F1
+13:21:27.005 @SRT004 定子绕组
+13:21:27.007 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:27.009 @SRT006 1
+13:21:27.010 @SRT007 0002010591800003
+13:21:27.012 @SRT008 
+13:21:27.014 @SRT009 
+13:21:27.027 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:27.037 @SRT001 20180119001
+13:21:27.039 @SRT002 GD201711240001
+13:21:27.041 @SRT003 MTA1100F1
+13:21:27.042 @SRT004 定子绕组
+13:21:27.044 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:27.046 @SRT006 1
+13:21:27.047 @SRT007 0002010591800001
+13:21:27.049 @SRT008 
+13:21:27.051 @SRT009 
+13:21:27.058 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:27.064 @SRT001 20180119001
+13:21:27.067 @SRT002 GD201711240002
+13:21:27.068 @SRT003 MTA1100H4
+13:21:27.070 @SRT004 定子绕组
+13:21:27.072 @SRT005 MY07-800/175K
+13:21:27.073 @SRT006 1
+13:21:27.075 @SRT007 0002110011800002
+13:21:27.076 @SRT008 
+13:21:27.078 @SRT009 
+13:21:27.090 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:27.099 @SRT001 20180119001
+13:21:27.101 @SRT002 GD201711240002
+13:21:27.102 @SRT003 MTA1100H4
+13:21:27.104 @SRT004 定子绕组
+13:21:27.106 @SRT005 MY07-800/175K
+13:21:27.108 @SRT006 1
+13:21:27.110 @SRT007 0002110011800007
+13:21:27.112 @SRT008 
+13:21:27.113 @SRT009 
+13:21:27.123 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:27.131 @SRT001 20180119001
+13:21:27.133 @SRT002 GD201711240002
+13:21:27.135 @SRT003 MTA1100H4
+13:21:27.137 @SRT004 定子绕组
+13:21:27.139 @SRT005 MY07-800/175K
+13:21:27.141 @SRT006 1
+13:21:27.143 @SRT007 0002110011800003
+13:21:27.146 @SRT008 
+13:21:27.147 @SRT009 
+13:21:27.155 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:29.361 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:45.182 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:45.217 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:45.235 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:47.053 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.721 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.728 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.735 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.740 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.748 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.754 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.761 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.772 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.782 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.787 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.793 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.799 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.806 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.812 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.818 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.826 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.842 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.850 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.855 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.862 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.873 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.880 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.885 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.897 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.903 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.908 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.914 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.921 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.929 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.937 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.949 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.956 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.964 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.971 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.977 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:49.982 @SRT001 20180119001
+13:21:49.984 @SRT002 GD201711240001
+13:21:49.986 @SRT003 MTA1100F1
+13:21:49.988 @SRT004 定子绕组
+13:21:49.989 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:49.991 @SRT006 1
+13:21:49.992 @SRT007 0002010591800006
+13:21:49.995 @SRT008 
+13:21:49.997 @SRT009 
+13:21:50.005 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.016 @SRT001 20180119001
+13:21:50.018 @SRT002 GD201711240002
+13:21:50.020 @SRT003 MTA1100H4
+13:21:50.021 @SRT004 定子绕组
+13:21:50.023 @SRT005 MY07-800/175K
+13:21:50.025 @SRT006 1
+13:21:50.027 @SRT007 0002110011800003
+13:21:50.029 @SRT008 
+13:21:50.031 @SRT009 
+13:21:50.036 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.041 @SRT001 20180119001
+13:21:50.043 @SRT002 GD201711240002
+13:21:50.045 @SRT003 MTA1100H4
+13:21:50.047 @SRT004 定子绕组
+13:21:50.048 @SRT005 MY07-800/175K
+13:21:50.050 @SRT006 1
+13:21:50.052 @SRT007 0002110011800006
+13:21:50.053 @SRT008 
+13:21:50.055 @SRT009 
+13:21:50.064 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.070 @SRT001 20180119001
+13:21:50.072 @SRT002 GD201711240002
+13:21:50.075 @SRT003 MTA1100H4
+13:21:50.076 @SRT004 定子绕组
+13:21:50.078 @SRT005 MY07-800/175K
+13:21:50.080 @SRT006 1
+13:21:50.081 @SRT007 0002110011800007
+13:21:50.083 @SRT008 
+13:21:50.085 @SRT009 
+13:21:50.091 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.097 @SRT001 20180119001
+13:21:50.099 @SRT002 GD201711240002
+13:21:50.101 @SRT003 MTA1100H4
+13:21:50.102 @SRT004 定子绕组
+13:21:50.105 @SRT005 MY07-800/175K
+13:21:50.107 @SRT006 1
+13:21:50.108 @SRT007 0002110011800002
+13:21:50.110 @SRT008 
+13:21:50.112 @SRT009 
+13:21:50.116 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.122 @SRT001 20180119001
+13:21:50.124 @SRT002 GD201711240002
+13:21:50.126 @SRT003 MTA1100H4
+13:21:50.128 @SRT004 定子绕组
+13:21:50.130 @SRT005 MY07-800/175K
+13:21:50.131 @SRT006 1
+13:21:50.134 @SRT007 0002110011800005
+13:21:50.136 @SRT008 
+13:21:50.138 @SRT009 
+13:21:50.143 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.149 @SRT001 20180119001
+13:21:50.151 @SRT002 GD201711240001
+13:21:50.153 @SRT003 MTA1100F1
+13:21:50.155 @SRT004 定子绕组
+13:21:50.157 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:50.158 @SRT006 1
+13:21:50.160 @SRT007 0002010591800007
+13:21:50.162 @SRT008 
+13:21:50.163 @SRT009 
+13:21:50.169 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.175 @SRT001 20180119001
+13:21:50.178 @SRT002 GD201711240001
+13:21:50.179 @SRT003 MTA1100F1
+13:21:50.181 @SRT004 定子绕组
+13:21:50.183 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:50.185 @SRT006 1
+13:21:50.187 @SRT007 0002010591800001
+13:21:50.189 @SRT008 
+13:21:50.190 @SRT009 
+13:21:50.195 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.205 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.211 @SRT001 20180119001
+13:21:50.213 @SRT002 GD201711240001
+13:21:50.215 @SRT003 MTA1100F1
+13:21:50.217 @SRT004 定子绕组
+13:21:50.219 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:50.221 @SRT006 1
+13:21:50.222 @SRT007 0002010591800002
+13:21:50.224 @SRT008 
+13:21:50.226 @SRT009 
+13:21:50.231 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.237 @SRT001 20180119001
+13:21:50.239 @SRT002 GD201711240002
+13:21:50.241 @SRT003 MTA1100H4
+13:21:50.243 @SRT004 定子绕组
+13:21:50.245 @SRT005 MY07-800/175K
+13:21:50.247 @SRT006 1
+13:21:50.249 @SRT007 0002110011800001
+13:21:50.251 @SRT008 
+13:21:50.253 @SRT009 
+13:21:50.258 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.264 @SRT001 20180119001
+13:21:50.266 @SRT002 GD201711240002
+13:21:50.268 @SRT003 MTA1100H4
+13:21:50.269 @SRT004 定子绕组
+13:21:50.271 @SRT005 MY07-800/175K
+13:21:50.273 @SRT006 1
+13:21:50.275 @SRT007 0002110011800008
+13:21:50.277 @SRT008 
+13:21:50.278 @SRT009 
+13:21:50.284 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.294 @SRT001 20180119001
+13:21:50.297 @SRT002 GD201711240001
+13:21:50.298 @SRT003 MTA1100F1
+13:21:50.300 @SRT004 定子绕组
+13:21:50.302 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:50.304 @SRT006 1
+13:21:50.306 @SRT007 0002010591800005
+13:21:50.308 @SRT008 
+13:21:50.310 @SRT009 
+13:21:50.315 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.321 @SRT001 20180119001
+13:21:50.323 @SRT002 GD201711240001
+13:21:50.325 @SRT003 MTA1100F1
+13:21:50.327 @SRT004 定子绕组
+13:21:50.329 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:50.330 @SRT006 1
+13:21:50.332 @SRT007 0002010591800004
+13:21:50.333 @SRT008 
+13:21:50.335 @SRT009 
+13:21:50.341 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.348 @SRT001 20180119001
+13:21:50.350 @SRT002 GD201711240002
+13:21:50.352 @SRT003 MTA1100H4
+13:21:50.353 @SRT004 定子绕组
+13:21:50.355 @SRT005 MY07-800/175K
+13:21:50.357 @SRT006 1
+13:21:50.359 @SRT007 0002110011800004
+13:21:50.361 @SRT008 
+13:21:50.363 @SRT009 
+13:21:50.371 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.384 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:50.391 @SRT001 20180119001
+13:21:50.393 @SRT002 GD201711240001
+13:21:50.395 @SRT003 MTA1100F1
+13:21:50.397 @SRT004 定子绕组
+13:21:50.399 @SRT005 MY06-(320~450)/(040~060)K.2
+13:21:50.400 @SRT006 1
+13:21:50.402 @SRT007 0002010591800003
+13:21:50.404 @SRT008 
+13:21:50.406 @SRT009 
+13:21:50.411 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:52.231 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:21:55.832 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:22:02.783 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:22:02.809 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:22:02.827 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:22:05.083 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:24:36.057 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:28:02.586 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:28:45.379 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:28:45.440 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:28:47.238 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:28:51.212 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:29:53.122 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:29:56.710 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:29:56.768 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:29:59.332 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:30:01.393 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:30:48.349 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:30:59.192 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:27.958 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:34.066 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.724 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.734 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.746 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.756 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.762 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.773 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.778 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.785 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.793 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.798 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.806 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.813 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.819 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.824 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.832 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.842 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.849 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.855 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.861 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.865 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.870 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.875 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.881 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.887 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.898 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.904 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.909 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.915 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.921 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.926 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.933 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.938 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.944 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.952 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.957 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.965 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.974 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.981 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.986 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.991 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:36.996 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.001 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.006 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.011 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.019 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.024 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.029 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.036 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.041 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.046 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.052 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.057 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.062 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.070 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.093 @SRT001 20180119001
+13:31:37.095 @SRT002 GD201711240002
+13:31:37.097 @SRT003 MTA1100H4
+13:31:37.098 @SRT004 定子绕组
+13:31:37.100 @SRT005 MY07-800/175K
+13:31:37.101 @SRT006 1
+13:31:37.103 @SRT007 0002110011800005
+13:31:37.105 @SRT008 
+13:31:37.107 @SRT009 
+13:31:37.174 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.218 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.224 @SRT001 20180119001
+13:31:37.226 @SRT002 GD201711240003
+13:31:37.228 @SRT003 MTA1100H5
+13:31:37.230 @SRT004 定子绕组
+13:31:37.231 @SRT005 MY07-1000/050K
+13:31:37.233 @SRT006 1
+13:31:37.234 @SRT007 0002030011800001
+13:31:37.236 @SRT008 
+13:31:37.238 @SRT009 
+13:31:37.242 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.252 @SRT001 20180119001
+13:31:37.254 @SRT002 GD201711240001
+13:31:37.256 @SRT003 MTA1100F1
+13:31:37.258 @SRT004 定子绕组
+13:31:37.260 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:37.262 @SRT006 1
+13:31:37.264 @SRT007 0002010591800001
+13:31:37.266 @SRT008 
+13:31:37.267 @SRT009 
+13:31:37.273 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.278 @SRT001 20180119001
+13:31:37.280 @SRT002 GD201711240002
+13:31:37.282 @SRT003 MTA1100H4
+13:31:37.284 @SRT004 定子绕组
+13:31:37.286 @SRT005 MY07-800/175K
+13:31:37.288 @SRT006 1
+13:31:37.290 @SRT007 0002110011800003
+13:31:37.291 @SRT008 
+13:31:37.293 @SRT009 
+13:31:37.300 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.306 @SRT001 20180119001
+13:31:37.309 @SRT002 GD201711240003
+13:31:37.311 @SRT003 MTA1100H5
+13:31:37.312 @SRT004 定子绕组
+13:31:37.314 @SRT005 MY07-1000/050K
+13:31:37.316 @SRT006 1
+13:31:37.318 @SRT007 0002030011800004
+13:31:37.319 @SRT008 
+13:31:37.321 @SRT009 
+13:31:37.326 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.333 @SRT001 20180119001
+13:31:37.335 @SRT002 GD201711240002
+13:31:37.337 @SRT003 MTA1100H4
+13:31:37.339 @SRT004 定子绕组
+13:31:37.341 @SRT005 MY07-800/175K
+13:31:37.342 @SRT006 1
+13:31:37.344 @SRT007 0002110011800007
+13:31:37.346 @SRT008 
+13:31:37.348 @SRT009 
+13:31:37.364 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.380 @SRT001 20180119001
+13:31:37.382 @SRT002 GD201711240003
+13:31:37.385 @SRT003 MTA1100H5
+13:31:37.386 @SRT004 定子绕组
+13:31:37.388 @SRT005 MY07-1000/050K
+13:31:37.390 @SRT006 1
+13:31:37.391 @SRT007 0002030011800009
+13:31:37.393 @SRT008 
+13:31:37.398 @SRT009 
+13:31:37.409 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.416 @SRT001 20180119001
+13:31:37.418 @SRT002 GD201711240002
+13:31:37.421 @SRT003 MTA1100H4
+13:31:37.423 @SRT004 定子绕组
+13:31:37.425 @SRT005 MY07-800/175K
+13:31:37.427 @SRT006 1
+13:31:37.430 @SRT007 0002110011800006
+13:31:37.432 @SRT008 
+13:31:37.435 @SRT009 
+13:31:37.443 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.449 @SRT001 20180119001
+13:31:37.452 @SRT002 GD201711240003
+13:31:37.454 @SRT003 MTA1100H5
+13:31:37.456 @SRT004 定子绕组
+13:31:37.458 @SRT005 MY07-1000/050K
+13:31:37.460 @SRT006 1
+13:31:37.462 @SRT007 0002030011800006
+13:31:37.465 @SRT008 
+13:31:37.467 @SRT009 
+13:31:37.475 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.485 @SRT001 20180119001
+13:31:37.487 @SRT002 GD201711240001
+13:31:37.489 @SRT003 MTA1100F1
+13:31:37.490 @SRT004 定子绕组
+13:31:37.492 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:37.494 @SRT006 1
+13:31:37.496 @SRT007 0002010591800003
+13:31:37.497 @SRT008 
+13:31:37.499 @SRT009 
+13:31:37.507 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.528 @SRT001 20180119001
+13:31:37.530 @SRT002 GD201711240003
+13:31:37.532 @SRT003 MTA1100H5
+13:31:37.534 @SRT004 定子绕组
+13:31:37.536 @SRT005 MY07-1000/050K
+13:31:37.538 @SRT006 1
+13:31:37.540 @SRT007 0002030011800002
+13:31:37.543 @SRT008 
+13:31:37.545 @SRT009 
+13:31:37.559 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.574 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.586 @SRT001 20180119001
+13:31:37.588 @SRT002 GD201711240002
+13:31:37.590 @SRT003 MTA1100H4
+13:31:37.592 @SRT004 定子绕组
+13:31:37.593 @SRT005 MY07-800/175K
+13:31:37.595 @SRT006 1
+13:31:37.597 @SRT007 0002110011800001
+13:31:37.599 @SRT008 
+13:31:37.600 @SRT009 
+13:31:37.609 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.618 @SRT001 20180119001
+13:31:37.620 @SRT002 GD201711240002
+13:31:37.622 @SRT003 MTA1100H4
+13:31:37.624 @SRT004 定子绕组
+13:31:37.626 @SRT005 MY07-800/175K
+13:31:37.627 @SRT006 1
+13:31:37.629 @SRT007 0002110011800002
+13:31:37.630 @SRT008 
+13:31:37.632 @SRT009 
+13:31:37.643 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.653 @SRT001 20180119001
+13:31:37.656 @SRT002 GD201711240001
+13:31:37.658 @SRT003 MTA1100F1
+13:31:37.659 @SRT004 定子绕组
+13:31:37.661 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:37.664 @SRT006 1
+13:31:37.666 @SRT007 0002010591800006
+13:31:37.668 @SRT008 
+13:31:37.670 @SRT009 
+13:31:37.681 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.693 @SRT001 20180119001
+13:31:37.696 @SRT002 GD201711240001
+13:31:37.697 @SRT003 MTA1100F1
+13:31:37.699 @SRT004 定子绕组
+13:31:37.701 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:37.702 @SRT006 1
+13:31:37.704 @SRT007 0002010591800002
+13:31:37.706 @SRT008 
+13:31:37.708 @SRT009 
+13:31:37.726 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.736 @SRT001 20180119001
+13:31:37.738 @SRT002 GD201711240001
+13:31:37.740 @SRT003 MTA1100F1
+13:31:37.741 @SRT004 定子绕组
+13:31:37.743 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:37.745 @SRT006 1
+13:31:37.747 @SRT007 0002010591800005
+13:31:37.749 @SRT008 
+13:31:37.750 @SRT009 
+13:31:37.772 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.778 @SRT001 20180119001
+13:31:37.780 @SRT002 GD201711240002
+13:31:37.782 @SRT003 MTA1100H4
+13:31:37.784 @SRT004 定子绕组
+13:31:37.786 @SRT005 MY07-800/175K
+13:31:37.788 @SRT006 1
+13:31:37.790 @SRT007 0002110011800004
+13:31:37.792 @SRT008 
+13:31:37.796 @SRT009 
+13:31:37.802 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.810 @SRT001 20180119001
+13:31:37.812 @SRT002 GD201711240002
+13:31:37.815 @SRT003 MTA1100H4
+13:31:37.817 @SRT004 定子绕组
+13:31:37.819 @SRT005 MY07-800/175K
+13:31:37.820 @SRT006 1
+13:31:37.822 @SRT007 0002110011800008
+13:31:37.824 @SRT008 
+13:31:37.826 @SRT009 
+13:31:37.832 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.849 @SRT001 20180119001
+13:31:37.851 @SRT002 GD201711240003
+13:31:37.853 @SRT003 MTA1100H5
+13:31:37.855 @SRT004 定子绕组
+13:31:37.857 @SRT005 MY07-1000/050K
+13:31:37.859 @SRT006 1
+13:31:37.860 @SRT007 0002030011800008
+13:31:37.862 @SRT008 
+13:31:37.864 @SRT009 
+13:31:37.873 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.886 @SRT001 20180119001
+13:31:37.888 @SRT002 GD201711240003
+13:31:37.890 @SRT003 MTA1100H5
+13:31:37.892 @SRT004 定子绕组
+13:31:37.894 @SRT005 MY07-1000/050K
+13:31:37.895 @SRT006 1
+13:31:37.897 @SRT007 0002030011800005
+13:31:37.899 @SRT008 
+13:31:37.900 @SRT009 
+13:31:37.909 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.915 @SRT001 20180119001
+13:31:37.917 @SRT002 GD201711240001
+13:31:37.919 @SRT003 MTA1100F1
+13:31:37.921 @SRT004 定子绕组
+13:31:37.922 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:37.924 @SRT006 1
+13:31:37.926 @SRT007 0002010591800007
+13:31:37.927 @SRT008 
+13:31:37.929 @SRT009 
+13:31:37.939 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:37.959 @SRT001 20180119001
+13:31:37.961 @SRT002 GD201711240003
+13:31:37.963 @SRT003 MTA1100H5
+13:31:37.965 @SRT004 定子绕组
+13:31:37.967 @SRT005 MY07-1000/050K
+13:31:37.969 @SRT006 1
+13:31:37.970 @SRT007 0002030011800007
+13:31:37.972 @SRT008 
+13:31:37.974 @SRT009 
+13:31:37.984 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:38.005 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:38.020 @SRT001 20180119001
+13:31:38.022 @SRT002 GD201711240003
+13:31:38.024 @SRT003 MTA1100H5
+13:31:38.025 @SRT004 定子绕组
+13:31:38.027 @SRT005 MY07-1000/050K
+13:31:38.029 @SRT006 1
+13:31:38.031 @SRT007 0002030011800003
+13:31:38.033 @SRT008 
+13:31:38.034 @SRT009 
+13:31:38.049 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:38.076 @SRT001 20180119001
+13:31:38.078 @SRT002 GD201711240001
+13:31:38.080 @SRT003 MTA1100F1
+13:31:38.081 @SRT004 定子绕组
+13:31:38.083 @SRT005 MY06-(320~450)/(040~060)K.2
+13:31:38.085 @SRT006 1
+13:31:38.087 @SRT007 0002010591800004
+13:31:38.088 @SRT008 
+13:31:38.090 @SRT009 
+13:31:38.095 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:42.274 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:42.289 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:43.057 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:31:50.990 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:21.634 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:26.267 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:26.332 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:30.610 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:33.462 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:33.510 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:33.557 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:35.097 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:37.418 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.710 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.722 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.746 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.783 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.807 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.827 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.859 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.875 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.884 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.904 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.923 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.934 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.946 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.959 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.979 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:40.993 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.005 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.013 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.025 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.039 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.049 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.055 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.066 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.080 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.090 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.100 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.109 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.121 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.131 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.138 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.156 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.162 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.173 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.185 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.193 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.201 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.212 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.221 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.232 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.239 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.262 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.277 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.288 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.301 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.313 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.321 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.338 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.344 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.355 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.363 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.369 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.383 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.388 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.395 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.405 @SRT001 20180119001
+13:32:41.407 @SRT002 GD201711240002
+13:32:41.408 @SRT003 MTA1100H4
+13:32:41.410 @SRT004 定子绕组
+13:32:41.412 @SRT005 MY07-800/175K
+13:32:41.414 @SRT006 1
+13:32:41.415 @SRT007 0002110011800005
+13:32:41.417 @SRT008 
+13:32:41.422 @SRT009 
+13:32:41.494 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.500 @SRT001 20180119001
+13:32:41.502 @SRT002 GD201711240001
+13:32:41.504 @SRT003 MTA1100F1
+13:32:41.505 @SRT004 定子绕组
+13:32:41.507 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:41.509 @SRT006 1
+13:32:41.510 @SRT007 0002010591800001
+13:32:41.512 @SRT008 
+13:32:41.513 @SRT009 
+13:32:41.520 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.526 @SRT001 20180119001
+13:32:41.528 @SRT002 GD201711240003
+13:32:41.530 @SRT003 MTA1100H5
+13:32:41.532 @SRT004 定子绕组
+13:32:41.534 @SRT005 MY07-1000/050K
+13:32:41.536 @SRT006 1
+13:32:41.538 @SRT007 0002030011800005
+13:32:41.540 @SRT008 
+13:32:41.542 @SRT009 
+13:32:41.548 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.562 @SRT001 20180119001
+13:32:41.564 @SRT002 GD201711240002
+13:32:41.566 @SRT003 MTA1100H4
+13:32:41.568 @SRT004 定子绕组
+13:32:41.569 @SRT005 MY07-800/175K
+13:32:41.571 @SRT006 1
+13:32:41.572 @SRT007 0002110011800008
+13:32:41.574 @SRT008 
+13:32:41.576 @SRT009 
+13:32:41.583 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.590 @SRT001 20180119001
+13:32:41.592 @SRT002 GD201711240001
+13:32:41.594 @SRT003 MTA1100F1
+13:32:41.596 @SRT004 定子绕组
+13:32:41.598 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:41.600 @SRT006 1
+13:32:41.601 @SRT007 0002010591800002
+13:32:41.603 @SRT008 
+13:32:41.605 @SRT009 
+13:32:41.612 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.625 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.631 @SRT001 20180119001
+13:32:41.633 @SRT002 GD201711240001
+13:32:41.635 @SRT003 MTA1100F1
+13:32:41.637 @SRT004 定子绕组
+13:32:41.638 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:41.640 @SRT006 1
+13:32:41.641 @SRT007 0002010591800007
+13:32:41.643 @SRT008 
+13:32:41.645 @SRT009 
+13:32:41.652 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.659 @SRT001 20180119001
+13:32:41.662 @SRT002 GD201711240002
+13:32:41.663 @SRT003 MTA1100H4
+13:32:41.665 @SRT004 定子绕组
+13:32:41.667 @SRT005 MY07-800/175K
+13:32:41.669 @SRT006 1
+13:32:41.670 @SRT007 0002110011800001
+13:32:41.672 @SRT008 
+13:32:41.674 @SRT009 
+13:32:41.680 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.692 @SRT001 20180119001
+13:32:41.694 @SRT002 GD201711240003
+13:32:41.696 @SRT003 MTA1100H5
+13:32:41.698 @SRT004 定子绕组
+13:32:41.699 @SRT005 MY07-1000/050K
+13:32:41.701 @SRT006 1
+13:32:41.704 @SRT007 0002030011800007
+13:32:41.705 @SRT008 
+13:32:41.707 @SRT009 
+13:32:41.714 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.723 @SRT001 20180119001
+13:32:41.726 @SRT002 GD201711240002
+13:32:41.728 @SRT003 MTA1100H4
+13:32:41.730 @SRT004 定子绕组
+13:32:41.732 @SRT005 MY07-800/175K
+13:32:41.733 @SRT006 1
+13:32:41.735 @SRT007 0002110011800007
+13:32:41.737 @SRT008 
+13:32:41.738 @SRT009 
+13:32:41.744 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.751 @SRT001 20180119001
+13:32:41.753 @SRT002 GD201711240001
+13:32:41.755 @SRT003 MTA1100F1
+13:32:41.757 @SRT004 定子绕组
+13:32:41.758 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:41.760 @SRT006 1
+13:32:41.762 @SRT007 0002010591800006
+13:32:41.764 @SRT008 
+13:32:41.765 @SRT009 
+13:32:41.772 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.779 @SRT001 20180119001
+13:32:41.781 @SRT002 GD201711240002
+13:32:41.783 @SRT003 MTA1100H4
+13:32:41.785 @SRT004 定子绕组
+13:32:41.787 @SRT005 MY07-800/175K
+13:32:41.788 @SRT006 1
+13:32:41.790 @SRT007 0002110011800002
+13:32:41.792 @SRT008 
+13:32:41.793 @SRT009 
+13:32:41.798 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.810 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.822 @SRT001 20180119001
+13:32:41.824 @SRT002 GD201711240003
+13:32:41.826 @SRT003 MTA1100H5
+13:32:41.828 @SRT004 定子绕组
+13:32:41.830 @SRT005 MY07-1000/050K
+13:32:41.832 @SRT006 1
+13:32:41.834 @SRT007 0002030011800008
+13:32:41.836 @SRT008 
+13:32:41.837 @SRT009 
+13:32:41.848 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.855 @SRT001 20180119001
+13:32:41.857 @SRT002 GD201711240001
+13:32:41.860 @SRT003 MTA1100F1
+13:32:41.862 @SRT004 定子绕组
+13:32:41.864 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:41.865 @SRT006 1
+13:32:41.867 @SRT007 0002010591800004
+13:32:41.869 @SRT008 
+13:32:41.870 @SRT009 
+13:32:41.876 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.882 @SRT001 20180119001
+13:32:41.885 @SRT002 GD201711240001
+13:32:41.887 @SRT003 MTA1100F1
+13:32:41.888 @SRT004 定子绕组
+13:32:41.890 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:41.893 @SRT006 1
+13:32:41.894 @SRT007 0002010591800005
+13:32:41.896 @SRT008 
+13:32:41.898 @SRT009 
+13:32:41.902 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.907 @SRT001 20180119001
+13:32:41.910 @SRT002 GD201711240003
+13:32:41.912 @SRT003 MTA1100H5
+13:32:41.913 @SRT004 定子绕组
+13:32:41.915 @SRT005 MY07-1000/050K
+13:32:41.917 @SRT006 1
+13:32:41.918 @SRT007 0002030011800002
+13:32:41.920 @SRT008 
+13:32:41.922 @SRT009 
+13:32:41.926 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.932 @SRT001 20180119001
+13:32:41.934 @SRT002 GD201711240003
+13:32:41.936 @SRT003 MTA1100H5
+13:32:41.938 @SRT004 定子绕组
+13:32:41.940 @SRT005 MY07-1000/050K
+13:32:41.942 @SRT006 1
+13:32:41.943 @SRT007 0002030011800004
+13:32:41.945 @SRT008 
+13:32:41.946 @SRT009 
+13:32:41.951 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.959 @SRT001 20180119001
+13:32:41.962 @SRT002 GD201711240003
+13:32:41.963 @SRT003 MTA1100H5
+13:32:41.965 @SRT004 定子绕组
+13:32:41.967 @SRT005 MY07-1000/050K
+13:32:41.969 @SRT006 1
+13:32:41.970 @SRT007 0002030011800003
+13:32:41.972 @SRT008 
+13:32:41.974 @SRT009 
+13:32:41.979 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:41.987 @SRT001 20180119001
+13:32:41.989 @SRT002 GD201711240003
+13:32:41.991 @SRT003 MTA1100H5
+13:32:41.993 @SRT004 定子绕组
+13:32:41.995 @SRT005 MY07-1000/050K
+13:32:41.997 @SRT006 1
+13:32:41.999 @SRT007 0002030011800009
+13:32:42.001 @SRT008 
+13:32:42.003 @SRT009 
+13:32:42.012 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.017 @SRT001 20180119001
+13:32:42.019 @SRT002 GD201711240002
+13:32:42.021 @SRT003 MTA1100H4
+13:32:42.023 @SRT004 定子绕组
+13:32:42.025 @SRT005 MY07-800/175K
+13:32:42.027 @SRT006 1
+13:32:42.028 @SRT007 0002110011800006
+13:32:42.030 @SRT008 
+13:32:42.032 @SRT009 
+13:32:42.038 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.048 @SRT001 20180119001
+13:32:42.050 @SRT002 GD201711240002
+13:32:42.052 @SRT003 MTA1100H4
+13:32:42.054 @SRT004 定子绕组
+13:32:42.056 @SRT005 MY07-800/175K
+13:32:42.058 @SRT006 1
+13:32:42.059 @SRT007 0002110011800003
+13:32:42.061 @SRT008 
+13:32:42.062 @SRT009 
+13:32:42.076 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.085 @SRT001 20180119001
+13:32:42.087 @SRT002 GD201711240002
+13:32:42.089 @SRT003 MTA1100H4
+13:32:42.090 @SRT004 定子绕组
+13:32:42.092 @SRT005 MY07-800/175K
+13:32:42.094 @SRT006 1
+13:32:42.096 @SRT007 0002110011800004
+13:32:42.097 @SRT008 
+13:32:42.099 @SRT009 
+13:32:42.107 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.117 @SRT001 20180119001
+13:32:42.119 @SRT002 GD201711240001
+13:32:42.121 @SRT003 MTA1100F1
+13:32:42.123 @SRT004 定子绕组
+13:32:42.125 @SRT005 MY06-(320~450)/(040~060)K.2
+13:32:42.126 @SRT006 1
+13:32:42.128 @SRT007 0002010591800003
+13:32:42.130 @SRT008 
+13:32:42.131 @SRT009 
+13:32:42.138 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.156 @SRT001 20180119001
+13:32:42.158 @SRT002 GD201711240003
+13:32:42.160 @SRT003 MTA1100H5
+13:32:42.162 @SRT004 定子绕组
+13:32:42.163 @SRT005 MY07-1000/050K
+13:32:42.165 @SRT006 1
+13:32:42.167 @SRT007 0002030011800006
+13:32:42.168 @SRT008 
+13:32:42.170 @SRT009 
+13:32:42.181 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.195 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.201 @SRT001 20180119001
+13:32:42.204 @SRT002 GD201711240003
+13:32:42.205 @SRT003 MTA1100H5
+13:32:42.207 @SRT004 定子绕组
+13:32:42.209 @SRT005 MY07-1000/050K
+13:32:42.211 @SRT006 1
+13:32:42.212 @SRT007 0002030011800001
+13:32:42.214 @SRT008 
+13:32:42.216 @SRT009 
+13:32:42.225 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:42.973 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:32:44.642 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:33:08.748 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:33:14.823 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:33:14.891 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:33:17.364 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12
+13:33:20.122 Data Source=192.168.0.5;Initial Catalog=MT;User Id=sa;Password=12

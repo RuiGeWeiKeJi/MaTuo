@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/11/2017 14:43:18" ReportInfo.Modified="04/12/2018 14:52:29" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuBN18dTU/aXzipYHW5haiy6s/YtF6E4yPaeKIgOchGNBw==">
+      <TableDataSource Name="Table" Alias="MOXWID" DataType="System.Int32" Enabled="true" SelectCommand="SELECT WID001,WID002,WID005 FROM MOXWID">
+        <Column Name="WID002" DataType="System.String"/>
+        <Column Name="WID005" DataType="System.String"/>
+        <Column Name="WID001" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="Table1" Alias="MOXWIE" DataType="System.Int32" Enabled="true" SelectCommand="SELECT WIE002,WIE003,WIE004,WIE005,WIE006,WIE007,WIE008,WIE009,WIE010,WIB004,WIB005,WIB006,WIB007,WIB008,WIB009,WIB010,WIB012,WIE012 &#13;&#10;FROM MOXWID A INNER JOIN MOXWIE B ON A.WID001=B.WIE001 INNER JOIN MOXWIB C ON B.WIE002=C.WIB001">
+        <Column Name="WIE002" DataType="System.String"/>
+        <Column Name="WIE003" DataType="System.String"/>
+        <Column Name="WIE004" DataType="System.String"/>
+        <Column Name="WIE005" DataType="System.String"/>
+        <Column Name="WIE006" DataType="System.Decimal"/>
+        <Column Name="WIE007" DataType="System.String"/>
+        <Column Name="WIE008" DataType="System.Int32"/>
+        <Column Name="WIE009" DataType="System.Int32"/>
+        <Column Name="WIE010" DataType="System.Decimal"/>
+        <Column Name="WIB004" DataType="System.Int32"/>
+        <Column Name="WIB005" DataType="System.Int32"/>
+        <Column Name="WIB006" DataType="System.Int32"/>
+        <Column Name="WIB007" DataType="System.Int32"/>
+        <Column Name="WIB008" DataType="System.Int32"/>
+        <Column Name="WIB009" DataType="System.String"/>
+        <Column Name="WIB010" DataType="System.Int32"/>
+        <Column Name="WIB012" DataType="System.Int32"/>
+        <Column Name="WIE012" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9">
+    <PageHeaderBand Name="PageHeader1" Width="1047.06" Height="141.75">
+      <TextObject Name="Text1" Width="604.8" Height="28.35" Border.Lines="All" Text="绕线表单" HorzAlign="Center" Font="宋体, 20pt"/>
+      <TextObject Name="Text2" Left="708.75" Width="340.2" Height="28.35" Border.Lines="All" Text="[MOXWID.WID001]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text3" Top="28.35" Width="822.15" Height="28.35" Border.Lines="All" Text="派工记录（由班组长填写）" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text6" Top="56.7" Width="75.6" Height="28.35" Border.Lines="All" Text="派工时间" HorzAlign="Right" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text7" Left="75.6" Top="56.7" Width="746.55" Height="28.35" Border.Lines="All" Text="[MOXWID.WID005]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text8" Top="85.05" Width="28.35" Height="56.7" Border.Lines="All" Text="序列" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text9" Left="113.4" Top="85.05" Width="85.05" Height="56.7" Border.Lines="All" Text="品号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text10" Left="198.45" Top="85.05" Width="103.95" Height="56.7" Border.Lines="All" Text="规格" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text11" Left="302.4" Top="85.05" Width="75.6" Height="56.7" Border.Lines="All" Text="生产时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text12" Left="378" Top="85.05" Width="103.95" Height="56.7" Border.Lines="All" Text="条码" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text13" Left="481.95" Top="85.05" Width="37.8" Height="56.7" Border.Lines="All" Text="数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text14" Left="519.75" Top="85.05" Width="28.35" Height="56.7" Border.Lines="All" Text="匝数" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text15" Left="548.1" Top="85.05" Width="28.35" Height="56.7" Border.Lines="All" Text="组数" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text16" Left="576.45" Top="85.05" Width="47.25" Height="56.7" Border.Lines="All" Text="绕线模号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text17" Left="623.7" Top="85.05" Width="56.7" Height="56.7" Border.Lines="All" Text="绕线模数量" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text18" Left="680.4" Top="85.05" Width="37.8" Height="56.7" Border.Lines="All" Text="软管号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text19" Left="718.2" Top="85.05" Width="56.7" Height="56.7" Border.Lines="All" Text="线规" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text20" Left="774.9" Top="85.05" Width="47.25" Height="56.7" Border.Lines="All" Text="额定电压" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text21" Left="822.15" Top="28.35" Width="66.15" Height="113.4" Border.Lines="All" Text="品质部签字（换线规时）" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text22" Left="888.3" Top="28.35" Width="160.65" Height="37.8" Border.Lines="All" Text="生产记录（由员工填写）" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text23" Left="888.3" Top="66.15" Width="56.7" Height="75.6" Border.Lines="All" Text="工作时间(同一规格)" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text24" Left="945" Top="66.15" Width="56.7" Height="75.6" Border.Lines="All" Text="平均时间(同一规格)" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text25" Left="1001.7" Top="66.15" Width="47.25" Height="75.6" Border.Lines="All" Text="重量（KG）" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text45" Left="604.8" Width="103.95" Height="28.35" Border.Lines="All" Text="绕线表单号:" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text46" Left="28.35" Top="85.05" Width="85.05" Height="56.7" Border.Lines="All" Text="姓名" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="145.75" Width="1047.06" Height="37.8" DataSource="Table1">
+      <TextObject Name="Text28" Width="28.35" Height="37.8" Border.Lines="All" Text="[Row#]" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text29" Left="113.4" Width="85.05" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE002]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text30" Left="198.45" Width="103.95" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE003]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text31" Left="302.4" Width="75.6" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE004]" Format="Date" Format.Format="d" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text32" Left="378" Width="103.95" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE005]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text33" Left="481.95" Width="37.8" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE006]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text34" Left="519.75" Width="28.35" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB004]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text35" Left="548.1" Width="28.35" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB005]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text36" Left="576.45" Width="47.25" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB006]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text37" Left="623.7" Width="56.7" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB007]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text38" Left="680.4" Width="37.8" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB008]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text39" Left="718.2" Width="56.7" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB009]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text40" Left="774.9" Width="47.25" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIB010]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text41" Left="822.15" Width="66.15" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE007]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text42" Left="888.3" Width="56.7" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE008]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text43" Left="945" Width="56.7" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE009]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text44" Left="1001.7" Width="47.25" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE010]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text47" Left="28.35" Width="85.05" Height="37.8" Border.Lines="All" Text="[MOXWIE.WIE012]" VertAlign="Center" Font="宋体, 9pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="187.55" Width="1047.06" Height="122.85">
+      <TextObject Name="Text26" Left="37.8" Top="9.45" Width="274.05" Height="103.95" Text="注：每一个规格都应有对应的生产时间&#13;&#10;工作时间每一个规格统计一次&#13;&#10;平均时间=工作时间/数量（同一规格计算一次）&#13;&#10;作废漆包线每天由班组长统计并存放仓库" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text27" Left="614.25" Top="9.45" Width="170.1" Height="113.4" Text="重量合计：&#13;&#10;作废漆包线重量：&#13;&#10;剩余漆包线重量：&#13;&#10;&#13;&#10;员工签字：" VertAlign="Center" Font="宋体, 11pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

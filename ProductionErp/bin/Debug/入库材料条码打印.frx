@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="10/19/2017 13:48:11" ReportInfo.Modified="05/11/2018 15:43:32" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuBN18dTU/aXzipYHW5haiy64cA7H2W12Wh+VPqnAvL2CmzujxSRbYwGqc7cu3z/dBo=">
+      <TableDataSource Name="Table" DataType="System.Int32" Enabled="true" SelectCommand="SELECT STM001,STM002,STM003,STM004,STM005,STM006,STM007 FROM MOXSTM">
+        <Column Name="STM001" DataType="System.String"/>
+        <Column Name="STM002" DataType="System.String"/>
+        <Column Name="STM003" DataType="System.String"/>
+        <Column Name="STM004" DataType="System.String"/>
+        <Column Name="STM005" DataType="System.String"/>
+        <Column Name="STM006" DataType="System.String"/>
+        <Column Name="STM007" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="40" PaperHeight="30" LeftMargin="5" TopMargin="5" RightMargin="5" BottomMargin="5" Columns.Count="2" Columns.Width="15" Columns.Positions="0,15" Guides="103.95">
+    <DataBand Name="Data1" Width="56.7" Height="85.05" Guides="18.9,75.6,56.7,66.15,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,9.45,66.15,66.15,75.6,75.6,66.15,66.15,66.15,66.15,75.6,75.6,66.15" DataSource="Table">
+      <TextObject Name="Text2" Top="56.7" Width="151.2" Height="18.9" Text="[Table.STM005]" Font="宋体, 6pt"/>
+      <BarcodeObject Name="Barcode1" Top="18.9" Width="110.8" Height="37.8" CanGrow="true" EvenStylePriority="UseAll" AutoSize="false" DataColumn="Table.STM006" Text="002020381700008" Barcode="Code128" Barcode.CalcCheckSum="false" Barcode.AutoEncode="true"/>
+      <TextObject Name="Text1" Left="-18.9" Top="75.6" Width="85.05" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="9.45" Top="75.6" Width="94.5" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="9.45" Top="75.6" Width="94.5" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Top="66.15" Width="151.2" Height="9.45" Text="[Table.STM003]" Font="宋体, 6pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

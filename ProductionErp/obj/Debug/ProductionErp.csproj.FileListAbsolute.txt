@@ -1,0 +1,381 @@
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErp.exe
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErp.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Data.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Data.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormBase.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormChild.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Properties.Resources.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.csproj.GenerateResource.Cache
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.exe
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormMain.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormPower.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormProgramControl.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErp.exe.config
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\Connection.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ConnectionBll.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\Utility.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\Connection.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ConnectionBll.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\Utility.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.csprojResolveAssemblyReference.cache
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpBll.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpEntity.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpBll.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpEntity.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Operation.ProgramControlEdit.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Operation.PowerEdit.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormArt.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.CodeParser.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.DataAccess.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Xpo.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.DataAccess.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Xpo.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\UIControl.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\UIControl.pdb
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormArtPower.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormWindBase.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormSingleRow.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormSingRowTable.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.Core.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormWinding.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormStatorCoil.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Operation.FormStatorCoilQuery.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\EnvDTE.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\stdole.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\Microsoft.MSXML.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormBrake.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormGeneralAssembly.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormStorageMaterial.resources
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.Utils.v16.2.UI.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\Project data\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErp.exe.config
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.exe
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErp.exe
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErp.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\Connection.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.BonusSkins.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.CodeParser.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Data.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.DataAccess.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Xpo.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraBars.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.UI.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraGrid.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraLayout.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraNavBar.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraPrinting.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpBll.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpEntity.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\UIControl.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\Utility.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ConnectionBll.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.RichEdit.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Office.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Charts.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraTreeList.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.UI.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\EnvDTE.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraRichEdit.v16.2.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\stdole.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\Microsoft.MSXML.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\UIControl.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\Connection.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Data.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.DataAccess.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Xpo.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraBars.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.UI.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraGrid.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraLayout.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraNavBar.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraPrinting.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraScheduler.v16.2.Core.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpBll.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ProductionErpEntity.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\Utility.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ConnectionBll.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.RichEdit.v16.2.Core.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Office.v16.2.Core.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraCharts.v16.2.Wizard.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraTreeList.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.Utils.v16.2.UI.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraVerticalGrid.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\DevExpress.XtraRichEdit.v16.2.xml
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.DataAccess.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.DataAccess.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.DataAccess.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.DataAccess.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Xpo.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Xpo.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Xpo.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Xpo.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraBars.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraLayout.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraScheduler.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Office.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.Utils.v16.2.UI.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\zh-Hans\DevExpress.XtraRichEdit.v16.2.resources.dll
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.csprojResolveAssemblyReference.cache
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormArt.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormArtPower.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormBase.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormBrake.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormChild.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormGeneralAssembly.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormMain.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormPower.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormProgramControl.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormSingleRow.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormSingRowTable.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormStatorCoil.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormStorageMaterial.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormWindBase.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.FormWinding.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Operation.FormStatorCoilQuery.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Operation.PowerEdit.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Operation.ProgramControlEdit.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.Properties.Resources.resources
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\obj\Debug\ProductionErp.csproj.GenerateResource.Cache
+D:\ProjectData\MaTuo\ProductionErp\ProductionErp\bin\Debug\EnvDTE.xml

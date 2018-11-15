@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/15/2017 10:29:36" ReportInfo.Modified="09/16/2017 13:46:00" ReportInfo.CreatorVersion="2013.2.5.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+    
+  }
+}
+</ScriptText>
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuBN18dTU/aXzipYHW5haiy60W/57xJVGpOuQ9DsHgr5yA==">
+      <TableDataSource Name="dbo_MOXSTC" Alias="MOXSTC" DataType="System.Int32" Enabled="true" TableName="dbo.&quot;MOXSTC&quot;" SelectCommand="SELECT STC001,STC002,STC003,STC004,STC005,STC006 FROM MOXSTC">
+        <Column Name="STC001" DataType="System.String"/>
+        <Column Name="STC002" DataType="System.Int32"/>
+        <Column Name="STC003" DataType="System.String"/>
+        <Column Name="STC004" DataType="System.String"/>
+        <Column Name="STC005" DataType="System.Int32"/>
+        <Column Name="STC006" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="dbo_MOXSTD" Alias="MOXSTD" DataType="System.Int32" Enabled="true" TableName="dbo.&quot;MOXSTD&quot;" SelectCommand="SELECT STD002,STD003,STD004,STD005,STD006,STD007,STD008 FROM MOXSTD WHERE STD001='B0011700001' ORDER BY STD010,STD011 &#13;&#10;">
+        <Column Name="STD002" DataType="System.String"/>
+        <Column Name="STD003" DataType="System.String"/>
+        <Column Name="STD004" DataType="System.String"/>
+        <Column Name="STD005" DataType="System.String"/>
+        <Column Name="STD006" DataType="System.Int32"/>
+        <Column Name="STD007" DataType="System.String"/>
+        <Column Name="STD008" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+    <Parameter Name="rx_zs" DataType="System.String"/>
+    <Parameter Name="rx_z" DataType="System.String"/>
+    <Parameter Name="rx_sl" DataType="System.String"/>
+    <Parameter Name="rx_bl" DataType="System.String"/>
+    <Parameter Name="qx_jt" DataType="System.String"/>
+    <Parameter Name="bz_pf" DataType="System.String"/>
+    <Parameter Name="bz_cd" DataType="System.String"/>
+    <Parameter Name="bz_hj" DataType="System.String"/>
+    <Parameter Name="bz_cx" DataType="System.String"/>
+    <Parameter Name="bz_fcx" DataType="System.String"/>
+    <Parameter Name="jy_ny" DataType="System.String"/>
+    <Parameter Name="jy_zj" DataType="System.String"/>
+    <Parameter Name="jy_jy" DataType="System.String"/>
+    <Parameter Name="jy_hl" DataType="System.String"/>
+    <Parameter Name="jy_lh" DataType="System.String"/>
+    <Parameter Name="jy_hh" DataType="System.String"/>
+    <Parameter Name="jy_hj" DataType="System.String"/>
+    <Parameter Name="jy_sx" DataType="System.String"/>
+    <Parameter Name="jy_dz" DataType="System.String"/>
+    <Parameter Name="jy_xb" DataType="System.String"/>
+    <Parameter Name="jy_wg" DataType="System.String"/>
+    <Parameter Name="jy_cq" DataType="System.String"/>
+    <Parameter Name="jy_qb" DataType="System.String"/>
+    <Parameter Name="rx_date" DataType="System.String"/>
+    <Parameter Name="Parameter" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="47.25">
+      <TextObject Name="Text1" Left="-9450" Top="-9450" Width="718.2" Height="28.35" Text="定子线圈组装过程卡片" HorzAlign="Center" Font="宋体, 20pt"/>
+      <TextObject Name="Text15" Top="9.45" Width="718.2" Height="28.35" Text="定子线圈组装过程卡片" HorzAlign="Center" Font="宋体, 20pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="51.25" Width="718.2" Height="94.5">
+      <TextObject Name="Text2" Width="56.7" Height="28.35" Border.Lines="All" Text="电压：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text3" Left="56.7" Width="56.7" Height="28.35" Border.Lines="All" Text="[MOXSTC.STC002]V" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text4" Left="113.4" Width="85.05" Height="28.35" Border.Lines="All" Text="派工单号：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text5" Left="198.45" Width="122.85" Height="28.35" Border.Lines="All" Text="[MOXSTC.STC003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text6" Left="321.3" Width="56.7" Height="28.35" Border.Lines="All" Text="规格：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text7" Left="378" Width="160.65" Height="28.35" Border.Lines="All" Text="[MOXSTC.STC004]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text13" Left="595.35" Width="122.85" Height="56.7" Border.Lines="All" Text="[MOXSTC.STC001]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text8" Top="28.35" Width="94.5" Height="28.35" Border.Lines="All" Text="铁芯长度：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text9" Left="94.5" Top="28.35" Width="103.95" Height="28.35" Border.Lines="All" Text="[MOXSTC.STC005]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text10" Left="198.45" Top="28.35" Width="113.4" Height="28.35" Border.Lines="All" Text="铁芯钢印号：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text11" Left="311.85" Top="28.35" Width="226.8" Height="28.35" Border.Lines="All" Text="[MOXSTC.STC006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text12" Left="538.65" Width="56.7" Height="56.7" Border.Lines="All" Text="NO:" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text14" Top="56.7" Width="37.8" Height="37.8" Border.Lines="All" Text="序号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text39" Left="37.8" Top="56.7" Width="75.6" Height="37.8" Border.Lines="All" Text="工序名称" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text41" Left="113.4" Top="56.7" Width="207.9" Height="37.8" Border.Lines="All" Text="工序内容" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text68" Left="321.3" Top="56.7" Width="94.5" Height="37.8" Border.Lines="All" Text="测试数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text69" Left="415.8" Top="56.7" Width="94.5" Height="37.8" Border.Lines="All" Text="检验方法" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text70" Left="510.3" Top="56.7" Width="56.7" Height="37.8" Border.Lines="All" Text="最终&#13;&#10;工时" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text71" Left="567" Top="56.7" Width="75.6" Height="37.8" Border.Lines="All" Text="签名" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text72" Left="642.6" Top="56.7" Width="75.6" Height="37.8" Border.Lines="All" Text="日期" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="149.75" Width="718.2" Height="37.8" AfterDataEvent="Data1_AfterData" DataSource="dbo_MOXSTD">
+      <TextObject Name="Text16" Width="37.8" Height="37.8" Border.Lines="All" Text="[Row#]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text40" Left="37.8" Width="75.6" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text42" Left="113.4" Width="207.9" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text73" Left="321.3" Width="94.5" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD004]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text74" Left="415.8" Width="94.5" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD005]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text116" Left="510.3" Width="56.7" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD006]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text121" Left="567" Width="75.6" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD007]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text126" Left="642.6" Width="75.6" Height="37.8" Border.Lines="All" Text="[MOXSTD.STD008]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="191.55" Width="718.2" Height="28.35">
+      <TextObject Name="Text131" Width="463.05" Height="28.35" Text="有测量值填具体数据；无测量值的合格填√，不合格填×。" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

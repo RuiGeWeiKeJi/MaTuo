@@ -1,0 +1,6 @@
+17:38:01.176 对于不返回任何键列信息的 SelectCommand，不支持 UpdateCommand 的动态 SQL 生成。
+17:38:01.182    在 System.Data.Common.DbCommandBuilder.BuildWhereClause(DataTableMapping mappings, DataRow dataRow, StringBuilder builder, DbCommand command, Int32 parameterCount, Boolean isUpdate)
+   在 System.Data.Common.DbCommandBuilder.BuildUpdateCommand(DataTableMapping mappings, DataRow dataRow)
+   在 System.Data.Common.DbCommandBuilder.GetUpdateCommand(DataRow dataRow, Boolean useColumnsForParameterNames)
+   在 System.Data.SqlClient.SqlCommandBuilder.GetUpdateCommand()
+   在 StudentMgr.SqlHelper.UpdateToSql(DataTable table, String sql) 位置 D:\Project data\MaTuo\ProductionErp\ProductionErpBll\SqlHelper.cs:行号 357

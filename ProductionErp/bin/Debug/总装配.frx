@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/15/2017 10:29:36" ReportInfo.Modified="09/30/2017 15:14:22" ReportInfo.CreatorVersion="2013.2.5.0">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {
+    
+  }
+}
+</ScriptText>
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGmpXzxTZgUAjISq3RkDjjM5ZdA0Eie6dOX00uEjsgFbs2P21LCiEodm4mXhqbVVd2+NHmgBNATe/lpCdduLYhuBN18dTU/aXzipYHW5haiy6mI9c0E3q/K+IeGsW6EIWsg==">
+      <TableDataSource Name="dbo_MOXSTC" Alias="MOXGEA" DataType="System.Int32" Enabled="true" TableName="dbo.&quot;MOXSTC&quot;" SelectCommand="SELECT GEA001,GEA002,GEA003,GEA004 FROM MOXGEA">
+        <Column Name="GEA001" DataType="System.String"/>
+        <Column Name="GEA002" DataType="System.String"/>
+        <Column Name="GEA003" DataType="System.String"/>
+        <Column Name="GEA004" DataType="System.String"/>
+      </TableDataSource>
+      <TableDataSource Name="dbo_MOXSTD" Alias="MOXGEB" DataType="System.Int32" Enabled="true" TableName="dbo.&quot;MOXSTD&quot;" SelectCommand="SELECT GEB002,REPLACE(GEB003,CHAR(10),'') GEB003,GEB004,GEB005,GEB006 FROM MOXGEB ORDER BY GEB006&#13;&#10;">
+        <Column Name="GEB002" DataType="System.String"/>
+        <Column Name="GEB003" DataType="System.String"/>
+        <Column Name="GEB004" DataType="System.String"/>
+        <Column Name="GEB005" DataType="System.String"/>
+        <Column Name="GEB006" DataType="System.Int32"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+    <Parameter Name="rx_zs" DataType="System.String"/>
+    <Parameter Name="rx_z" DataType="System.String"/>
+    <Parameter Name="rx_sl" DataType="System.String"/>
+    <Parameter Name="rx_bl" DataType="System.String"/>
+    <Parameter Name="qx_jt" DataType="System.String"/>
+    <Parameter Name="bz_pf" DataType="System.String"/>
+    <Parameter Name="bz_cd" DataType="System.String"/>
+    <Parameter Name="bz_hj" DataType="System.String"/>
+    <Parameter Name="bz_cx" DataType="System.String"/>
+    <Parameter Name="bz_fcx" DataType="System.String"/>
+    <Parameter Name="jy_ny" DataType="System.String"/>
+    <Parameter Name="jy_zj" DataType="System.String"/>
+    <Parameter Name="jy_jy" DataType="System.String"/>
+    <Parameter Name="jy_hl" DataType="System.String"/>
+    <Parameter Name="jy_lh" DataType="System.String"/>
+    <Parameter Name="jy_hh" DataType="System.String"/>
+    <Parameter Name="jy_hj" DataType="System.String"/>
+    <Parameter Name="jy_sx" DataType="System.String"/>
+    <Parameter Name="jy_dz" DataType="System.String"/>
+    <Parameter Name="jy_xb" DataType="System.String"/>
+    <Parameter Name="jy_wg" DataType="System.String"/>
+    <Parameter Name="jy_cq" DataType="System.String"/>
+    <Parameter Name="jy_qb" DataType="System.String"/>
+    <Parameter Name="rx_date" DataType="System.String"/>
+    <Parameter Name="Parameter" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="47.25">
+      <TextObject Name="Text1" Left="-9450" Top="-9450" Width="718.2" Height="28.35" Text="定子线圈组装过程卡片" HorzAlign="Center" Font="宋体, 20pt"/>
+      <TextObject Name="Text15" Top="9.45" Width="718.2" Height="28.35" Text="总装配" HorzAlign="Center" Font="宋体, 20pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="51.25" Width="718.2" Height="94.5">
+      <TextObject Name="Text2" Width="56.7" Height="28.35" Border.Lines="All" Text="品号：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text3" Left="56.7" Width="264.6" Height="28.35" Border.Lines="All" Text="[MOXGEA.GEA002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text6" Left="321.3" Width="56.7" Height="28.35" Border.Lines="All" Text="品名：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text7" Left="378" Width="340.2" Height="28.35" Border.Lines="All" Text="[MOXGEA.GEA003]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text8" Top="28.35" Width="56.7" Height="28.35" Border.Lines="All" Text="规格：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text9" Left="56.7" Top="28.35" Width="264.6" Height="28.35" Border.Lines="All" Text="[MOXGEA.GEA004]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text10" Left="321.3" Top="28.35" Width="56.7" Height="28.35" Border.Lines="All" Text="条码：" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text11" Left="378" Top="28.35" Width="340.2" Height="28.35" Border.Lines="All" Text="[MOXGEA.GEA001]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text14" Top="56.7" Width="37.8" Height="37.8" Border.Lines="All" Text="序号" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text39" Left="37.8" Top="56.7" Width="141.75" Height="37.8" Border.Lines="All" Text="工步" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text41" Left="179.55" Top="56.7" Width="444.15" Height="37.8" Border.Lines="All" Text="记录信息" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text69" Left="623.7" Top="56.7" Width="94.5" Height="37.8" Border.Lines="All" Text="员工姓名" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="149.75" Width="718.2" Height="56.7" AfterDataEvent="Data1_AfterData" DataSource="dbo_MOXSTD">
+      <TextObject Name="Text16" Width="37.8" Height="56.7" Border.Lines="All" Text="[Row#]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text40" Left="37.8" Width="141.75" Height="56.7" Border.Lines="All" Text="[MOXGEB.GEB002]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text42" Left="179.55" Width="349.65" Height="56.7" Border.Lines="All" Text="[MOXGEB.GEB003]" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text73" Left="529.2" Width="94.5" Height="56.7" Border.Lines="All" Text="[MOXGEB.GEB004]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text74" Left="623.7" Width="94.5" Height="56.7" Border.Lines="All" Text="[MOXGEB.GEB005]" HorzAlign="Center" VertAlign="Center" Font="宋体, 11pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>
