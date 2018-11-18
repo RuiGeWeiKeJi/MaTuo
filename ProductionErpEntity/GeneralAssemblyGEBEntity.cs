@@ -34,7 +34,7 @@ namespace ProductionErpEntity
         
         private string _geb008;
         
-        private string _geb009;
+        private int? _geb009;
         
         private string _geb010;
         
@@ -182,8 +182,11 @@ namespace ProductionErpEntity
                 this._geb007 = value;
             }
         }
-        
-        // 
+
+        /// <summary>
+        /// 
+        /// 扫码工位
+        /// </summary>
         public string GEB008
         {
             get
@@ -195,9 +198,12 @@ namespace ProductionErpEntity
                 this._geb008 = value;
             }
         }
-        
-        // 
-        public string GEB009
+
+        /// <summary>
+        /// 最终工时
+        /// </summary>
+
+        public int? EB009
         {
             get
             {

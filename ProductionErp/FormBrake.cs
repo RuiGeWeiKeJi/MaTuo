@@ -13,7 +13,7 @@ namespace ProductionErp
         ProductionErpEntity.BrakeBRAEntity _bra=null;
         ProductionErpEntity.BrakeBRBEntity _brb=null;
         ProductionErpBll.Bll.BrakeBll _bll=null;
-        DataTable tableView,tablePrintOne,tablePrintTwo; bool result=false;
+        DataTable tableView,tablePrintOne,tablePrintTwo,tableSup; bool result=false;
         
         public FormBrake ( )
         {
@@ -34,6 +34,16 @@ namespace ProductionErp
 
             wait . Hide ( );
             gridView1 . OptionsBehavior . Editable = false;
+
+            tableSup = _bll . getTableSup ( );
+            editData . DataSource = tableSup;
+            editData . DisplayMember = "DGA002";
+            editData . ValueMember = "DGA002";
+
+            DataTable tableOne = tableSup . Copy ( );
+            editOne . DataSource = tableOne;
+            editOne . DisplayMember = "DGA002";
+            editOne . ValueMember = "DGA002";
         }
         
         #region Main
@@ -129,23 +139,42 @@ namespace ProductionErp
         }
         private void gridView1_CustomRowCellEditForEditing ( object sender ,DevExpress . XtraGrid . Views . Grid . CustomRowCellEditEventArgs e )
         {
-
+            int num = e . RowHandle;
+            if ( num >= 0 && num <= gridView1 . DataRowCount - 1 )
+            {
+                string str = gridView1 . GetDataRow ( num ) [ "BRB003" ] . ToString ( );
+                //if ( e . Column . Name == "BRB007" )
+                //{
+                //    if ( str . Contains ( "工频耐压" ) || str . Contains ( "绝缘电阻" ) || str . Contains ( "直流电阻" ) || str . Contains ( "制动器最低启动电压能吸合" ) || str . Contains ( "制动器开关动作判定" ) )
+                //    {
+                //        e . Column . OptionsColumn . AllowEdit = false;
+                //    }
+                //    else
+                //        e . Column . OptionsColumn . AllowEdit = true;
+                //}
+                str = gridView1 . GetDataRow ( num ) [ "BRB002" ] . ToString ( );
+                if ( e . Column . Name == "BRB007" && str . Contains ( "装线圈" ) )
+                {
+                    e . RepositoryItem = editData;
+                    editData . ValueMember = "浙江洪波";
+                }
+                else if ( e . Column . Name == "BRB007" && str . Contains ( "装减震垫" ) )
+                {
+                    e . RepositoryItem = editOne;
+                    editOne . ValueMember = "杭州万康";
+                }
+            }
         }
         private void gridView1_ShowingEditor ( object sender ,CancelEventArgs e )
         {
             int num = gridView1 . FocusedRowHandle;
             if ( num >= 0 && num <= gridView1 . DataRowCount - 1 )
             {
-                _brb . BRB002 = gridView1 . GetDataRow ( num ) [ "BRB002" ] . ToString ( );
-                if ( gridView1 . FocusedColumn . FieldName == "BRB003" && !string . IsNullOrEmpty ( _brb . BRB002 ) && ( _brb . BRB002 . Equals ( "绑线圈" ) || _brb . BRB002 . Equals ( "灌胶" ) || _brb . BRB002 . Equals ( "铣摩擦片" ) || _brb . BRB002 . Equals ( "装松闸杆" ) || _brb . BRB002 . Equals ( "总成" ) || _brb . BRB002 . Equals ( "装开关" ) || _brb . BRB002 . Equals ( "其他" ) || _brb . BRB002 . Equals ( "检验" ) ) )
+                _brb . BRB003 = gridView1 . GetDataRow ( num ) [ "BRB003" ] . ToString ( );
+                if ( gridView1 . FocusedColumn . FieldName == "BRB007" && !string . IsNullOrEmpty ( _brb . BRB003 ) && ( _brb . BRB003 . Equals ( "工频耐压" ) || _brb . BRB003 . Equals ( "绝缘电阻" ) || _brb . BRB003 . Equals ( "直流电阻" ) || _brb . BRB003 . Equals ( "制动器最低启动电压能吸合" ) || _brb . BRB003 . Equals ( "制动器开关动作判定" )  ) )
                 {
                     e . Cancel = true;
                 }
-                //_brb . BRB004 = gridView1 . GetDataRow ( num ) [ "BRB004" ] . ToString ( );
-                //if ( gridView1 . FocusedColumn . FieldName == "BRB004" && !string . IsNullOrEmpty ( _brb . BRB004 ) && !_brb . BRB004 . Equals ( UserLogin . userName ) )
-                //{
-                //    e . Cancel = true;
-                //}
             }
         }
         private void resBut_Click ( object sender ,System . EventArgs e )
@@ -188,7 +217,7 @@ namespace ProductionErp
             }
         }
         #endregion
-
+         
         #region Method
         bool checkValue ( )
         {

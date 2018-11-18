@@ -72,5 +72,15 @@ namespace ProductionErpBll . Bll
             return _dal . getPrintTwo ( codeNum );
         }
 
+
+        /// <summary>
+        /// 获取供应商
+        /// </summary>
+        /// <returns></returns>
+        public DataTable getTableSup ( )
+        {
+            return _dal . getTableSup ( );
+        }
+
     }
 }

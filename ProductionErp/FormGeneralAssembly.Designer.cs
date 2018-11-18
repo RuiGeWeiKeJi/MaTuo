@@ -57,6 +57,8 @@
             this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
             this.wait = new DevExpress.XtraWaitForm.ProgressPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.GEB008 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.GEB009 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtCode.Properties)).BeginInit();
@@ -207,9 +209,11 @@
             this.gridView1.Appearance.FocusedRow.BackColor2 = System.Drawing.Color.DarkSeaGreen;
             this.gridView1.Appearance.FocusedRow.Options.UseBackColor = true;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.GEB008,
             this.GEB002,
             this.GEB003,
             this.GEB004,
+            this.GEB009,
             this.GEB005,
             this.GEB007,
             this.U0,
@@ -229,13 +233,13 @@
             this.GEB002.AppearanceCell.Options.UseFont = true;
             this.GEB002.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.GEB002.AppearanceHeader.Options.UseFont = true;
-            this.GEB002.Caption = "工步";
+            this.GEB002.Caption = "岗位";
             this.GEB002.FieldName = "GEB002";
             this.GEB002.Name = "GEB002";
             this.GEB002.OptionsColumn.AllowEdit = false;
             this.GEB002.Visible = true;
-            this.GEB002.VisibleIndex = 0;
-            this.GEB002.Width = 153;
+            this.GEB002.VisibleIndex = 1;
+            this.GEB002.Width = 133;
             // 
             // GEB003
             // 
@@ -243,15 +247,14 @@
             this.GEB003.AppearanceCell.Options.UseFont = true;
             this.GEB003.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.GEB003.AppearanceHeader.Options.UseFont = true;
-            this.GEB003.Caption = "记录信息";
-            this.GEB003.ColumnEdit = this.repositoryItemMemoEdit1;
+            this.GEB003.Caption = "内容";
             this.GEB003.FieldName = "GEB003";
             this.GEB003.Name = "GEB003";
             this.GEB003.OptionsColumn.AllowEdit = false;
             this.GEB003.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.GEB003.Visible = true;
-            this.GEB003.VisibleIndex = 1;
-            this.GEB003.Width = 433;
+            this.GEB003.VisibleIndex = 2;
+            this.GEB003.Width = 378;
             // 
             // repositoryItemMemoEdit1
             // 
@@ -263,13 +266,13 @@
             this.GEB004.AppearanceCell.Options.UseFont = true;
             this.GEB004.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.GEB004.AppearanceHeader.Options.UseFont = true;
-            this.GEB004.Caption = "记录信息";
+            this.GEB004.Caption = "记录数据";
             this.GEB004.FieldName = "GEB004";
             this.GEB004.Name = "GEB004";
             this.GEB004.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.GEB004.Visible = true;
-            this.GEB004.VisibleIndex = 2;
-            this.GEB004.Width = 160;
+            this.GEB004.VisibleIndex = 3;
+            this.GEB004.Width = 128;
             // 
             // GEB005
             // 
@@ -283,8 +286,8 @@
             this.GEB005.OptionsColumn.AllowEdit = false;
             this.GEB005.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.GEB005.Visible = true;
-            this.GEB005.VisibleIndex = 3;
-            this.GEB005.Width = 132;
+            this.GEB005.VisibleIndex = 5;
+            this.GEB005.Width = 100;
             // 
             // GEB007
             // 
@@ -297,8 +300,8 @@
             this.GEB007.Name = "GEB007";
             this.GEB007.OptionsColumn.AllowEdit = false;
             this.GEB007.Visible = true;
-            this.GEB007.VisibleIndex = 4;
-            this.GEB007.Width = 113;
+            this.GEB007.VisibleIndex = 6;
+            this.GEB007.Width = 101;
             // 
             // U0
             // 
@@ -311,8 +314,8 @@
             this.U0.FieldName = "U0";
             this.U0.Name = "U0";
             this.U0.Visible = true;
-            this.U0.VisibleIndex = 5;
-            this.U0.Width = 58;
+            this.U0.VisibleIndex = 7;
+            this.U0.Width = 61;
             // 
             // resBut
             // 
@@ -417,6 +420,35 @@
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
             // 
+            // GEB008
+            // 
+            this.GEB008.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB008.AppearanceCell.Options.UseFont = true;
+            this.GEB008.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB008.AppearanceHeader.Options.UseFont = true;
+            this.GEB008.Caption = "扫码工位";
+            this.GEB008.FieldName = "GEB008";
+            this.GEB008.Name = "GEB008";
+            this.GEB008.OptionsColumn.AllowEdit = false;
+            this.GEB008.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.GEB008.Visible = true;
+            this.GEB008.VisibleIndex = 0;
+            this.GEB008.Width = 65;
+            // 
+            // GEB009
+            // 
+            this.GEB009.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB009.AppearanceCell.Options.UseFont = true;
+            this.GEB009.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB009.AppearanceHeader.Options.UseFont = true;
+            this.GEB009.Caption = "最终工时";
+            this.GEB009.FieldName = "GEB009";
+            this.GEB009.Name = "GEB009";
+            this.GEB009.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.GEB009.Visible = true;
+            this.GEB009.VisibleIndex = 4;
+            this.GEB009.Width = 83;
+            // 
             // FormGeneralAssembly
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -480,5 +512,7 @@
         private DevExpress . XtraGrid . Columns . GridColumn GEB007;
         private DevExpress . XtraGrid . Columns . GridColumn U0;
         private DevExpress . XtraEditors . Repository . RepositoryItemButtonEdit resBut;
+        private DevExpress . XtraGrid . Columns . GridColumn GEB008;
+        private DevExpress . XtraGrid . Columns . GridColumn GEB009;
     }
 }

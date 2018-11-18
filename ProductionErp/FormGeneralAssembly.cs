@@ -18,7 +18,7 @@ namespace ProductionErp
         public FormGeneralAssembly ( )
         {
             InitializeComponent ( );
-
+            
             _gea = new ProductionErpEntity . GeneralAssemblyGEAEntity ( );
             _geb = new ProductionErpEntity . GeneralAssemblyGEBEntity ( );
             _bll = new ProductionErpBll . Bll . GeneralAssemblyBll ( );
@@ -151,21 +151,8 @@ namespace ProductionErp
             int num = gridView1 . FocusedRowHandle;
             if ( num >= 0 && num <= gridView1 . DataRowCount - 1 )
             {
-                _geb . GEB002 = gridView1 . GetDataRow ( num ) [ "GEB002" ] . ToString ( );
-                _geb . GEB005 = gridView1 . GetDataRow ( num ) [ "GEB005" ] . ToString ( );
-                if ( gridView1 . FocusedColumn . FieldName == "GEB003" && ( _geb . GEB002 . Equals ( "组装曳引轮+转子" ) || _geb . GEB002 . Equals ( "贴磁钢" ) || _geb . GEB002 . Equals ( "装轴承" ) || _geb . GEB002 . Equals ( "组装机座+定子线圈" ) || _geb . GEB002 . Equals ( "装制动器" ) || _geb . GEB002 . Equals ( "成品检验" ) || _geb . GEB002 . Equals ( "出货检验" ) ) && !_geb . GEB005 . Equals ( UserLogin . userName ) )
-                {
-                    e . Cancel = true;
-                }
-                if ( gridView1 . FocusedColumn . FieldName == "GEB004" && ( _geb . GEB002 . Equals ( "组装曳引轮+转子" ) || _geb . GEB002 . Equals ( "组装机座+定子线圈" ) ) && !_geb . GEB005 . Equals ( UserLogin . userName ) )
-                {
-                    e . Cancel = true;
-                }
-                if ( gridView1 . FocusedColumn . FieldName == "GEB003" && ( _geb . GEB002 . Equals ( "装齿圈" ) || _geb . GEB002 . Equals ( "定、转子压合" ) || _geb . GEB002 . Equals ( "喷漆" ) || _geb . GEB002 . Equals ( "接线盒等" ) || _geb . GEB002 . Equals ( "铭牌" ) || _geb . GEB002 . Equals ( "包装箱" ) || _geb . GEB002 . Equals ( "入库" ) || _geb . GEB002 . Equals ( "出货检验" ) ) )
-                {
-                    e . Cancel = true;
-                }
-                if ( gridView1 . FocusedColumn . FieldName == "GEB004" && ( _geb . GEB002 . Equals ( "贴磁钢" ) || _geb . GEB002 . Equals ( "装齿圈" ) || _geb . GEB002 . Equals ( "装轴承" ) || _geb . GEB002 . Equals ( "定、转子压合" ) || _geb . GEB002 . Equals ( "喷漆" ) || _geb . GEB002 . Equals ( "装制动器" ) || _geb . GEB002 . Equals ( "接线盒等" ) || _geb . GEB002 . Equals ( "成品检验" ) || _geb . GEB002 . Equals ( "铭牌" ) || _geb . GEB002 . Equals ( "包装箱" ) || _geb . GEB002 . Equals ( "入库" ) || _geb . GEB002 . Equals ( "出货检验" ) ) )
+                _geb . GEB004 = gridView1 . GetDataRow ( num ) [ "GEB004" ] . ToString ( );
+                if ( gridView1 . FocusedColumn . FieldName == "GEB003" && ( _geb . GEB002 . Equals ( "耐压（电机线圈对机壳）" ) || _geb . GEB002 . Equals ( "耐压（制动器线圈对机壳）" ) || _geb . GEB002 . Equals ( "绝缘（电机线圈对机壳）" ) || _geb . GEB002 . Equals ( "绝缘（制动器线圈对机壳）" ) || _geb . GEB002 . Equals ( "直流电阻UV" ) || _geb . GEB002 . Equals ( "直流电阻UW" ) || _geb . GEB002 . Equals ( "直流电阻VW" ) || _geb . GEB002 . Equals ( "直流电阻平均值" ) || _geb . GEB002 . Equals ( "直流电阻判定结果" ) || _geb . GEB002 . Equals ( "制动器电阻数值1" ) || _geb . GEB002 . Equals ( "制动器电阻数值2" ) || _geb . GEB002 . Equals ( "振动速度" ) || _geb . GEB002 . Equals ( "制动器最低启动电压能吸合" ) || _geb . GEB002 . Equals ( "检测制动器开关动作次数" ) || _geb . GEB002 . Equals ( "制动力矩(电流法）1" ) || _geb . GEB002 . Equals ( "制动力矩(电流法）2" ) || _geb . GEB002 . Equals ( "空载电流" ) || _geb . GEB002 . Equals ( "空载电压" ) || _geb . GEB002 . Equals ( "空载功率" ) ) )
                 {
                     e . Cancel = true;
                 }

@@ -32,7 +32,7 @@ namespace ProductionErpEntity
         
         private string _brb007;
         
-        private string _brb008;
+        private int? _brb008;
         
         private string _brb009;
         
@@ -166,8 +166,11 @@ namespace ProductionErpEntity
                 this._brb006 = value;
             }
         }
-        
-        // 
+
+        /// <summary>
+        /// 记录数据
+        /// </summary>
+
         public string BRB007
         {
             get
@@ -179,9 +182,12 @@ namespace ProductionErpEntity
                 this._brb007 = value;
             }
         }
-        
-        // 
-        public string BRB008
+
+        /// <summary>
+        /// 最终工时
+        /// </summary>
+
+        public int? BRB008
         {
             get
             {

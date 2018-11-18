@@ -48,12 +48,20 @@
             this.U0 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.resBut = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.idx = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.BRB007 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.BRB008 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.lupUser = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
             this.repositoryItemComboBox2 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.repositoryItemGridLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
+            this.editData = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
+            this.View = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.漆包线厂家 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.editOne = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
+            this.View1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.DGA00201 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.wait = new DevExpress.XtraWaitForm.ProgressPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
@@ -73,6 +81,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.editData)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.editOne)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainerControl1
@@ -194,7 +206,9 @@
             this.repositoryItemGridLookUpEdit1,
             this.repositoryItemDateEdit1,
             this.repositoryItemMemoEdit1,
-            this.resBut});
+            this.resBut,
+            this.editData,
+            this.editOne});
             this.gridControl1.Size = new System.Drawing.Size(1235, 371);
             this.gridControl1.TabIndex = 8;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -211,7 +225,9 @@
             this.BRB004,
             this.BRB005,
             this.U0,
-            this.idx});
+            this.idx,
+            this.BRB007,
+            this.BRB008});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.IndicatorWidth = 45;
             this.gridView1.Name = "gridView1";
@@ -232,9 +248,10 @@
             this.BRB002.FieldName = "BRB002";
             this.BRB002.Name = "BRB002";
             this.BRB002.OptionsColumn.AllowEdit = false;
+            this.BRB002.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.True;
             this.BRB002.Visible = true;
             this.BRB002.VisibleIndex = 0;
-            this.BRB002.Width = 176;
+            this.BRB002.Width = 144;
             // 
             // BRB003
             // 
@@ -246,10 +263,11 @@
             this.BRB003.ColumnEdit = this.repositoryItemMemoEdit1;
             this.BRB003.FieldName = "BRB003";
             this.BRB003.Name = "BRB003";
+            this.BRB003.OptionsColumn.AllowEdit = false;
             this.BRB003.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.BRB003.Visible = true;
             this.BRB003.VisibleIndex = 1;
-            this.BRB003.Width = 556;
+            this.BRB003.Width = 457;
             // 
             // repositoryItemMemoEdit1
             // 
@@ -267,8 +285,8 @@
             this.BRB004.OptionsColumn.AllowEdit = false;
             this.BRB004.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.BRB004.Visible = true;
-            this.BRB004.VisibleIndex = 2;
-            this.BRB004.Width = 154;
+            this.BRB004.VisibleIndex = 4;
+            this.BRB004.Width = 115;
             // 
             // BRB005
             // 
@@ -282,8 +300,8 @@
             this.BRB005.OptionsColumn.AllowEdit = false;
             this.BRB005.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
             this.BRB005.Visible = true;
-            this.BRB005.VisibleIndex = 3;
-            this.BRB005.Width = 163;
+            this.BRB005.VisibleIndex = 5;
+            this.BRB005.Width = 122;
             // 
             // U0
             // 
@@ -296,7 +314,8 @@
             this.U0.FieldName = "U0";
             this.U0.Name = "U0";
             this.U0.Visible = true;
-            this.U0.VisibleIndex = 4;
+            this.U0.VisibleIndex = 6;
+            this.U0.Width = 62;
             // 
             // resBut
             // 
@@ -313,6 +332,34 @@
             this.idx.Caption = "编号";
             this.idx.FieldName = "idx";
             this.idx.Name = "idx";
+            // 
+            // BRB007
+            // 
+            this.BRB007.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.BRB007.AppearanceCell.Options.UseFont = true;
+            this.BRB007.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.BRB007.AppearanceHeader.Options.UseFont = true;
+            this.BRB007.Caption = "记录数据";
+            this.BRB007.FieldName = "BRB007";
+            this.BRB007.Name = "BRB007";
+            this.BRB007.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.BRB007.Visible = true;
+            this.BRB007.VisibleIndex = 2;
+            this.BRB007.Width = 78;
+            // 
+            // BRB008
+            // 
+            this.BRB008.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.BRB008.AppearanceCell.Options.UseFont = true;
+            this.BRB008.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.BRB008.AppearanceHeader.Options.UseFont = true;
+            this.BRB008.Caption = "最终工时";
+            this.BRB008.FieldName = "BRB008";
+            this.BRB008.Name = "BRB008";
+            this.BRB008.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.BRB008.Visible = true;
+            this.BRB008.VisibleIndex = 3;
+            this.BRB008.Width = 71;
             // 
             // repositoryItemComboBox1
             // 
@@ -383,6 +430,75 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemDateEdit1.Name = "repositoryItemDateEdit1";
             // 
+            // editData
+            // 
+            this.editData.AutoHeight = false;
+            this.editData.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
+            this.editData.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.editData.Name = "editData";
+            this.editData.NullText = "";
+            this.editData.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.editData.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            this.editData.View = this.View;
+            // 
+            // View
+            // 
+            this.View.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.漆包线厂家});
+            this.View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.View.Name = "View";
+            this.View.OptionsBehavior.Editable = false;
+            this.View.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.View.OptionsView.ShowGroupPanel = false;
+            // 
+            // 漆包线厂家
+            // 
+            this.漆包线厂家.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.漆包线厂家.AppearanceCell.Options.UseFont = true;
+            this.漆包线厂家.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.5F);
+            this.漆包线厂家.AppearanceHeader.Options.UseFont = true;
+            this.漆包线厂家.Caption = "DGA002";
+            this.漆包线厂家.FieldName = "漆包线厂家";
+            this.漆包线厂家.Name = "漆包线厂家";
+            this.漆包线厂家.Visible = true;
+            this.漆包线厂家.VisibleIndex = 0;
+            // 
+            // editOne
+            // 
+            this.editOne.AutoHeight = false;
+            this.editOne.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
+            this.editOne.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.editOne.ImmediatePopup = true;
+            this.editOne.Name = "editOne";
+            this.editOne.NullText = "";
+            this.editOne.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.editOne.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            this.editOne.View = this.View1;
+            // 
+            // View1
+            // 
+            this.View1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.DGA00201});
+            this.View1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.View1.Name = "View1";
+            this.View1.OptionsBehavior.Editable = false;
+            this.View1.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.View1.OptionsView.ShowGroupPanel = false;
+            // 
+            // DGA00201
+            // 
+            this.DGA00201.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DGA00201.AppearanceCell.Options.UseFont = true;
+            this.DGA00201.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.DGA00201.AppearanceHeader.Options.UseFont = true;
+            this.DGA00201.Caption = "减震垫供应商";
+            this.DGA00201.FieldName = "DGA002";
+            this.DGA00201.Name = "DGA00201";
+            this.DGA00201.Visible = true;
+            this.DGA00201.VisibleIndex = 0;
+            // 
             // wait
             // 
             this.wait.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -429,6 +545,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.editData)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.editOne)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -463,5 +583,13 @@
         private DevExpress . XtraEditors . Repository . RepositoryItemMemoEdit repositoryItemMemoEdit1;
         private DevExpress . XtraGrid . Columns . GridColumn U0;
         private DevExpress . XtraEditors . Repository . RepositoryItemButtonEdit resBut;
+        private DevExpress . XtraGrid . Columns . GridColumn BRB007;
+        private DevExpress . XtraGrid . Columns . GridColumn BRB008;
+        private DevExpress . XtraEditors . Repository . RepositoryItemGridLookUpEdit editData;
+        private DevExpress . XtraGrid . Views . Grid . GridView View;
+        private DevExpress . XtraGrid . Columns . GridColumn 漆包线厂家;
+        private DevExpress . XtraEditors . Repository . RepositoryItemGridLookUpEdit editOne;
+        private DevExpress . XtraGrid . Views . Grid . GridView View1;
+        private DevExpress . XtraGrid . Columns . GridColumn DGA00201;
     }
 }
