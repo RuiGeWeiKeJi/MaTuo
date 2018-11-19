@@ -414,5 +414,12 @@ namespace ProductionErpBll . Dao
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 
+        public DataTable getTableSupOne ( )
+        {
+            StringBuilder strSql = new StringBuilder ( );
+            strSql . Append ( "SELECT DGA002 BRB007,DGA002 BR FROM TPADGA WHERE DGA960='T'" );
+            return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+        }
+
     }
 }

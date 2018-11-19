@@ -13,7 +13,7 @@ namespace ProductionErp
         ProductionErpEntity.BrakeBRAEntity _bra=null;
         ProductionErpEntity.BrakeBRBEntity _brb=null;
         ProductionErpBll.Bll.BrakeBll _bll=null;
-        DataTable tableView,tablePrintOne,tablePrintTwo,tableSup; bool result=false;
+        DataTable tableView,tablePrintOne,tablePrintTwo,tableSup,tableSupOne; bool result=false;
         
         public FormBrake ( )
         {
@@ -40,8 +40,8 @@ namespace ProductionErp
             editData . DisplayMember = "BRB007";
             editData . ValueMember = "BR";
 
-            DataTable tableOne = tableSup . Copy ( );
-            editOne . DataSource = tableOne;
+            tableSupOne = _bll . getTableSupOne ( );
+            editOne . DataSource = tableSupOne;
             editOne . DisplayMember = "BRB007";
             editOne . ValueMember = "BR";
         }

@@ -82,5 +82,10 @@ namespace ProductionErpBll . Bll
             return _dal . getTableSup ( );
         }
 
+        public DataTable getTableSupOne ( )
+        {
+            return _dal . getTableSupOne ( );
+        }
+
     }
 }
