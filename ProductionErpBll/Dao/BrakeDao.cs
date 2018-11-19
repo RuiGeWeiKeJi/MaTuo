@@ -54,7 +54,7 @@ namespace ProductionErpBll . Dao
             model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
             edit_brb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "BRC007" ] . ToString ( );
-            model . BRB002 = "直流电阻";
+            model . BRB002 = "直流电阻(KΩ)";
             model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : result;
             edit_brb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "BRC008" ] . ToString ( );
@@ -192,7 +192,7 @@ namespace ProductionErpBll . Dao
             _brb . BRB003 = "绝缘电阻";
             _brb . BRB006 = 7;
             add_brb ( SQLString ,strSql ,_brb );
-            _brb . BRB003 = "直流电阻";
+            _brb . BRB003 = "直流电阻(KΩ)";
             _brb . BRB006 = 8;
             add_brb ( SQLString ,strSql ,_brb );
             _brb . BRB003 = "制动器最低启动电压能吸合";
@@ -201,7 +201,7 @@ namespace ProductionErpBll . Dao
             _brb . BRB003 = "制动器开关动作判定";
             _brb . BRB006 = 10;
             add_brb ( SQLString ,strSql ,_brb );
-            _brb . BRB003 = "制动器吸合释放噪音";
+            _brb . BRB003 = "制动器吸合释放噪音(dB)";
             _brb . BRB006 = 11;
             add_brb ( SQLString ,strSql ,_brb );
         }

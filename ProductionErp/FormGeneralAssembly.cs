@@ -171,8 +171,9 @@ namespace ProductionErp
                 string strTemp = gridView1 . GetRowCellValue ( e . RowHandle ,"GEB002" ) . ToString ( ) . Trim ( );
                 if ( e . Column . FieldName == "GEB003" )
                 {
-                    if ( strTemp . Equals ( "组装曳引轮+转子" ) || strTemp . Equals ( "贴磁钢" ) || strTemp . Equals ( "装轴承" ) || strTemp . Equals ( "组装机座+定子线圈" ) || strTemp . Equals ( "装制动器" ) || strTemp . Equals ( "成品检验" ) )
+                    if ( strTemp . Equals ( "组装曳引轮+转子" ) || strTemp . Equals ( "贴磁钢" ) || strTemp . Equals ( "装轴承" ) || strTemp . Equals ( "组装机座+定子线圈" ) || strTemp . Equals ( "装制动器" ) || strTemp . Equals ( "成品检验" ) || strTemp . Equals ( "噪音(dB)" ) || strTemp . Equals ( "制动器吸合噪音(dB)" ) || strTemp . Equals ( "制动器释放噪音(dB)" ) )
                     {
+                        //黄色
                         DevExpress . Utils . AppearanceHelper . Apply ( e . Appearance ,appYellow );
                     }
                 }
@@ -180,6 +181,7 @@ namespace ProductionErp
                 {
                     if ( strTemp . Equals ( "组装曳引轮+转子" ) || strTemp . Equals ( "组装机座+定子线圈" ))
                     {
+                        //红色
                         DevExpress . Utils . AppearanceHelper . Apply ( e . Appearance ,appRed );
                     }
                 }
