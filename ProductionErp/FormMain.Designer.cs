@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent ( )
         {
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu();
+            this.components = new System.ComponentModel.Container();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.navBarControl1 = new DevExpress.XtraNavBar.NavBarControl();
             this.navBarBase = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarItemPower = new DevExpress.XtraNavBar.NavBarItem();

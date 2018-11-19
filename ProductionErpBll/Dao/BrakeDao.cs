@@ -410,7 +410,7 @@ namespace ProductionErpBll . Dao
         public DataTable getTableSup ( )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT DGA002 FROM TPADGA WHERE DGA961='T'" );
+            strSql . Append ( "SELECT DGA002 BRB007,DGA002 BR FROM TPADGA WHERE DGA961='T'" );
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 

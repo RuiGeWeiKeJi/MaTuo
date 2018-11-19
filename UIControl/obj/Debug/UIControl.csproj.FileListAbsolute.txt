@@ -161,4 +161,3 @@ D:\ProjectData\MaTuo\ProductionErp\UIControl\obj\Debug\UIControl.UserControlWait
 D:\ProjectData\MaTuo\ProductionErp\UIControl\obj\Debug\UIControl.csproj.GenerateResource.Cache
 D:\ProjectData\MaTuo\ProductionErp\UIControl\obj\Debug\UIControl.dll
 D:\ProjectData\MaTuo\ProductionErp\UIControl\obj\Debug\UIControl.pdb
-D:\ProjectData\MaTuo\ProductionErp\UIControl\obj\Debug\UIControl.csprojResolveAssemblyReference.cache

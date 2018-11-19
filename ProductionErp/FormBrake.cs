@@ -37,13 +37,13 @@ namespace ProductionErp
 
             tableSup = _bll . getTableSup ( );
             editData . DataSource = tableSup;
-            editData . DisplayMember = "DGA002";
-            editData . ValueMember = "DGA002";
+            editData . DisplayMember = "BRB007";
+            editData . ValueMember = "BR";
 
             DataTable tableOne = tableSup . Copy ( );
             editOne . DataSource = tableOne;
-            editOne . DisplayMember = "DGA002";
-            editOne . ValueMember = "DGA002";
+            editOne . DisplayMember = "BRB007";
+            editOne . ValueMember = "BR";
         }
         
         #region Main
@@ -156,12 +156,12 @@ namespace ProductionErp
                 if ( e . Column . Name == "BRB007" && str . Contains ( "装线圈" ) )
                 {
                     e . RepositoryItem = editData;
-                    editData . ValueMember = "浙江洪波";
+                    //editData . ValueMember = "浙江洪波";
                 }
                 else if ( e . Column . Name == "BRB007" && str . Contains ( "装减震垫" ) )
                 {
                     e . RepositoryItem = editOne;
-                    editOne . ValueMember = "杭州万康";
+                    //editOne . ValueMember = "杭州万康";
                 }
             }
         }
