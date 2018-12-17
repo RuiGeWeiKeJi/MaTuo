@@ -29,6 +29,9 @@
         private void InitializeComponent ( )
         {
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.txtCode = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
@@ -40,10 +43,11 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.GEB008 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.GEB002 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.GEB003 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemMemoEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
             this.GEB004 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.GEB009 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.GEB005 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.GEB007 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.U0 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -55,10 +59,11 @@
             this.repositoryItemGridLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
+            this.repositoryItemMemoEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
             this.wait = new DevExpress.XtraWaitForm.ProgressPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.GEB008 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.GEB009 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.txtRemark = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtCode.Properties)).BeginInit();
@@ -67,7 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtProductNum.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.resBut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lupUser)).BeginInit();
@@ -76,14 +80,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRemark.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainerControl1
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 33);
             this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.Controls.Add(this.txtRemark);
+            this.splitContainerControl1.Panel1.Controls.Add(this.labelControl5);
             this.splitContainerControl1.Panel1.Controls.Add(this.txtCode);
             this.splitContainerControl1.Panel1.Controls.Add(this.labelControl4);
             this.splitContainerControl1.Panel1.Controls.Add(this.txtSpace);
@@ -95,7 +103,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 398);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 391);
             this.splitContainerControl1.SplitterPosition = 37;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -198,7 +206,7 @@
             this.repositoryItemDateEdit1,
             this.repositoryItemMemoEdit1,
             this.resBut});
-            this.gridControl1.Size = new System.Drawing.Size(1235, 349);
+            this.gridControl1.Size = new System.Drawing.Size(1235, 342);
             this.gridControl1.TabIndex = 9;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -223,9 +231,25 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.RowAutoHeight = true;
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.RowHeight = 45;
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
             this.gridView1.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gridView1_CustomDrawCell);
             this.gridView1.ShowingEditor += new System.ComponentModel.CancelEventHandler(this.gridView1_ShowingEditor);
+            // 
+            // GEB008
+            // 
+            this.GEB008.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB008.AppearanceCell.Options.UseFont = true;
+            this.GEB008.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB008.AppearanceHeader.Options.UseFont = true;
+            this.GEB008.Caption = "扫码工位";
+            this.GEB008.FieldName = "GEB008";
+            this.GEB008.Name = "GEB008";
+            this.GEB008.OptionsColumn.AllowEdit = false;
+            this.GEB008.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.GEB008.Visible = true;
+            this.GEB008.VisibleIndex = 0;
+            this.GEB008.Width = 65;
             // 
             // GEB002
             // 
@@ -256,10 +280,6 @@
             this.GEB003.VisibleIndex = 2;
             this.GEB003.Width = 378;
             // 
-            // repositoryItemMemoEdit1
-            // 
-            this.repositoryItemMemoEdit1.Name = "repositoryItemMemoEdit1";
-            // 
             // GEB004
             // 
             this.GEB004.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
@@ -273,6 +293,20 @@
             this.GEB004.Visible = true;
             this.GEB004.VisibleIndex = 3;
             this.GEB004.Width = 128;
+            // 
+            // GEB009
+            // 
+            this.GEB009.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB009.AppearanceCell.Options.UseFont = true;
+            this.GEB009.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.GEB009.AppearanceHeader.Options.UseFont = true;
+            this.GEB009.Caption = "最终工时";
+            this.GEB009.FieldName = "GEB009";
+            this.GEB009.Name = "GEB009";
+            this.GEB009.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
+            this.GEB009.Visible = true;
+            this.GEB009.VisibleIndex = 4;
+            this.GEB009.Width = 83;
             // 
             // GEB005
             // 
@@ -305,7 +339,7 @@
             // 
             // U0
             // 
-            this.U0.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.U0.AppearanceCell.Font = new System.Drawing.Font("宋体", 18F);
             this.U0.AppearanceCell.Options.UseFont = true;
             this.U0.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.U0.AppearanceHeader.Options.UseFont = true;
@@ -320,8 +354,16 @@
             // resBut
             // 
             this.resBut.AutoHeight = false;
+            serializableAppearanceObject1.Font = new System.Drawing.Font("宋体", 18F);
+            serializableAppearanceObject1.Options.UseFont = true;
+            serializableAppearanceObject2.Font = new System.Drawing.Font("宋体", 18F);
+            serializableAppearanceObject2.Options.UseFont = true;
+            serializableAppearanceObject3.Font = new System.Drawing.Font("宋体", 18F);
+            serializableAppearanceObject3.Options.UseFont = true;
+            serializableAppearanceObject4.Font = new System.Drawing.Font("宋体", 18F);
+            serializableAppearanceObject4.Options.UseFont = true;
             this.resBut.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "签字", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "签字", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, "", new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, true)});
             this.resBut.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.resBut.Name = "resBut";
             this.resBut.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
@@ -402,6 +444,10 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemDateEdit1.Name = "repositoryItemDateEdit1";
             // 
+            // repositoryItemMemoEdit1
+            // 
+            this.repositoryItemMemoEdit1.Name = "repositoryItemMemoEdit1";
+            // 
             // wait
             // 
             this.wait.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -420,34 +466,26 @@
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
             // 
-            // GEB008
+            // txtRemark
             // 
-            this.GEB008.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.GEB008.AppearanceCell.Options.UseFont = true;
-            this.GEB008.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.GEB008.AppearanceHeader.Options.UseFont = true;
-            this.GEB008.Caption = "扫码工位";
-            this.GEB008.FieldName = "GEB008";
-            this.GEB008.Name = "GEB008";
-            this.GEB008.OptionsColumn.AllowEdit = false;
-            this.GEB008.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
-            this.GEB008.Visible = true;
-            this.GEB008.VisibleIndex = 0;
-            this.GEB008.Width = 65;
+            this.txtRemark.Location = new System.Drawing.Point(968, 9);
+            this.txtRemark.MenuManager = this.barManager1;
+            this.txtRemark.Name = "txtRemark";
+            this.txtRemark.Properties.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRemark.Properties.Appearance.Options.UseFont = true;
+            this.txtRemark.Properties.ReadOnly = true;
+            this.txtRemark.Size = new System.Drawing.Size(255, 20);
+            this.txtRemark.TabIndex = 19;
             // 
-            // GEB009
+            // labelControl5
             // 
-            this.GEB009.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.GEB009.AppearanceCell.Options.UseFont = true;
-            this.GEB009.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
-            this.GEB009.AppearanceHeader.Options.UseFont = true;
-            this.GEB009.Caption = "最终工时";
-            this.GEB009.FieldName = "GEB009";
-            this.GEB009.Name = "GEB009";
-            this.GEB009.OptionsColumn.AllowMerge = DevExpress.Utils.DefaultBoolean.False;
-            this.GEB009.Visible = true;
-            this.GEB009.VisibleIndex = 4;
-            this.GEB009.Width = 83;
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(920, 12);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(42, 14);
+            this.labelControl5.TabIndex = 18;
+            this.labelControl5.Text = "备注：";
             // 
             // FormGeneralAssembly
             // 
@@ -468,7 +506,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtProductNum.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.resBut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lupUser)).EndInit();
@@ -477,6 +514,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtRemark.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -514,5 +553,7 @@
         private DevExpress . XtraEditors . Repository . RepositoryItemButtonEdit resBut;
         private DevExpress . XtraGrid . Columns . GridColumn GEB008;
         private DevExpress . XtraGrid . Columns . GridColumn GEB009;
+        private DevExpress . XtraEditors . TextEdit txtRemark;
+        private DevExpress . XtraEditors . LabelControl labelControl5;
     }
 }

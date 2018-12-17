@@ -1,8 +1,0 @@
-10:41:00.306 违反了 PRIMARY KEY 约束 'PK_MOXWIB'。不能在对象 'dbo.MOXWIB' 中插入重复键。
-语句已终止。
-10:41:00.312    在 System.Data.Common.DbDataAdapter.UpdatedRowStatusErrors(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
-   在 System.Data.Common.DbDataAdapter.UpdatedRowStatus(RowUpdatedEventArgs rowUpdatedEvent, BatchCommandInfo[] batchCommands, Int32 commandCount)
-   在 System.Data.Common.DbDataAdapter.Update(DataRow[] dataRows, DataTableMapping tableMapping)
-   在 System.Data.Common.DbDataAdapter.UpdateFromDataTable(DataTable dataTable, DataTableMapping tableMapping)
-   在 System.Data.Common.DbDataAdapter.Update(DataTable dataTable)
-   在 StudentMgr.SqlHelper.UpdateToSql(DataTable table, String sql) 位置 D:\Project data\MaTuo\ProductionErp\ProductionErpBll\SqlHelper.cs:行号 359

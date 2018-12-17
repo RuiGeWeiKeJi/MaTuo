@@ -215,7 +215,10 @@ namespace ProductionErpEntity
             }
         }
         
-        // 
+        /// <summary>
+        /// 备注
+        /// </summary>
+                 
         public string SRT010
         {
             get

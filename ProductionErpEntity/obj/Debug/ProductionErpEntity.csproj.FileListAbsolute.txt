@@ -7,3 +7,4 @@ D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\bin\Debug\ProductionErpEn
 D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\bin\Debug\ProductionErpEntity.pdb
 D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.dll
 D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.pdb
+D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.csprojResolveAssemblyReference.cache

@@ -34,7 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.repositoryItemCheckEdit4 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.RAA001 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.RAA015 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.DEA002 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -51,14 +50,15 @@
             this.repositoryItemComboBox2 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.repositoryItemGridLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.repositoryItemCheckEdit4 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.wait = new DevExpress.XtraWaitForm.ProgressPanel();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.RAA021 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cmbGoods.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
@@ -67,13 +67,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemGridLookUpEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainerControl1
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 33);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.btnGener);
             this.splitContainerControl1.Panel1.Controls.Add(this.cmbGoods);
@@ -81,7 +82,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 417);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 410);
             this.splitContainerControl1.SplitterPosition = 45;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -145,7 +146,7 @@
             this.repositoryItemCheckEdit2,
             this.repositoryItemCheckEdit3,
             this.repositoryItemCheckEdit4});
-            this.gridControl1.Size = new System.Drawing.Size(1235, 360);
+            this.gridControl1.Size = new System.Drawing.Size(1235, 353);
             this.gridControl1.TabIndex = 7;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -163,7 +164,8 @@
             this.RAA018,
             this.checkOne,
             this.checkTwo,
-            this.checkTre});
+            this.checkTre,
+            this.RAA021});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.IndicatorWidth = 45;
             this.gridView1.Name = "gridView1";
@@ -175,11 +177,6 @@
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView1_RowClick);
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
-            // 
-            // repositoryItemCheckEdit4
-            // 
-            this.repositoryItemCheckEdit4.AutoHeight = false;
-            this.repositoryItemCheckEdit4.Name = "repositoryItemCheckEdit4";
             // 
             // RAA001
             // 
@@ -193,7 +190,7 @@
             this.RAA001.OptionsColumn.AllowEdit = false;
             this.RAA001.Visible = true;
             this.RAA001.VisibleIndex = 1;
-            this.RAA001.Width = 116;
+            this.RAA001.Width = 111;
             // 
             // RAA015
             // 
@@ -207,7 +204,7 @@
             this.RAA015.OptionsColumn.AllowEdit = false;
             this.RAA015.Visible = true;
             this.RAA015.VisibleIndex = 2;
-            this.RAA015.Width = 150;
+            this.RAA015.Width = 143;
             // 
             // DEA002
             // 
@@ -221,7 +218,7 @@
             this.DEA002.OptionsColumn.AllowEdit = false;
             this.DEA002.Visible = true;
             this.DEA002.VisibleIndex = 3;
-            this.DEA002.Width = 160;
+            this.DEA002.Width = 153;
             // 
             // DEA057
             // 
@@ -235,7 +232,7 @@
             this.DEA057.OptionsColumn.AllowEdit = false;
             this.DEA057.Visible = true;
             this.DEA057.VisibleIndex = 4;
-            this.DEA057.Width = 150;
+            this.DEA057.Width = 143;
             // 
             // RAA018
             // 
@@ -249,7 +246,7 @@
             this.RAA018.OptionsColumn.AllowEdit = false;
             this.RAA018.Visible = true;
             this.RAA018.VisibleIndex = 5;
-            this.RAA018.Width = 60;
+            this.RAA018.Width = 57;
             // 
             // checkOne
             // 
@@ -263,8 +260,8 @@
             this.checkOne.Name = "checkOne";
             this.checkOne.OptionsColumn.AllowEdit = false;
             this.checkOne.Visible = true;
-            this.checkOne.VisibleIndex = 6;
-            this.checkOne.Width = 122;
+            this.checkOne.VisibleIndex = 7;
+            this.checkOne.Width = 97;
             // 
             // repositoryItemCheckEdit1
             // 
@@ -285,8 +282,8 @@
             this.checkTwo.Name = "checkTwo";
             this.checkTwo.OptionsColumn.AllowEdit = false;
             this.checkTwo.Visible = true;
-            this.checkTwo.VisibleIndex = 7;
-            this.checkTwo.Width = 101;
+            this.checkTwo.VisibleIndex = 8;
+            this.checkTwo.Width = 82;
             // 
             // repositoryItemCheckEdit2
             // 
@@ -307,8 +304,8 @@
             this.checkTre.Name = "checkTre";
             this.checkTre.OptionsColumn.AllowEdit = false;
             this.checkTre.Visible = true;
-            this.checkTre.VisibleIndex = 8;
-            this.checkTre.Width = 124;
+            this.checkTre.VisibleIndex = 9;
+            this.checkTre.Width = 79;
             // 
             // repositoryItemCheckEdit3
             // 
@@ -377,6 +374,11 @@
             this.gridView2.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
+            // repositoryItemCheckEdit4
+            // 
+            this.repositoryItemCheckEdit4.AutoHeight = false;
+            this.repositoryItemCheckEdit4.Name = "repositoryItemCheckEdit4";
+            // 
             // wait
             // 
             this.wait.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -395,6 +397,19 @@
             this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
             // 
+            // RAA021
+            // 
+            this.RAA021.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.RAA021.AppearanceCell.Options.UseFont = true;
+            this.RAA021.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.RAA021.AppearanceHeader.Options.UseFont = true;
+            this.RAA021.Caption = "备注";
+            this.RAA021.FieldName = "RAA021";
+            this.RAA021.Name = "RAA021";
+            this.RAA021.Visible = true;
+            this.RAA021.VisibleIndex = 6;
+            this.RAA021.Width = 149;
+            // 
             // FormSingleRow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -411,7 +426,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.cmbGoods.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).EndInit();
@@ -420,6 +434,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemGridLookUpEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -452,5 +467,6 @@
         private System . ComponentModel . BackgroundWorker backgroundWorker1;
         private DevExpress . XtraEditors . SimpleButton btnGener;
         private DevExpress . XtraEditors . Repository . RepositoryItemCheckEdit repositoryItemCheckEdit4;
+        private DevExpress . XtraGrid . Columns . GridColumn RAA021;
     }
 }

@@ -39,6 +39,7 @@
             this.SRT007 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.SRT008 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.SRT009 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.idx = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
             this.lupUser = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
             this.repositoryItemComboBox2 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
@@ -47,7 +48,6 @@
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.idx = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).BeginInit();
@@ -214,7 +214,12 @@
             // 
             // SRT009
             // 
+            this.SRT009.AppearanceCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.SRT009.AppearanceCell.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.SRT009.AppearanceCell.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.SRT009.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.SRT009.AppearanceCell.Options.UseBackColor = true;
+            this.SRT009.AppearanceCell.Options.UseBorderColor = true;
             this.SRT009.AppearanceCell.Options.UseFont = true;
             this.SRT009.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
             this.SRT009.AppearanceHeader.Options.UseFont = true;
@@ -224,6 +229,12 @@
             this.SRT009.Visible = true;
             this.SRT009.VisibleIndex = 8;
             this.SRT009.Width = 110;
+            // 
+            // idx
+            // 
+            this.idx.Caption = "编号";
+            this.idx.FieldName = "idx";
+            this.idx.Name = "idx";
             // 
             // repositoryItemComboBox1
             // 
@@ -299,12 +310,6 @@
             // 
             this.repositoryItemCheckEdit3.AutoHeight = false;
             this.repositoryItemCheckEdit3.Name = "repositoryItemCheckEdit3";
-            // 
-            // idx
-            // 
-            this.idx.Caption = "编号";
-            this.idx.FieldName = "idx";
-            this.idx.Name = "idx";
             // 
             // FormStatorCoilQuery
             // 

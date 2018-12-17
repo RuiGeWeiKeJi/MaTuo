@@ -37,3 +37,8 @@ D:\Project data\MaTuo\ProductionErp\Setup\Utility.pdb
 D:\Project data\MaTuo\ProductionErp\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
 D:\Project data\MaTuo\ProductionErp\Utility\obj\Debug\Utility.dll
 D:\Project data\MaTuo\ProductionErp\Utility\obj\Debug\Utility.pdb
+D:\ProjectData\MaTuo\ProductionErp\Setup\Utility.dll
+D:\ProjectData\MaTuo\ProductionErp\Setup\Utility.pdb
+D:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.dll
+D:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.pdb

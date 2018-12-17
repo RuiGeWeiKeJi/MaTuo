@@ -78,13 +78,13 @@
             // 
             // barMenu
             // 
-            this.barMenu.BarAppearance.Disabled.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.barMenu.BarAppearance.Disabled.Font = new System.Drawing.Font("宋体", 18F);
             this.barMenu.BarAppearance.Disabled.Options.UseFont = true;
-            this.barMenu.BarAppearance.Hovered.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.barMenu.BarAppearance.Hovered.Font = new System.Drawing.Font("宋体",18F );
             this.barMenu.BarAppearance.Hovered.Options.UseFont = true;
-            this.barMenu.BarAppearance.Normal.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.barMenu.BarAppearance.Normal.Font = new System.Drawing.Font("宋体",18F );
             this.barMenu.BarAppearance.Normal.Options.UseFont = true;
-            this.barMenu.BarAppearance.Pressed.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.barMenu.BarAppearance.Pressed.Font = new System.Drawing.Font("宋体",18F );
             this.barMenu.BarAppearance.Pressed.Options.UseFont = true;
             this.barMenu.BarName = "Main menu";
             this.barMenu.DockCol = 0;

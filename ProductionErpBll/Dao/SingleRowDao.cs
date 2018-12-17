@@ -17,7 +17,7 @@ namespace ProductionErpBll . Dao
         public DataTable getTableGoods ( string strWhere )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT RAA001,RAA015,CONVERT(DECIMAL(11,0),RAA018) RAA018,DEA057,DEA002,DEA004,CASE WHEN DED002='01' THEN 1 ELSE 0 END checkOne,CASE WHEN DED002='02' THEN 1 ELSE 0 END checkTwo,CASE WHEN DED002='03' THEN 1 ELSE 0 END checkTre FROM SGMRAA A INNER JOIN TPADEA B ON A.RAA015=B.DEA001 INNER JOIN TPADED C ON B.DEA005=C.DED002 WHERE RAA020='N' AND RAA024='T' AND (RAA032='F' OR RAA032='')  " );//
+            strSql . Append ( "SELECT RAA001,RAA015,CONVERT(DECIMAL(11,0),RAA018) RAA018,RAA021,DEA057,DEA002,DEA004,CASE WHEN DED002='01' THEN 1 ELSE 0 END checkOne,CASE WHEN DED002='02' THEN 1 ELSE 0 END checkTwo,CASE WHEN DED002='03' THEN 1 ELSE 0 END checkTre FROM SGMRAA A INNER JOIN TPADEA B ON A.RAA015=B.DEA001 INNER JOIN TPADED C ON B.DEA005=C.DED002 WHERE RAA020='N' AND RAA024='T' AND (RAA032='F' OR RAA032='')  " );//
             strSql . Append ( "AND " + strWhere );
             
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
@@ -35,7 +35,7 @@ namespace ProductionErpBll . Dao
             StringBuilder strSql = new StringBuilder ( );
             Hashtable strList = new Hashtable ( );
             int checkOne = 0, checkTwo = 0, checkTre = 0;
-            
+
             _model . SRT001 = getOddNum_SRT ( );
             for ( int i = 0 ; i < table . Rows . Count ; i++ )
             {
@@ -54,15 +54,15 @@ namespace ProductionErpBll . Dao
                         _model . SRT004 = table . Rows [ i ] [ "DEA002" ] . ToString ( );
                         _model . SRT005 = table . Rows [ i ] [ "DEA057" ] . ToString ( );
                         _model . SRT007 = _model . SRT008 = _model . SRT009 = string . Empty;
-
+                        _model . SRT010 = table . Rows [ i ] [ "RAA021" ] . ToString ( );
                         for ( int k = 0 ; k < _model . SRT006 ; k++ )
                         {
                             if ( checkOne == 1 )
-                                _model . SRT007 = "000" + codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT007" );
+                                _model . SRT007 = /*"000" +*/ codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT007" );
                             if ( checkTwo == 1 )
-                                _model . SRT008 = "000" + codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT008" );
+                                _model . SRT008 = /*"000" +*/ codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT008" );
                             if ( checkTre == 1 )
-                                _model . SRT009 = "000" + codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT009" );
+                                _model . SRT009 = /*"000" +*/ codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT009" );
                             add_SRT ( SQLString ,strSql ,_model );
                         }
                         edit_raa ( SQLString ,strSql ,_model );
@@ -127,7 +127,7 @@ namespace ProductionErpBll . Dao
         {
             StringBuilder strSql = new StringBuilder ( );
             strSql . AppendFormat ( "SELECT MAX({0}) {0} FROM MOXSRT " ,columns );
-            strSql . AppendFormat ( "WHERE SRT003='{0}'" ,jobNumber );
+            strSql . AppendFormat ( "WHERE SRT003='{0}' AND {0} LIKE '{1}%'" ,jobNumber ,dea004 );
 
             string codeNum = string . Empty;
             DataTable dt = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
@@ -183,9 +183,9 @@ namespace ProductionErpBll . Dao
         {
             strSql = new StringBuilder ( );
             strSql . Append ( "INSERT INTO MOXSRT (" );
-            strSql . Append ( "SRT001,SRT002,SRT003,SRT004,SRT005,SRT006,SRT007,SRT008,SRT009) " );
+            strSql . Append ( "SRT001,SRT002,SRT003,SRT004,SRT005,SRT006,SRT007,SRT008,SRT009,SRT010) " );
             strSql . Append ( "VALUES (" );
-            strSql . Append ( "@SRT001,@SRT002,@SRT003,@SRT004,@SRT005,@SRT006,@SRT007,@SRT008,@SRT009) " );
+            strSql . Append ( "@SRT001,@SRT002,@SRT003,@SRT004,@SRT005,@SRT006,@SRT007,@SRT008,@SRT009,@SRT010) " );
             SqlParameter [ ] parameters = {
                     new SqlParameter("@SRT001", SqlDbType.NVarChar,50),
                     new SqlParameter("@SRT002", SqlDbType.NVarChar,50),
@@ -195,7 +195,8 @@ namespace ProductionErpBll . Dao
                     new SqlParameter("@SRT006", SqlDbType.Int,4),
                     new SqlParameter("@SRT007", SqlDbType.VarChar,50),
                     new SqlParameter("@SRT008", SqlDbType.VarChar,50),
-                    new SqlParameter("@SRT009", SqlDbType.VarChar,50)
+                    new SqlParameter("@SRT009", SqlDbType.VarChar,50),
+                    new SqlParameter("@SRT010", SqlDbType.VarChar,100)
             };
             parameters [ 0 ] . Value = model . SRT001;
             parameters [ 1 ] . Value = model . SRT002;
@@ -206,6 +207,7 @@ namespace ProductionErpBll . Dao
             parameters [ 6 ] . Value = model . SRT007;
             parameters [ 7 ] . Value = model . SRT008;
             parameters [ 8 ] . Value = model . SRT009;
+            parameters [ 9 ] . Value = model . SRT010;
 
             SQLString . Add ( strSql ,parameters );
         }

@@ -37,3 +37,16 @@ D:\Project data\MoXia\Carpenter\Connection\Connection\obj\Debug\Connection.Prope
 D:\Project data\MoXia\Carpenter\Connection\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
 D:\Project data\MoXia\Carpenter\Connection\Connection\obj\Debug\Connection.dll
 D:\Project data\MoXia\Carpenter\Connection\Connection\obj\Debug\Connection.pdb
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\Connection.dll.config
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\Connection.dll
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\Connection.pdb
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\ConnectionBll.dll
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\Utility.dll
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\ConnectionBll.pdb
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\bin\Debug\Utility.pdb
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\obj\Debug\Connection.csprojResolveAssemblyReference.cache
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\obj\Debug\Connection.Form1.resources
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\obj\Debug\Connection.Properties.Resources.resources
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\obj\Debug\Connection.csproj.GenerateResource.Cache
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\obj\Debug\Connection.dll
+D:\ProjectData\MaTuo\ProductionErp\Connection\Connection\obj\Debug\Connection.pdb

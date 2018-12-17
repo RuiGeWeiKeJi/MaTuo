@@ -135,7 +135,10 @@ namespace ProductionErpEntity
             }
         }
         
-        // 
+        /// <summary>
+        /// 备注
+        /// </summary>
+                 
         public string GEA005
         {
             get

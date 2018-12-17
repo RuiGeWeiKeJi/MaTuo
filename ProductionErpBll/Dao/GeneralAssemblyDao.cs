@@ -141,6 +141,7 @@ namespace ProductionErpBll . Dao
                 _gea . GEA002 = table . Rows [ 0 ] [ "SRT003" ] . ToString ( );
                 _gea . GEA003 = table . Rows [ 0 ] [ "SRT004" ] . ToString ( );
                 _gea . GEA004 = table . Rows [ 0 ] [ "SRT005" ] . ToString ( );
+                _gea . GEA005 = table . Rows [ 0 ] [ "SRT010" ] . ToString ( );
                 add_gea ( SQLString ,strSql ,_gea );
             }
             else
@@ -163,7 +164,7 @@ namespace ProductionErpBll . Dao
         DataTable getWinBase ( string codeNum )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . AppendFormat ( "SELECT SRT003,SRT004,SRT005,SRT008 FROM MOXSRT WHERE SRT009='{0}'" ,codeNum );
+            strSql . AppendFormat ( "SELECT SRT003,SRT004,SRT005,SRT008,SRT010 FROM MOXSRT WHERE SRT009='{0}'" ,codeNum );
             
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
@@ -172,19 +173,21 @@ namespace ProductionErpBll . Dao
         {
             strSql = new StringBuilder ( );
             strSql . Append ( "INSERT INTO MOXGEA (" );
-            strSql . Append ( "GEA001,GEA002,GEA003,GEA004) " );
+            strSql . Append ( "GEA001,GEA002,GEA003,GEA004,GEA005) " );
             strSql . Append ( "VALUES (" );
-            strSql . Append ( "@GEA001,@GEA002,@GEA003,@GEA004) " );
+            strSql . Append ( "@GEA001,@GEA002,@GEA003,@GEA004,@GEA005) " );
             SqlParameter [ ] parameter = {
                 new SqlParameter("@GEA001",SqlDbType.NVarChar,50),
                 new SqlParameter("@GEA002",SqlDbType.NVarChar,50),
                 new SqlParameter("@GEA003",SqlDbType.NVarChar,50),
-                new SqlParameter("@GEA004",SqlDbType.NVarChar,50)
+                new SqlParameter("@GEA004",SqlDbType.NVarChar,50),
+                new SqlParameter("@GEA005",SqlDbType.NVarChar,100)
             };
             parameter [ 0 ] . Value = _gea . GEA001;
             parameter [ 1 ] . Value = _gea . GEA002;
             parameter [ 2 ] . Value = _gea . GEA003;
             parameter [ 3 ] . Value = _gea . GEA004;
+            parameter [ 4 ] . Value = _gea . GEA005;
 
             SQLString . Add ( strSql ,parameter );
         }
@@ -226,15 +229,15 @@ namespace ProductionErpBll . Dao
             _geb . GEB006 = 9;
             add_geb ( SQLString ,strSql ,_geb );
             _geb . GEB002 = "总装合成";
-            _geb . GEB003 = "制动器条码";
+            _geb . GEB003 = "编码器条码";
             _geb . GEB006 = 10;
             _geb . GEB008 = "静音房";
             add_geb ( SQLString ,strSql ,_geb );
             _geb . GEB002 = "装制动器";
-            _geb . GEB003 = "编码器左条码";
+            _geb . GEB003 = "制动器左条码";
             _geb . GEB006 = 11;
             add_geb ( SQLString ,strSql ,_geb );
-            _geb . GEB003 = "编码器右条码";
+            _geb . GEB003 = "制动器右条码";
             _geb . GEB006 = 12;
             add_geb ( SQLString ,strSql ,_geb );
             _geb . GEB002 = "检验";
@@ -376,7 +379,7 @@ namespace ProductionErpBll . Dao
         public ProductionErpEntity . GeneralAssemblyGEAEntity getModel ( string codeNum )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT GEA001,GEA002,GEA003,GEA004 FROM MOXGEA " );
+            strSql . Append ( "SELECT GEA001,GEA002,GEA003,GEA004,GEA005 FROM MOXGEA " );
             strSql . AppendFormat ( "WHERE GEA001='{0}'" ,codeNum );
 
             DataTable dt = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
@@ -401,6 +404,8 @@ namespace ProductionErpBll . Dao
                     _model . GEA003 = row [ "GEA003" ] . ToString ( );
                 if ( row [ "GEA004" ] != null && row [ "GEA004" ] . ToString ( ) != string . Empty )
                     _model . GEA004 = row [ "GEA004" ] . ToString ( );
+                if ( row [ "GEA005" ] != null && row [ "GEA005" ] . ToString ( ) != string . Empty )
+                    _model . GEA005 = row [ "GEA005" ] . ToString ( );
             }
 
             return _model;

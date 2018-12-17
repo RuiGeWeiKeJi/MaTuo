@@ -44,7 +44,7 @@ namespace ProductionErp
             if ( from . ShowDialog ( ) == System . Windows . Forms . DialogResult . OK )
             {
                 _gea . GEA001 = _geb . GEB001 = from . getCodeNum;
-
+                
                 wait . Show ( );
                 backgroundWorker1 . RunWorkerAsync ( );
             }
@@ -124,6 +124,7 @@ namespace ProductionErp
                 txtProductName . Text = _gea . GEA003;
                 txtSpace . Text = _gea . GEA004;
                 txtCode . Text = _gea . GEA001;
+                txtRemark . Text = _gea . GEA005;
                 QueryTool ( );
                 gridView1 . OptionsBehavior . Editable = false;
             }
@@ -183,6 +184,11 @@ namespace ProductionErp
                     {
                         //红色
                         DevExpress . Utils . AppearanceHelper . Apply ( e . Appearance ,appRed );
+                    }
+                    if ( strTemp . Equals ( "噪音(dB)" ) || strTemp . Equals ( "制动器吸合噪音(dB)" ) || strTemp . Equals ( "制动器释放噪音(dB)" ) )
+                    {
+                        //红色
+                        DevExpress . Utils . AppearanceHelper . Apply ( e . Appearance ,appYellow );
                     }
                 }
             }

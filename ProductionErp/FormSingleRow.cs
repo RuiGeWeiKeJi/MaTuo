@@ -116,7 +116,7 @@ namespace ProductionErp
             if ( rows . Length > 0 )
             {
                 DataRow row;
-                for ( int i = 0 ; i < rows . Length ; i++ )
+                foreach ( int i in rows )
                 {
                     row = gridView1 . GetDataRow ( i );
                     if ( !strList . Contains ( row [ "RAA001" ] . ToString ( ) + row [ "RAA015" ] . ToString ( ) ) )
