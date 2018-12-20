@@ -1,0 +1,358 @@
+17:29:04.122 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:04.305 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:43.413 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:43.605 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:43.621 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:43.650 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:58.433 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:59.059 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:59.065 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:29:59.076 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:30:26.202 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:30:31.507 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:30:31.541 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:30:31.553 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:16.388 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:16.564 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:16.568 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:16.571 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:21.707 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.831 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.843 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.869 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.870 @GEB001 0003021911800001
+17:33:25.871 @GEB002 检验
+17:33:25.871 @GEB003 耐压（电机线圈对机壳）
+17:33:25.871 @GEB004 
+17:33:25.871 @GEB005 
+17:33:25.871 @GEB006 13
+17:33:25.872 @GEB007 
+17:33:25.872 @GEB008 
+17:33:25.876 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.890 @GEB001 0003021911800001
+17:33:25.890 @GEB002 检验
+17:33:25.890 @GEB003 制动器吸合噪音(dB)
+17:33:25.890 @GEB004 
+17:33:25.891 @GEB005 
+17:33:25.891 @GEB006 28
+17:33:25.891 @GEB007 
+17:33:25.891 @GEB008 
+17:33:25.892 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.893 @GEB001 0003021911800001
+17:33:25.894 @GEB002 压轴承
+17:33:25.894 @GEB003 小轴承条码
+17:33:25.894 @GEB004 
+17:33:25.894 @GEB005 
+17:33:25.894 @GEB006 6
+17:33:25.894 @GEB007 
+17:33:25.895 @GEB008 压轴承
+17:33:25.895 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.896 @GEB001 0003021911800001
+17:33:25.897 @GEB002 检验
+17:33:25.897 @GEB003 直流电阻VW(V)
+17:33:25.897 @GEB004 
+17:33:25.897 @GEB005 
+17:33:25.897 @GEB006 19
+17:33:25.898 @GEB007 
+17:33:25.898 @GEB008 
+17:33:25.899 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.899 @GEB001 0003021911800001
+17:33:25.899 @GEB002 检验
+17:33:25.900 @GEB003 直流电阻判定结果
+17:33:25.900 @GEB004 
+17:33:25.900 @GEB005 
+17:33:25.900 @GEB006 21
+17:33:25.900 @GEB007 
+17:33:25.901 @GEB008 
+17:33:25.902 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.902 @GEB001 0003021911800001
+17:33:25.903 @GEB002 检验
+17:33:25.903 @GEB003 直流电阻平均值(V)
+17:33:25.903 @GEB004 
+17:33:25.903 @GEB005 
+17:33:25.903 @GEB006 20
+17:33:25.904 @GEB007 
+17:33:25.904 @GEB008 
+17:33:25.906 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.907 @GEB001 0003021911800001
+17:33:25.907 @GEB002 检验
+17:33:25.907 @GEB003 制动器释放噪音(dB)
+17:33:25.907 @GEB004 
+17:33:25.907 @GEB005 
+17:33:25.908 @GEB006 29
+17:33:25.908 @GEB007 
+17:33:25.908 @GEB008 
+17:33:25.909 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.909 @GEB001 0003021911800001
+17:33:25.910 @GEB002 总装合成
+17:33:25.910 @GEB003 编码器条码
+17:33:25.910 @GEB004 
+17:33:25.910 @GEB005 
+17:33:25.910 @GEB006 10
+17:33:25.910 @GEB007 
+17:33:25.911 @GEB008 静音房
+17:33:25.911 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.912 @GEB001 0003021911800001
+17:33:25.912 @GEB002 压线圈
+17:33:25.913 @GEB003 定子绕组条码
+17:33:25.913 @GEB004 
+17:33:25.913 @GEB005 
+17:33:25.913 @GEB006 9
+17:33:25.913 @GEB007 
+17:33:25.914 @GEB008 压线圈
+17:33:25.914 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.915 @GEA001 0003021911800001
+17:33:25.915 @GEA002 MTA20220B27-DDSZ
+17:33:25.915 @GEA003 曳引机（电动松闸）
+17:33:25.916 @GEA004 MY05-630A/100K.4-MRL(电动）
+17:33:25.916 @GEA005 
+17:33:25.918 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.918 @GEB001 0003021911800001
+17:33:25.919 @GEB002 压线圈
+17:33:25.919 @GEB003 机座条码
+17:33:25.919 @GEB004 
+17:33:25.919 @GEB005 
+17:33:25.919 @GEB006 8
+17:33:25.920 @GEB007 
+17:33:25.920 @GEB008 压线圈
+17:33:25.922 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.923 @GEB001 0003021911800001
+17:33:25.923 @GEB002 检验
+17:33:25.923 @GEB003 空载电压(V)
+17:33:25.924 @GEB004 
+17:33:25.924 @GEB005 
+17:33:25.924 @GEB006 33
+17:33:25.924 @GEB007 
+17:33:25.925 @GEB008 
+17:33:25.926 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.927 @GEB001 0003021911800001
+17:33:25.927 @GEB002 检验
+17:33:25.927 @GEB003 空载功率(KW)
+17:33:25.928 @GEB004 
+17:33:25.928 @GEB005 
+17:33:25.928 @GEB006 34
+17:33:25.928 @GEB007 
+17:33:25.929 @GEB008 
+17:33:25.931 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.933 @GEB001 0003021911800001
+17:33:25.933 @GEB002 检验
+17:33:25.933 @GEB003 噪音(dB)
+17:33:25.934 @GEB004 
+17:33:25.934 @GEB005 
+17:33:25.934 @GEB006 24
+17:33:25.934 @GEB007 
+17:33:25.934 @GEB008 
+17:33:25.935 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.936 @GEB001 0003021911800001
+17:33:25.936 @GEB002 转轴条码
+17:33:25.936 @GEB003 小轴承条码
+17:33:25.937 @GEB004 
+17:33:25.937 @GEB005 
+17:33:25.937 @GEB006 7
+17:33:25.937 @GEB007 
+17:33:25.937 @GEB008 压轴承
+17:33:25.938 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.939 @GEB001 0003021911800001
+17:33:25.939 @GEB002 检验
+17:33:25.940 @GEB003 制动力矩(电流法）1
+17:33:25.940 @GEB004 
+17:33:25.940 @GEB005 
+17:33:25.940 @GEB006 30
+17:33:25.940 @GEB007 
+17:33:25.941 @GEB008 
+17:33:25.941 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.942 @GEB001 0003021911800001
+17:33:25.942 @GEB002 检验
+17:33:25.942 @GEB003 直流电阻UW(V)
+17:33:25.942 @GEB004 
+17:33:25.943 @GEB005 
+17:33:25.943 @GEB006 18
+17:33:25.943 @GEB007 
+17:33:25.943 @GEB008 
+17:33:25.944 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.945 @GEB001 0003021911800001
+17:33:25.945 @GEB002 检验
+17:33:25.945 @GEB003 制动器最低启动电压能吸合
+17:33:25.945 @GEB004 
+17:33:25.945 @GEB005 
+17:33:25.945 @GEB006 26
+17:33:25.946 @GEB007 
+17:33:25.946 @GEB008 
+17:33:25.946 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.947 @GEB001 0003021911800001
+17:33:25.947 @GEB002 检验
+17:33:25.947 @GEB003 制动力矩(电流法）2
+17:33:25.948 @GEB004 
+17:33:25.948 @GEB005 
+17:33:25.948 @GEB006 31
+17:33:25.948 @GEB007 
+17:33:25.948 @GEB008 
+17:33:25.949 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.950 @GEB001 0003021911800001
+17:33:25.950 @GEB002 装曳引轮和转子
+17:33:25.950 @GEB003 转子条码
+17:33:25.950 @GEB004 
+17:33:25.950 @GEB005 
+17:33:25.951 @GEB006 2
+17:33:25.951 @GEB007 
+17:33:25.951 @GEB008 压轴承
+17:33:25.951 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.952 @GEB001 0003021911800001
+17:33:25.952 @GEB002 装制动器
+17:33:25.952 @GEB003 制动器右条码
+17:33:25.953 @GEB004 
+17:33:25.953 @GEB005 
+17:33:25.953 @GEB006 12
+17:33:25.953 @GEB007 
+17:33:25.953 @GEB008 静音房
+17:33:25.954 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.955 @GEB001 0003021911800001
+17:33:25.955 @GEB002 检验
+17:33:25.955 @GEB003 耐压（制动器线圈对机壳）
+17:33:25.955 @GEB004 
+17:33:25.955 @GEB005 
+17:33:25.956 @GEB006 14
+17:33:25.956 @GEB007 
+17:33:25.956 @GEB008 
+17:33:25.957 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.957 @GEB001 0003021911800001
+17:33:25.957 @GEB002 装制动器
+17:33:25.958 @GEB003 制动器左条码
+17:33:25.958 @GEB004 
+17:33:25.958 @GEB005 
+17:33:25.959 @GEB006 11
+17:33:25.959 @GEB007 
+17:33:25.959 @GEB008 静音房
+17:33:25.960 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.961 @GEB001 0003021911800001
+17:33:25.961 @GEB002 检验
+17:33:25.961 @GEB003 制动器电阻数值1
+17:33:25.961 @GEB004 
+17:33:25.961 @GEB005 
+17:33:25.962 @GEB006 22
+17:33:25.962 @GEB007 
+17:33:25.962 @GEB008 
+17:33:25.963 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.963 @GEB001 0003021911800001
+17:33:25.964 @GEB002 压轴承
+17:33:25.964 @GEB003 大轴承条码
+17:33:25.964 @GEB004 
+17:33:25.964 @GEB005 
+17:33:25.964 @GEB006 4
+17:33:25.964 @GEB007 
+17:33:25.965 @GEB008 压轴承
+17:33:25.965 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.966 @GEB001 0003021911800001
+17:33:25.967 @GEB002 压轴承
+17:33:25.967 @GEB003 转轴条码
+17:33:25.967 @GEB004 
+17:33:25.967 @GEB005 
+17:33:25.967 @GEB006 5
+17:33:25.967 @GEB007 
+17:33:25.968 @GEB008 压轴承
+17:33:25.968 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.969 @GEB001 0003021911800001
+17:33:25.969 @GEB002 装曳引轮和转子
+17:33:25.970 @GEB003 曳引轮条码
+17:33:25.970 @GEB004 
+17:33:25.970 @GEB005 
+17:33:25.970 @GEB006 1
+17:33:25.970 @GEB007 
+17:33:25.970 @GEB008 压轴承
+17:33:25.971 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.972 @GEB001 0003021911800001
+17:33:25.972 @GEB002 贴磁钢
+17:33:25.972 @GEB003 磁钢条码
+17:33:25.972 @GEB004 
+17:33:25.972 @GEB005 
+17:33:25.973 @GEB006 3
+17:33:25.973 @GEB007 
+17:33:25.973 @GEB008 压轴承
+17:33:25.974 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.974 @GEB001 0003021911800001
+17:33:25.974 @GEB002 检验
+17:33:25.975 @GEB003 绝缘（电机线圈对机壳）
+17:33:25.975 @GEB004 
+17:33:25.975 @GEB005 
+17:33:25.975 @GEB006 15
+17:33:25.975 @GEB007 
+17:33:25.975 @GEB008 
+17:33:25.976 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.977 @GEB001 0003021911800001
+17:33:25.977 @GEB002 检验
+17:33:25.977 @GEB003 振动速度(mm/s)
+17:33:25.978 @GEB004 
+17:33:25.978 @GEB005 
+17:33:25.978 @GEB006 25
+17:33:25.978 @GEB007 
+17:33:25.978 @GEB008 
+17:33:25.979 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.980 @GEB001 0003021911800001
+17:33:25.980 @GEB002 检验
+17:33:25.980 @GEB003 制动器电阻数值2
+17:33:25.980 @GEB004 
+17:33:25.980 @GEB005 
+17:33:25.980 @GEB006 23
+17:33:25.981 @GEB007 
+17:33:25.981 @GEB008 
+17:33:25.981 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.982 @GEB001 0003021911800001
+17:33:25.982 @GEB002 检验
+17:33:25.982 @GEB003 绝缘（制动器线圈对机壳）
+17:33:25.982 @GEB004 
+17:33:25.983 @GEB005 
+17:33:25.983 @GEB006 16
+17:33:25.983 @GEB007 
+17:33:25.983 @GEB008 
+17:33:25.984 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.984 @GEB001 0003021911800001
+17:33:25.985 @GEB002 检验
+17:33:25.985 @GEB003 空载电流(A)
+17:33:25.985 @GEB004 
+17:33:25.985 @GEB005 
+17:33:25.985 @GEB006 32
+17:33:25.985 @GEB007 
+17:33:25.986 @GEB008 
+17:33:25.986 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.987 @GEB001 0003021911800001
+17:33:25.987 @GEB002 检验
+17:33:25.987 @GEB003 检测制动器开关动作次数(次)
+17:33:25.988 @GEB004 
+17:33:25.988 @GEB005 
+17:33:25.988 @GEB006 27
+17:33:25.988 @GEB007 
+17:33:25.988 @GEB008 
+17:33:25.989 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.989 @GEB001 0003021911800001
+17:33:25.990 @GEB002 检验
+17:33:25.990 @GEB003 直流电阻UV(V)
+17:33:25.990 @GEB004 
+17:33:25.990 @GEB005 
+17:33:25.991 @GEB006 17
+17:33:25.991 @GEB007 
+17:33:25.991 @GEB008 
+17:33:25.992 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.996 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:25.999 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:33:26.007 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:18.878 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:19.047 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:19.051 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:19.054 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:23.222 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:26.736 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:26.774 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:34:26.781 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:20.089 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:20.346 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:20.350 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:20.353 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:26.815 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:30.271 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:30.282 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:36:30.300 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:38:07.318 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:38:07.491 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:38:07.495 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:38:07.497 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+17:38:12.169 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1

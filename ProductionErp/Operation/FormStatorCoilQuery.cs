@@ -19,7 +19,7 @@ namespace ProductionErp . Operation
             Utility . GridViewMoHuSelect . SetFilter ( gridView1 );
             FieldInfo fi = typeof ( XPaint ) . GetField ( "graphics" ,BindingFlags . Static | BindingFlags . NonPublic );
             fi . SetValue ( null ,new DrawXPaint ( ) );
-
+            
             ProductionErpBll . Bll . SingRowTableBll _bll = new ProductionErpBll . Bll . SingRowTableBll ( );
             DataTable tableView = new DataTable ( ); 
 
