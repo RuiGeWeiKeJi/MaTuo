@@ -58,11 +58,11 @@ namespace ProductionErpBll . Dao
                         for ( int k = 0 ; k < _model . SRT006 ; k++ )
                         {
                             if ( checkOne == 1 )
-                                _model . SRT007 = /*"000" +*/ codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT007" );
+                                _model . SRT007 = "000" + codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT007" );
                             if ( checkTwo == 1 )
-                                _model . SRT008 = /*"000" +*/ codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT008" );
+                                _model . SRT008 = "000" + codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT008" );
                             if ( checkTre == 1 )
-                                _model . SRT009 = /*"000" +*/ codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT009" );
+                                _model . SRT009 = "000" + codeNum_SRT ( _model . SRT003 ,table . Rows [ i ] [ "DEA004" ] . ToString ( ) ,strList ,"SRT009" );
                             add_SRT ( SQLString ,strSql ,_model );
                         }
                         edit_raa ( SQLString ,strSql ,_model );

@@ -129,8 +129,8 @@ namespace ProductionErp
             gridView1 . CloseEditor ( );
             gridView1 . UpdateCurrentRow ( );
 
-            if ( checkValue ( ) == false )
-                return 0;
+            //if ( checkValue ( ) == false )
+            //    return 0;
 
             if ( tableView . Rows . Count < 1 )
             {
@@ -318,7 +318,7 @@ namespace ProductionErp
         }
         private void gridView1_KeyPress ( object sender ,KeyPressEventArgs e )
         {
-            if ( e . KeyChar == ( char ) Keys . Back )
+            if ( e . KeyChar == 13 )
             {
                 int [ ] seleRow = gridView1 . GetSelectedRows ( );
                 if ( seleRow . Length < 1 )
@@ -442,18 +442,6 @@ namespace ProductionErp
                     result = false;
                     return result;
                 }
-                //if ( string . IsNullOrEmpty ( row [ "WIE013" ] . ToString ( ) ) )
-                //{
-                //    XtraMessageBox . Show ( "接头数量不可为空" );
-                //    result = false;
-                //    return result;
-                //}
-                //if ( string . IsNullOrEmpty ( row [ "WIE015" ] . ToString ( ) ) )
-                //{
-                //    XtraMessageBox . Show ( "签字不可为空" );
-                //    result = false;
-                //    return result;
-                //}
                 return result;
             }
             return true;
