@@ -1,0 +1,727 @@
+08:32:20.223 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:32:20.393 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:32:20.408 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:32:42.454 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:32:44.916 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.428 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.458 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.502 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.514 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.533 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.534 @STD001 0002020071900014
+08:33:48.534 @STD002 检验
+08:33:48.534 @STD003 槽楔整齐，无歪斜
+08:33:48.535 @STD004 
+08:33:48.535 @STD005 目测
+08:33:48.535 @STD006 0
+08:33:48.535 @STD007 
+08:33:48.535 @STD008 
+08:33:48.535 @STD010 4
+08:33:48.536 @STD011 21
+08:33:48.540 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.548 @STD001 0002020071900014
+08:33:48.548 @STD002 嵌线
+08:33:48.548 @STD003 焊接接头数量
+08:33:48.548 @STD004 
+08:33:48.548 @STD005 目测
+08:33:48.549 @STD006 0
+08:33:48.549 @STD007 
+08:33:48.549 @STD008 
+08:33:48.549 @STD010 3
+08:33:48.549 @STD011 7
+08:33:48.550 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.551 @STD001 0002020071900014
+08:33:48.551 @STD002 检验
+08:33:48.551 @STD003 (黄-绿)线间电阻(Ω)
+08:33:48.552 @STD004 1.68
+08:33:48.552 @STD005 
+08:33:48.552 @STD006 0
+08:33:48.552 @STD007 
+08:33:48.552 @STD008 
+08:33:48.552 @STD010 4
+08:33:48.552 @STD011 13
+08:33:48.553 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.554 @STD001 0002020071900014
+08:33:48.554 @STD002 检验
+08:33:48.554 @STD003 外观整齐，无漏绑
+08:33:48.555 @STD004 
+08:33:48.555 @STD005 目测
+08:33:48.555 @STD006 0
+08:33:48.555 @STD007 
+08:33:48.555 @STD008 
+08:33:48.555 @STD010 4
+08:33:48.556 @STD011 20
+08:33:48.556 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.557 @STD001 0002020071900014
+08:33:48.557 @STD002 检验
+08:33:48.558 @STD003 虚焊
+08:33:48.558 @STD004 
+08:33:48.558 @STD005 目测
+08:33:48.558 @STD006 0
+08:33:48.558 @STD007 
+08:33:48.558 @STD008 
+08:33:48.559 @STD010 4
+08:33:48.559 @STD011 27
+08:33:48.559 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.560 @STD001 0002020071900014
+08:33:48.560 @STD002 嵌线
+08:33:48.561 @STD003 确认接头数量
+08:33:48.561 @STD004 
+08:33:48.561 @STD005 目测
+08:33:48.561 @STD006 0
+08:33:48.561 @STD007 
+08:33:48.561 @STD008 
+08:33:48.562 @STD010 2
+08:33:48.562 @STD011 4
+08:33:48.563 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.563 @STD001 0002020071900014
+08:33:48.564 @STD002 检验
+08:33:48.564 @STD003 耐压2260V,测试一分钟无击穿
+08:33:48.564 @STD004 True
+08:33:48.564 @STD005 耐压测试仪
+08:33:48.564 @STD006 0
+08:33:48.564 @STD007 
+08:33:48.565 @STD008 
+08:33:48.565 @STD010 4
+08:33:48.565 @STD011 10
+08:33:48.566 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.567 @STD001 0002020071900014
+08:33:48.568 @STD002 嵌线
+08:33:48.568 @STD003 引出线长度(mm)
+08:33:48.568 @STD004 30
+08:33:48.568 @STD005 钢尺
+08:33:48.568 @STD006 0
+08:33:48.569 @STD007 
+08:33:48.569 @STD008 
+08:33:48.569 @STD010 3
+08:33:48.569 @STD011 6
+08:33:48.570 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.571 @STD001 0002020071900014
+08:33:48.571 @STD002 嵌线
+08:33:48.571 @STD003 引出线规格(平方)
+08:33:48.571 @STD004 4
+08:33:48.571 @STD005 目测
+08:33:48.572 @STD006 0
+08:33:48.572 @STD007 
+08:33:48.572 @STD008 
+08:33:48.572 @STD010 3
+08:33:48.572 @STD011 5
+08:33:48.573 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.574 @STD001 0002020071900014
+08:33:48.574 @STD002 嵌线
+08:33:48.575 @STD003 非出线端线包尺寸合格
+08:33:48.575 @STD004 
+08:33:48.575 @STD005 钢尺
+08:33:48.575 @STD006 0
+08:33:48.575 @STD007 
+08:33:48.575 @STD008 
+08:33:48.576 @STD010 3
+08:33:48.576 @STD011 9
+08:33:48.577 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.577 @STD001 0002020071900014
+08:33:48.578 @STD002 绕线
+08:33:48.578 @STD003 确认线圈组数
+08:33:48.578 @STD004 6
+08:33:48.578 @STD005 目测
+08:33:48.578 @STD006 0
+08:33:48.579 @STD007 
+08:33:48.579 @STD008 
+08:33:48.579 @STD010 1
+08:33:48.579 @STD011 1
+08:33:48.580 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.581 @STD001 0002020071900014
+08:33:48.581 @STD002 检验
+08:33:48.581 @STD003 铁芯叠片翘起
+08:33:48.582 @STD004 
+08:33:48.582 @STD005 目测
+08:33:48.582 @STD006 0
+08:33:48.582 @STD007 
+08:33:48.582 @STD008 
+08:33:48.583 @STD010 4
+08:33:48.583 @STD011 26
+08:33:48.585 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.585 @STD001 0002020071900014
+08:33:48.586 @STD002 绕线
+08:33:48.586 @STD003 并联路数
+08:33:48.586 @STD004 2
+08:33:48.586 @STD005 目测
+08:33:48.586 @STD006 0
+08:33:48.586 @STD007 
+08:33:48.587 @STD008 
+08:33:48.587 @STD010 1
+08:33:48.587 @STD011 3
+08:33:48.588 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.589 @STD001 0002020071900014
+08:33:48.589 @STD002 检验
+08:33:48.589 @STD003 (绿-红)线间电阻(Ω)
+08:33:48.589 @STD004 1.68
+08:33:48.590 @STD005 
+08:33:48.590 @STD006 0
+08:33:48.590 @STD007 
+08:33:48.590 @STD008 
+08:33:48.590 @STD010 4
+08:33:48.590 @STD011 14
+08:33:48.591 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.592 @STD001 0002020071900014
+08:33:48.592 @STD002 检验
+08:33:48.592 @STD003 线包尺寸用卡板检验合格%
+08:33:48.593 @STD004 
+08:33:48.593 @STD005 检具
+08:33:48.593 @STD006 0
+08:33:48.593 @STD007 
+08:33:48.593 @STD008 
+08:33:48.593 @STD010 4
+08:33:48.594 @STD011 19
+08:33:48.594 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.595 @STD001 0002020071900014
+08:33:48.595 @STD002 检验
+08:33:48.596 @STD003 漆包线无破损
+08:33:48.596 @STD004 
+08:33:48.596 @STD005 目测
+08:33:48.596 @STD006 0
+08:33:48.597 @STD007 
+08:33:48.597 @STD008 
+08:33:48.597 @STD010 4
+08:33:48.597 @STD011 22
+08:33:48.598 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.599 @STD001 0002020071900014
+08:33:48.599 @STD002 检验
+08:33:48.599 @STD003 环境温度(℃)
+08:33:48.599 @STD004 14.8
+08:33:48.599 @STD005 温度计
+08:33:48.599 @STD006 0
+08:33:48.600 @STD007 
+08:33:48.600 @STD008 
+08:33:48.600 @STD010 4
+08:33:48.600 @STD011 16
+08:33:48.601 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.602 @STD001 0002020071900014
+08:33:48.602 @STD002 检验
+08:33:48.602 @STD003 电阻不平衡度
+08:33:48.602 @STD004 0.339
+08:33:48.602 @STD005 计算器
+08:33:48.603 @STD006 0
+08:33:48.603 @STD007 
+08:33:48.603 @STD008 
+08:33:48.603 @STD010 4
+08:33:48.603 @STD011 17
+08:33:48.604 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.605 @STD001 0002020071900014
+08:33:48.605 @STD002 嵌线
+08:33:48.605 @STD003 出线端线尺寸合格
+08:33:48.606 @STD004 
+08:33:48.606 @STD005 钢尺
+08:33:48.606 @STD006 0
+08:33:48.606 @STD007 
+08:33:48.606 @STD008 
+08:33:48.606 @STD010 3
+08:33:48.607 @STD011 8
+08:33:48.607 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.608 @STD001 0002020071900014
+08:33:48.608 @STD002 检验
+08:33:48.608 @STD003 绝缘纸维修剪
+08:33:48.608 @STD004 
+08:33:48.609 @STD005 目测
+08:33:48.609 @STD006 0
+08:33:48.609 @STD007 
+08:33:48.609 @STD008 
+08:33:48.609 @STD010 4
+08:33:48.609 @STD011 23
+08:33:48.610 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.611 @STD001 0002020071900014
+08:33:48.611 @STD002 检验
+08:33:48.611 @STD003 曹契装配不合格
+08:33:48.611 @STD004 
+08:33:48.612 @STD005 目测
+08:33:48.612 @STD006 0
+08:33:48.612 @STD007 
+08:33:48.612 @STD008 
+08:33:48.612 @STD010 4
+08:33:48.612 @STD011 25
+08:33:48.613 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.614 @STD001 0002020071900014
+08:33:48.615 @STD002 检验
+08:33:48.615 @STD003 绝缘电阻(MΩ)
+08:33:48.615 @STD004 >500
+08:33:48.615 @STD005 摇表
+08:33:48.617 @STD006 0
+08:33:48.617 @STD007 
+08:33:48.617 @STD008 
+08:33:48.617 @STD010 4
+08:33:48.617 @STD011 12
+08:33:48.618 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.619 @STC001 0002020071900014
+08:33:48.619 @STC002 380
+08:33:48.619 @STC003 GD201901020015
+08:33:48.619 @STC004 MY05-800/150K(160K)
+08:33:48.620 @STC005 0
+08:33:48.620 @STC006 
+08:33:48.621 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.622 @STD001 0002020071900014
+08:33:48.623 @STD002 检验
+08:33:48.623 @STD003 匝间检验合格
+08:33:48.623 @STD004 False
+08:33:48.623 @STD005 匝间测试仪
+08:33:48.623 @STD006 0
+08:33:48.623 @STD007 
+08:33:48.624 @STD008 
+08:33:48.624 @STD010 4
+08:33:48.624 @STD011 11
+08:33:48.624 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.625 @STD001 0002020071900014
+08:33:48.625 @STD002 检验
+08:33:48.625 @STD003 (黄-红)线间电阻(Ω)
+08:33:48.626 @STD004 1.68
+08:33:48.626 @STD005 
+08:33:48.626 @STD006 0
+08:33:48.626 @STD007 
+08:33:48.626 @STD008 
+08:33:48.626 @STD010 4
+08:33:48.627 @STD011 15
+08:33:48.627 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.628 @STD001 0002020071900014
+08:33:48.628 @STD002 绕线
+08:33:48.629 @STD003 确认线圈匝数
+08:33:48.629 @STD004 60
+08:33:48.629 @STD005 匝数测试仪
+08:33:48.629 @STD006 0
+08:33:48.630 @STD007 
+08:33:48.630 @STD008 
+08:33:48.630 @STD010 1
+08:33:48.630 @STD011 0
+08:33:48.631 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.632 @STD001 0002020071900014
+08:33:48.632 @STD002 检验
+08:33:48.632 @STD003 绑线松紧不够
+08:33:48.632 @STD004 
+08:33:48.632 @STD005 目测
+08:33:48.633 @STD006 0
+08:33:48.633 @STD007 
+08:33:48.633 @STD008 
+08:33:48.633 @STD010 4
+08:33:48.633 @STD011 29
+08:33:48.634 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.635 @STD001 0002020071900014
+08:33:48.635 @STD002 绕线
+08:33:48.635 @STD003 接头数量
+08:33:48.635 @STD004 
+08:33:48.635 @STD005 目测
+08:33:48.636 @STD006 0
+08:33:48.636 @STD007 
+08:33:48.636 @STD008 
+08:33:48.636 @STD010 1
+08:33:48.636 @STD011 2
+08:33:48.637 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.638 @STD001 0002020071900014
+08:33:48.638 @STD002 检验
+08:33:48.638 @STD003 线包高度超出
+08:33:48.638 @STD004 
+08:33:48.639 @STD005 目测
+08:33:48.639 @STD006 0
+08:33:48.639 @STD007 
+08:33:48.639 @STD008 
+08:33:48.639 @STD010 4
+08:33:48.639 @STD011 28
+08:33:48.640 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.641 @STD001 0002020071900014
+08:33:48.641 @STD002 检验
+08:33:48.641 @STD003 引出线长度不够
+08:33:48.641 @STD004 
+08:33:48.642 @STD005 目测
+08:33:48.642 @STD006 0
+08:33:48.642 @STD007 
+08:33:48.642 @STD008 
+08:33:48.642 @STD010 4
+08:33:48.642 @STD011 24
+08:33:48.643 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.648 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.651 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.658 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.659 @STD001 0002020071900014
+08:33:48.659 @STD002 检验
+08:33:48.659 @STD003 (黄-红)线间电阻(Ω)
+08:33:48.659 @STD004 1.68
+08:33:48.731 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.732 @STD001 0002020071900014
+08:33:48.732 @STD002 检验
+08:33:48.732 @STD003 (绿-红)线间电阻(Ω)
+08:33:48.732 @STD004 1.68
+08:33:48.743 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.744 @STD001 0002020071900014
+08:33:48.745 @STD002 检验
+08:33:48.745 @STD003 匝间检验合格
+08:33:48.746 @STD004 False
+08:33:48.757 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.758 @STD001 0002020071900014
+08:33:48.758 @STD002 检验
+08:33:48.758 @STD003 电阻不平衡度
+08:33:48.758 @STD004 0.339
+08:33:48.771 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.772 @STD001 0002020071900014
+08:33:48.772 @STD002 检验
+08:33:48.773 @STD003 环境温度(℃)
+08:33:48.773 @STD004 14.8
+08:33:48.785 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.786 @STD001 0002020071900014
+08:33:48.787 @STD002 检验
+08:33:48.787 @STD003 (黄-绿)线间电阻(Ω)
+08:33:48.787 @STD004 1.68
+08:33:48.799 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.800 @STD001 0002020071900014
+08:33:48.800 @STD002 检验
+08:33:48.800 @STD003 绝缘电阻(MΩ)
+08:33:48.800 @STD004 >500
+08:33:48.812 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.813 @STD001 0002020071900014
+08:33:48.813 @STD002 绕线
+08:33:48.813 @STD003 并联路数
+08:33:48.813 @STD004 2
+08:33:48.824 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.825 @STD001 0002020071900014
+08:33:48.826 @STD002 检验
+08:33:48.826 @STD003 耐压2260V,测试一分钟无击穿
+08:33:48.826 @STD004 True
+08:33:48.838 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.840 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:33:48.860 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:09.378 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.746 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.761 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.763 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.778 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.780 @STD001 0002020381800010
+08:34:11.780 @STD002 绕线
+08:34:11.781 @STD003 并联路数
+08:34:11.781 @STD004 1
+08:34:11.797 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.799 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:34:11.820 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:14.002 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.037 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.063 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.066 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.074 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.075 @STD001 0002020071900014
+08:35:20.075 @STD002 检验
+08:35:20.075 @STD003 (黄-红)线间电阻(Ω)
+08:35:20.075 @STD004 1.68
+08:35:20.088 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.098 @STD001 0002020071900014
+08:35:20.098 @STD002 检验
+08:35:20.098 @STD003 耐压2260V,测试一分钟无击穿
+08:35:20.098 @STD004 True
+08:35:20.115 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.116 @STD001 0002020071900014
+08:35:20.116 @STD002 检验
+08:35:20.117 @STD003 (黄-绿)线间电阻(Ω)
+08:35:20.117 @STD004 1.68
+08:35:20.133 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.134 @STD001 0002020071900014
+08:35:20.134 @STD002 检验
+08:35:20.134 @STD003 环境温度(℃)
+08:35:20.134 @STD004 14.8
+08:35:20.147 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.149 @STD001 0002020071900014
+08:35:20.149 @STD002 检验
+08:35:20.149 @STD003 电阻不平衡度
+08:35:20.149 @STD004 0.339
+08:35:20.166 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.167 @STD001 0002020071900014
+08:35:20.167 @STD002 绕线
+08:35:20.167 @STD003 并联路数
+08:35:20.167 @STD004 2
+08:35:20.182 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.183 @STD001 0002020071900014
+08:35:20.183 @STD002 检验
+08:35:20.183 @STD003 (绿-红)线间电阻(Ω)
+08:35:20.183 @STD004 1.68
+08:35:20.199 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.200 @STD001 0002020071900014
+08:35:20.200 @STD002 检验
+08:35:20.201 @STD003 绝缘电阻(MΩ)
+08:35:20.201 @STD004 >500
+08:35:20.214 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:35:20.215 @STD001 0002020071900014
+08:35:20.215 @STD002 检验
+08:35:20.215 @STD003 匝间检验合格
+08:35:20.216 @STD004 False
+08:35:20.227 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:45.878 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:46.097 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:46.101 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:46.104 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:49.457 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:52.531 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.050 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.088 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.092 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.109 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.115 @STD001 0002020071900014
+08:36:58.115 @STD002 检验
+08:36:58.116 @STD003 耐压2260V,测试一分钟无击穿
+08:36:58.116 @STD004 True
+08:36:58.136 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.144 @STD001 0002020071900014
+08:36:58.145 @STD002 检验
+08:36:58.145 @STD003 环境温度(℃)
+08:36:58.145 @STD004 14.8
+08:36:58.164 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.165 @STD001 0002020071900014
+08:36:58.165 @STD002 检验
+08:36:58.165 @STD003 绝缘电阻(MΩ)
+08:36:58.165 @STD004 >500
+08:36:58.181 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.181 @STD001 0002020071900014
+08:36:58.182 @STD002 绕线
+08:36:58.182 @STD003 并联路数
+08:36:58.182 @STD004 2
+08:36:58.201 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.202 @STD001 0002020071900014
+08:36:58.202 @STD002 检验
+08:36:58.202 @STD003 匝间检验合格
+08:36:58.202 @STD004 False
+08:36:58.216 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.216 @STD001 0002020071900014
+08:36:58.217 @STD002 检验
+08:36:58.217 @STD003 (黄-红)线间电阻(Ω)
+08:36:58.217 @STD004 1.68
+08:36:58.231 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.232 @STD001 0002020071900014
+08:36:58.232 @STD002 检验
+08:36:58.232 @STD003 (黄-绿)线间电阻(Ω)
+08:36:58.232 @STD004 1.68
+08:36:58.247 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.248 @STD001 0002020071900014
+08:36:58.248 @STD002 检验
+08:36:58.248 @STD003 (绿-红)线间电阻(Ω)
+08:36:58.248 @STD004 1.68
+08:36:58.261 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.261 @STD001 0002020071900014
+08:36:58.262 @STD002 检验
+08:36:58.262 @STD003 电阻不平衡度
+08:36:58.262 @STD004 0.339
+08:36:58.273 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.275 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:36:58.294 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:14.863 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:15.042 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:15.047 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:15.050 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:18.510 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:21.386 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.100 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.117 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.137 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.150 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.155 @STD001 0002020071900014
+08:42:26.155 @STD002 检验
+08:42:26.155 @STD003 (黄-红)线间电阻(Ω)
+08:42:26.156 @STD004 1.68
+08:42:26.176 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.180 @STD001 0002020071900014
+08:42:26.181 @STD002 检验
+08:42:26.181 @STD003 耐压2260V,测试一分钟无击穿
+08:42:26.181 @STD004 True
+08:42:26.196 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.197 @STD001 0002020071900014
+08:42:26.198 @STD002 检验
+08:42:26.198 @STD003 (黄-绿)线间电阻(Ω)
+08:42:26.198 @STD004 1.68
+08:42:26.211 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.212 @STD001 0002020071900014
+08:42:26.212 @STD002 检验
+08:42:26.213 @STD003 (绿-红)线间电阻(Ω)
+08:42:26.213 @STD004 1.68
+08:42:26.227 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.228 @STD001 0002020071900014
+08:42:26.228 @STD002 检验
+08:42:26.228 @STD003 绝缘电阻(MΩ)
+08:42:26.228 @STD004 >500
+08:42:26.244 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.245 @STD001 0002020071900014
+08:42:26.245 @STD002 检验
+08:42:26.246 @STD003 电阻不平衡度
+08:42:26.246 @STD004 0.339
+08:42:26.259 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.260 @STD001 0002020071900014
+08:42:26.260 @STD002 检验
+08:42:26.260 @STD003 环境温度(℃)
+08:42:26.260 @STD004 14.8
+08:42:26.276 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.277 @STD001 0002020071900014
+08:42:26.277 @STD002 绕线
+08:42:26.277 @STD003 并联路数
+08:42:26.277 @STD004 2
+08:42:26.295 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.296 @STD001 0002020071900014
+08:42:26.296 @STD002 检验
+08:42:26.296 @STD003 匝间检验合格
+08:42:26.296 @STD004 False
+08:42:26.309 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.311 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:26.352    在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MaTuo\ProductionErp\ProductionErpBll\SqlHelper.cs:行号 268
+08:42:26.353 SELECT DISTINCT A.idx,STD001,STD002,STD003,CASE WHEN STD004='True' THEN '合格' WHEN STD004='False' THEN '不合格' WHEN STD003='接头数量' THEN CONVERT(VARCHAR,ISNULL(WIE013,0)) ELSE STD004 END STD004,STD005,CASE STD002 WHEN '绕线' THEN ISNULL(WIE014,0) ELSE STD006 END STD006,CASE STD002 WHEN '绕线' THEN WIE015 ELSE STD007 END STD007,CASE STD002 WHEN '绕线' THEN WIE016 ELSE STD008 END STD008,STD012,STD013 FROM MOXSTD A LEFT JOIN MOXART B ON A.STD002=B.ART001 LEFT JOIN MOXARP C ON B.idx=C.ARP003 LEFT JOIN MOXWIE D ON A.STD001=D.WIE005 WHERE STD001='0002020071900014' AND ARP004 LIKE '定子%' AND ARP001='00604' ORDER BY STD010,STD011
+08:42:26.371 如果指定了 SELECT DISTINCT，那么 ORDER BY 子句中的项就必须出现在选择列表中。
+08:42:26.372 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:43.049 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.549 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.573 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.576 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.589 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.595 @STD001 0002020071900014
+08:42:47.596 @STD002 绕线
+08:42:47.596 @STD003 并联路数
+08:42:47.597 @STD004 2
+08:42:47.611 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.612 @STD001 0002020071900014
+08:42:47.612 @STD002 检验
+08:42:47.613 @STD003 (绿-红)线间电阻(Ω)
+08:42:47.613 @STD004 1.68
+08:42:47.627 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.628 @STD001 0002020071900014
+08:42:47.628 @STD002 检验
+08:42:47.628 @STD003 (黄-红)线间电阻(Ω)
+08:42:47.629 @STD004 1.68
+08:42:47.646 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.647 @STD001 0002020071900014
+08:42:47.647 @STD002 检验
+08:42:47.647 @STD003 (黄-绿)线间电阻(Ω)
+08:42:47.648 @STD004 1.68
+08:42:47.661 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.662 @STD001 0002020071900014
+08:42:47.662 @STD002 检验
+08:42:47.662 @STD003 耐压2260V,测试一分钟无击穿
+08:42:47.662 @STD004 True
+08:42:47.675 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.676 @STD001 0002020071900014
+08:42:47.677 @STD002 检验
+08:42:47.677 @STD003 电阻不平衡度
+08:42:47.677 @STD004 0.339
+08:42:47.691 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.692 @STD001 0002020071900014
+08:42:47.692 @STD002 检验
+08:42:47.692 @STD003 环境温度(℃)
+08:42:47.692 @STD004 14.8
+08:42:47.706 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.707 @STD001 0002020071900014
+08:42:47.707 @STD002 检验
+08:42:47.707 @STD003 匝间检验合格
+08:42:47.708 @STD004 False
+08:42:47.721 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:42:47.722 @STD001 0002020071900014
+08:42:47.722 @STD002 检验
+08:42:47.722 @STD003 绝缘电阻(MΩ)
+08:42:47.722 @STD004 >500
+08:42:47.735 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:27.193 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:27.360 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:27.366 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:27.369 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:33.873 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:37.438 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.031 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.042 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.048 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.065 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.065 @STD001 0002020071900014
+08:44:42.066 @STD002 检验
+08:44:42.066 @STD003 耐压2260V,测试一分钟无击穿
+08:44:42.066 @STD004 True
+08:44:42.088 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.092 @STD001 0002020071900014
+08:44:42.093 @STD002 检验
+08:44:42.093 @STD003 环境温度(℃)
+08:44:42.093 @STD004 14.8
+08:44:42.108 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.109 @STD001 0002020071900014
+08:44:42.109 @STD002 检验
+08:44:42.109 @STD003 绝缘电阻(MΩ)
+08:44:42.110 @STD004 >500
+08:44:42.126 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.127 @STD001 0002020071900014
+08:44:42.127 @STD002 绕线
+08:44:42.128 @STD003 并联路数
+08:44:42.128 @STD004 2
+08:44:42.141 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.142 @STD001 0002020071900014
+08:44:42.142 @STD002 检验
+08:44:42.142 @STD003 匝间检验合格
+08:44:42.142 @STD004 False
+08:44:42.156 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.157 @STD001 0002020071900014
+08:44:42.157 @STD002 检验
+08:44:42.157 @STD003 (黄-红)线间电阻(Ω)
+08:44:42.157 @STD004 1.68
+08:44:42.171 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.172 @STD001 0002020071900014
+08:44:42.172 @STD002 检验
+08:44:42.172 @STD003 (黄-绿)线间电阻(Ω)
+08:44:42.173 @STD004 1.68
+08:44:42.186 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.187 @STD001 0002020071900014
+08:44:42.187 @STD002 检验
+08:44:42.187 @STD003 (绿-红)线间电阻(Ω)
+08:44:42.188 @STD004 1.68
+08:44:42.202 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.203 @STD001 0002020071900014
+08:44:42.203 @STD002 检验
+08:44:42.203 @STD003 电阻不平衡度
+08:44:42.203 @STD004 0.339
+08:44:42.217 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.219 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:44:42.247 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:11.711 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:11.914 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:11.920 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:11.923 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:15.728 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:16.024 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:16.129    在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 StudentMgr.SqlHelper.ExecuteDataTable(SqlConnection conn, String cmdText, SqlParameter[] parameters) 位置 D:\ProjectData\MaTuo\ProductionErp\ProductionErpBll\SqlHelper.cs:行号 268
+08:45:16.130 SELECT POW004,POW005,POW006,POW007,POW008,POW009,POW010,POW011,POW012,POW013 FROM MOXPOW A LEFT JOIN MOXEMP B ON A.POW002=B.EMP001 LEFT JOIN MOXFOR C ON A.POW003=C.FOR002 WHERE EMP001=@EMP001 AND FOR002=@FOR002
+08:45:16.205 对象名 'MOXEMP' 无效。
+08:45:32.419 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:32.612 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:32.618 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:32.622 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+08:45:35.468 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:09.456 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:09.643 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:09.643 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:09.659 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:12.701 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:12.779 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:12.872 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:39.130 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:39.130 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:39.208 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:37:39.223 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:39:01.247 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:43:12.549 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:43:12.661 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+14:43:12.687 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1

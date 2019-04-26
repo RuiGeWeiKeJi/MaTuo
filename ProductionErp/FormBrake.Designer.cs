@@ -41,9 +41,6 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.BRB002 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.editData = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
-            this.View = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.BRB00701 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.BRB003 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemMemoEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit();
             this.BRB004 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -59,6 +56,9 @@
             this.repositoryItemGridLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
+            this.editData = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
+            this.View = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.BRB00701 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.editOne = new DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit();
             this.View1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.BRB00702 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -72,8 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtProductNum.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.editData)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.View)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.resBut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).BeginInit();
@@ -83,6 +81,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.editData)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.editOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.View1)).BeginInit();
             this.SuspendLayout();
@@ -91,7 +91,7 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 33);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.txtCode);
             this.splitContainerControl1.Panel1.Controls.Add(this.labelControl4);
@@ -104,7 +104,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 421);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 414);
             this.splitContainerControl1.SplitterPosition = 38;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -209,7 +209,7 @@
             this.resBut,
             this.editData,
             this.editOne});
-            this.gridControl1.Size = new System.Drawing.Size(1235, 371);
+            this.gridControl1.Size = new System.Drawing.Size(1235, 364);
             this.gridControl1.TabIndex = 8;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -252,40 +252,6 @@
             this.BRB002.Visible = true;
             this.BRB002.VisibleIndex = 0;
             this.BRB002.Width = 144;
-            // 
-            // editData
-            // 
-            this.editData.AutoHeight = false;
-            this.editData.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
-            this.editData.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.editData.Name = "editData";
-            this.editData.NullText = "";
-            this.editData.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
-            this.editData.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.editData.View = this.View;
-            // 
-            // View
-            // 
-            this.View.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.BRB00701});
-            this.View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
-            this.View.Name = "View";
-            this.View.OptionsBehavior.Editable = false;
-            this.View.OptionsSelection.EnableAppearanceFocusedCell = false;
-            this.View.OptionsView.ShowGroupPanel = false;
-            // 
-            // BRB00701
-            // 
-            this.BRB00701.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BRB00701.AppearanceCell.Options.UseFont = true;
-            this.BRB00701.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.5F);
-            this.BRB00701.AppearanceHeader.Options.UseFont = true;
-            this.BRB00701.Caption = "漆包线厂家";
-            this.BRB00701.FieldName = "BRB007";
-            this.BRB00701.Name = "BRB00701";
-            this.BRB00701.Visible = true;
-            this.BRB00701.VisibleIndex = 0;
             // 
             // BRB003
             // 
@@ -464,6 +430,40 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemDateEdit1.Name = "repositoryItemDateEdit1";
             // 
+            // editData
+            // 
+            this.editData.AutoHeight = false;
+            this.editData.BestFitMode = DevExpress.XtraEditors.Controls.BestFitMode.BestFitResizePopup;
+            this.editData.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.editData.Name = "editData";
+            this.editData.NullText = "";
+            this.editData.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.editData.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            this.editData.View = this.View;
+            // 
+            // View
+            // 
+            this.View.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.BRB00701});
+            this.View.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus;
+            this.View.Name = "View";
+            this.View.OptionsBehavior.Editable = false;
+            this.View.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.View.OptionsView.ShowGroupPanel = false;
+            // 
+            // BRB00701
+            // 
+            this.BRB00701.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BRB00701.AppearanceCell.Options.UseFont = true;
+            this.BRB00701.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.5F);
+            this.BRB00701.AppearanceHeader.Options.UseFont = true;
+            this.BRB00701.Caption = "漆包线厂家";
+            this.BRB00701.FieldName = "BRB007";
+            this.BRB00701.Name = "BRB00701";
+            this.BRB00701.Visible = true;
+            this.BRB00701.VisibleIndex = 0;
+            // 
             // editOne
             // 
             this.editOne.AutoHeight = false;
@@ -536,8 +536,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtProductNum.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.editData)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.View)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.resBut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).EndInit();
@@ -547,6 +545,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.editData)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.View)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.editOne)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.View1)).EndInit();
             this.ResumeLayout(false);

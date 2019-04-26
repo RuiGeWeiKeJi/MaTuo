@@ -24,7 +24,7 @@ namespace ProductionErpBll . Dao
             if ( !SqlHelper . Exists ( strSql . ToString ( ) ) )
             {
                 Add ( codeNum );
-                readResult ( codeNum );
+                
             }
 
             return true;
@@ -37,7 +37,7 @@ namespace ProductionErpBll . Dao
         void readResult (string codeNum )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . AppendFormat ( "SELECT BRC005,BRC006,BRC007,BRC008,BRC009 FROM MOXBRC WHERE BRC001='{0}'" ,codeNum );
+            strSql . AppendFormat ( "SELECT BRC005,BRC006,BRC007,BRC008,BRC009,BRC010 FROM MOXBRC WHERE BRC001='{0}'" ,codeNum );
 
             DataTable table = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
             if ( table == null || table . Rows . Count < 1 )
@@ -45,25 +45,30 @@ namespace ProductionErpBll . Dao
             Hashtable SQLString = new Hashtable ( );
             ProductionErpEntity . BrakeBRBEntity model = new ProductionErpEntity . BrakeBRBEntity ( );
             model . BRB001 = codeNum;
+            model . BRB002 = "检验";
             string result = table . Rows [ 0 ] [ "BRC005" ] . ToString ( );
-            model . BRB002 = "工频耐压";
-            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . BRB003 = "工频耐压";
+            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_brb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "BRC006" ] . ToString ( );
-            model . BRB002 = "绝缘电阻";
-            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . BRB003 = "绝缘电阻";
+            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_brb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "BRC007" ] . ToString ( );
-            model . BRB002 = "直流电阻(KΩ)";
+            model . BRB003 = "直流电阻(KΩ)";
             model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : result;
             edit_brb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "BRC008" ] . ToString ( );
-            model . BRB002 = "制动器最低启动电压能吸合";
-            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . BRB003 = "制动器最低启动电压能吸合";
+            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_brb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "BRC009" ] . ToString ( );
-            model . BRB002 = "制动器开关动作判定";
-            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . BRB003 = "制动器开关动作判定";
+            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
+            edit_brb ( SQLString ,strSql ,model );
+            result = table . Rows [ 0 ] [ "BRC010" ] . ToString ( );
+            model . BRB003 = "制动器吸合释放噪音(dB)";
+            model . BRB007 = string . IsNullOrEmpty ( result ) == true ? null : result;
             edit_brb ( SQLString ,strSql ,model );
             SqlHelper . ExecuteSqlTran ( SQLString );
         }
@@ -239,15 +244,17 @@ namespace ProductionErpBll . Dao
             strSql . Append ( "UPDATE MOXBRB SET " );
             strSql . Append ( "BRB007=@BRB007 " );
             strSql . Append ( "WHERE BRB001=@BRB001 AND " );
-            strSql . Append ( "BRB002=@BRB002" );
+            strSql . Append ( "BRB002=@BRB002 AND BRB003=@BRB003" );
             SqlParameter [ ] parameteer = {
                 new SqlParameter("@BRB007",SqlDbType.NVarChar,50),
                 new SqlParameter("@BRB001",SqlDbType.NVarChar,50),
-                new SqlParameter("@BRB002",SqlDbType.NVarChar,50)
+                new SqlParameter("@BRB002",SqlDbType.NVarChar,50),
+                new SqlParameter("@BRB003",SqlDbType.NVarChar,50)
             };
             parameteer [ 0 ] . Value = _brb . BRB007;
             parameteer [ 1 ] . Value = _brb . BRB001;
             parameteer [ 2 ] . Value = _brb . BRB002;
+            parameteer [ 3 ] . Value = _brb . BRB003;
 
             SQLString . Add ( strSql ,parameteer );
         }
@@ -259,6 +266,8 @@ namespace ProductionErpBll . Dao
         /// <returns></returns>
         public DataTable getTableView ( String codeNum )
         {
+            readResult ( codeNum );
+
             StringBuilder strSql = new StringBuilder ( );
             strSql . Append ( "SELECT A.idx,BRB001,BRB002,BRB003,BRB004,BRB005,BRB007,BRB008 FROM MOXBRB A INNER JOIN MOXART B ON A.BRB002=B.ART001 INNER JOIN MOXARP C ON B.idx=C.ARP003 " );
             strSql . AppendFormat ( "WHERE BRB001='{0}' AND ARP004 LIKE '制动器%' AND ARP001='{1}' ORDER BY BRB006" ,codeNum ,CarpenterBll . UserInformation . UserNum );
@@ -266,6 +275,20 @@ namespace ProductionErpBll . Dao
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
         }
 
+        /// <summary>
+        /// 获取机器检测数据
+        /// </summary>
+        /// <param name="codeNum"></param>
+        /// <returns></returns>
+        DataTable getDataForBRC (string codeNum )
+        {
+            StringBuilder strSql = new StringBuilder ( );
+            strSql . AppendFormat ( "SELECT BRC005,BRC006,BRC007,BRC008,BRC009,BRC010 FROM MOXBRC WHERE BRC001='{0}'" ,codeNum );
+
+            return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
+        }
+
+        
         /// <summary>
         /// get data from database
         /// </summary>

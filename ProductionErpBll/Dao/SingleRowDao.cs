@@ -127,7 +127,7 @@ namespace ProductionErpBll . Dao
         {
             StringBuilder strSql = new StringBuilder ( );
             strSql . AppendFormat ( "SELECT MAX({0}) {0} FROM MOXSRT " ,columns );
-            strSql . AppendFormat ( "WHERE SRT003='{0}' AND {0} LIKE '{1}%'" ,jobNumber ,dea004 );
+            strSql . AppendFormat ( "WHERE SRT003='{0}' AND {2} LIKE '000{1}%'" ,jobNumber ,dea004 ,columns );
 
             string codeNum = string . Empty;
             DataTable dt = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );

@@ -18,7 +18,7 @@ namespace ProductionErpBll . Dao
         {
             StringBuilder strSql = new StringBuilder ( );
             strSql . AppendFormat ( "SELECT COUNT(1) FROM MOXSTC WHERE STC001='{0}'" ,codeNum );
-
+            
             if ( !SqlHelper . Exists ( strSql . ToString ( ) ) )
             {
                 Add ( codeNum );
@@ -464,7 +464,7 @@ namespace ProductionErpBll . Dao
             StringBuilder strSql = new StringBuilder ( );
             if ( SqlHelper . ExecuteSqlTran ( SQLString ) )
             {
-                strSql . Append ( "SELECT A.idx,STD001,STD002,STD003,CASE WHEN STD004='True' THEN '合格' WHEN STD004='False' THEN '不合格' WHEN STD003='接头数量' THEN CONVERT(VARCHAR,ISNULL(WIE013,0)) ELSE STD004 END STD004,STD005,CASE STD002 WHEN '绕线' THEN ISNULL(WIE014,0) ELSE STD006 END STD006,CASE STD002 WHEN '绕线' THEN WIE015 ELSE STD007 END STD007,CASE STD002 WHEN '绕线' THEN WIE016 ELSE STD008 END STD008,STD012,STD013 FROM MOXSTD A LEFT JOIN MOXART B ON A.STD002=B.ART001 LEFT JOIN MOXARP C ON B.idx=C.ARP003 LEFT JOIN MOXWIE D ON A.STD001=D.WIE005 " );
+                strSql . Append ( "SELECT DISTINCT A.idx,STD001,STD002,STD003,CASE WHEN STD004='True' THEN '合格' WHEN STD004='False' THEN '不合格' WHEN STD003='接头数量' THEN CONVERT(VARCHAR,ISNULL(WIE013,0)) ELSE STD004 END STD004,STD005,CASE STD002 WHEN '绕线' THEN ISNULL(WIE014,0) ELSE STD006 END STD006,CASE STD002 WHEN '绕线' THEN WIE015 ELSE STD007 END STD007,CASE STD002 WHEN '绕线' THEN WIE016 ELSE STD008 END STD008,STD012,STD013,STD010,STD011 FROM MOXSTD A LEFT JOIN MOXART B ON A.STD002=B.ART001 LEFT JOIN MOXARP C ON B.idx=C.ARP003 LEFT JOIN MOXWIE D ON A.STD001=D.WIE005 " );
                 strSql . AppendFormat ( "WHERE STD001='{0}' AND ARP004 LIKE '定子%' AND ARP001='{1}' ORDER BY STD010,STD011" ,codeNum ,CarpenterBll . UserInformation . UserNum );             
             }
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );

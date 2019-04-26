@@ -24,7 +24,6 @@ namespace ProductionErpBll . Dao
             if ( !SqlHelper . Exists ( strSql . ToString ( ) ) )
             {
                 Add ( codeNum );
-                readResult ( codeNum );
             }
 
             return true;
@@ -34,28 +33,29 @@ namespace ProductionErpBll . Dao
         {
             StringBuilder strSql = new StringBuilder ( );
             strSql . AppendFormat ( "SELECT GEC005,GEC006,GEC007,GEC008,GEC009,GEC010,GEC011,GEC012,GEC013,GEC014,GEC015,GEC017,GEC018,GEC019,GEC020,GEC023,GEC024,GEC025,GEC026,GEC027 FROM MOXGEC WHERE GEC001='{0}'" ,codeNum );
-
+            
             DataTable table = SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );
             if ( table == null || table . Rows . Count < 1 )
                 return;
             Hashtable SQLString = new Hashtable ( );
             ProductionErpEntity . GeneralAssemblyGEBEntity model = new ProductionErpEntity . GeneralAssemblyGEBEntity ( );
             model . GEB001 = codeNum;
+            model . GEB002 = "检验";
             string result = table . Rows [ 0 ] [ "GEC005" ] . ToString ( );
             model . GEB003 = "耐压（电机线圈对机壳）";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC006" ] . ToString ( );
             model . GEB003 = "耐压（制动器线圈对机壳）";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC007" ] . ToString ( );
             model . GEB003 = "绝缘（电机线圈对机壳）";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC008" ] . ToString ( );
             model . GEB003 = "绝缘（制动器线圈对机壳）";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC009" ] . ToString ( );
             model . GEB003 = "直流电阻UV(V)";
@@ -75,7 +75,7 @@ namespace ProductionErpBll . Dao
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC013" ] . ToString ( );
             model . GEB003 = "直流电阻判定结果";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC014" ] . ToString ( );
             model . GEB003 = "制动器电阻数值1";
@@ -99,11 +99,11 @@ namespace ProductionErpBll . Dao
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC023" ] . ToString ( );
             model . GEB003 = "制动力矩(电流法）1";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC024" ] . ToString ( );
             model . GEB003 = "制动力矩(电流法）2";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToBoolean ( result ) == false ? "不合格" : "合格";
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC025" ] . ToString ( );
             model . GEB003 = "空载电流(A)";
@@ -111,7 +111,7 @@ namespace ProductionErpBll . Dao
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC026" ] . ToString ( );
             model . GEB003 = "空载电压(V)";
-            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : Convert . ToInt32 ( result ) == 0 ? "不合格" : "合格";
+            model . GEB004 = string . IsNullOrEmpty ( result ) == true ? null : result;
             edit_geb ( SQLString ,strSql ,model );
             result = table . Rows [ 0 ] [ "GEC027" ] . ToString ( );
             model . GEB003 = "空载功率(KW)";
@@ -343,16 +343,18 @@ namespace ProductionErpBll . Dao
         {
             strSql = new StringBuilder ( );
             strSql . Append ( "UPDATE MOXGEB SET " );
-            strSql . Append ( "GEB002=@GEB002 " );
-            strSql . Append ( "WHERE GEB001=@GEB001 AND GEB003=@GEB003" );
+            strSql . Append ( "GEB004=@GEB004 " );
+            strSql . Append ( "WHERE GEB001=@GEB001 AND GEB003=@GEB003 AND GEB002=@GEB002" );
             SqlParameter [ ] parameteer = {
                 new SqlParameter("@GEB001",SqlDbType.NVarChar,50),
                 new SqlParameter("@GEB002",SqlDbType.NVarChar,50),
-                new SqlParameter("@GEB003",SqlDbType.NVarChar,200)
+                new SqlParameter("@GEB003",SqlDbType.NVarChar,200),
+                new SqlParameter("@GEB004",SqlDbType.NVarChar,50)
             };
             parameteer [ 0 ] . Value = _geb . GEB001;
             parameteer [ 1 ] . Value = _geb . GEB002;
             parameteer [ 2 ] . Value = _geb . GEB003;
+            parameteer [ 3 ] . Value = _geb . GEB004;
 
             SQLString . Add ( strSql ,parameteer );
         }
@@ -364,6 +366,9 @@ namespace ProductionErpBll . Dao
         /// <returns></returns>
         public DataTable getTableView ( String codeNum )
         {
+            readResult ( codeNum );
+
+
             StringBuilder strSql = new StringBuilder ( );
             strSql . Append ( "SELECT A.idx,GEB001,GEB002,GEB003,GEB004,GEB005,GEB007,GEB008,GEB009 FROM MOXGEB A INNER JOIN MOXART B ON A.GEB002=B.ART001 INNER JOIN MOXARP C ON B.idx=C.ARP003 " );
             strSql . AppendFormat ( "WHERE GEB001='{0}' AND ARP004 LIKE '总装配%' AND ARP001='{1}' ORDER BY GEB006" ,codeNum ,CarpenterBll . UserInformation . UserNum );

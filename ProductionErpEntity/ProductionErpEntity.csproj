@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ArtEntity.cs" />
     <Compile Include="ArtPowerEntity.cs" />
+    <Compile Include="BrakeBRCEntity.cs" />
     <Compile Include="PowerEntity.cs" />
     <Compile Include="ProgramControlEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
