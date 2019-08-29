@@ -179,22 +179,38 @@ namespace ProductionErp
         }
         private void resBut_Click ( object sender ,System . EventArgs e )
         {
-            DataRow row = gridView1 . GetFocusedDataRow ( );
-            if ( row != null )
-            {
-                _brb . BRB004 = row [ "BRB004" ] . ToString ( );
+            gridView1 . CloseEditor ( );
+            gridView1 . UpdateCurrentRow ( );
 
-                if ( string . IsNullOrEmpty ( _brb . BRB004 ) )
+
+            //DataRow row = gridView1 . GetFocusedDataRow ( );
+            //if ( row != null )
+            //{
+            //    _brb . BRB004 = row [ "BRB004" ] . ToString ( );
+            foreach ( DataRow r in tableView . Rows )
+            {
+                if ( r [ "BRB004" ] == null || r [ "BRB004" ] . ToString ( ) == String . Empty )
                 {
-                    row [ "BRB004" ] = UserLogin . userName;
-                    row [ "BRB005" ] = UserLogin . userDt;
+                    r [ "BRB004" ] = UserLogin . userName;
+                    r [ "BRB005" ] = UserLogin . userDt;
                 }
-                else if ( _brb . BRB004 . Equals ( UserLogin . userName ) )
+                else if ( r [ "BRB004" ] . ToString ( ) . Trim ( ) . Equals ( UserLogin . userName ) )
                 {
-                    row [ "BRB004" ] = string . Empty;
-                    row [ "BRB005" ] = DBNull . Value;
+                    r [ "BRB004" ] = string . Empty;
+                    r [ "BRB005" ] = DBNull . Value;
                 }
             }
+                //if ( string . IsNullOrEmpty ( _brb . BRB004 ) )
+                //{
+                //    row [ "BRB004" ] = UserLogin . userName;
+                //    row [ "BRB005" ] = UserLogin . userDt;
+                //}
+                //else if ( _brb . BRB004 . Equals ( UserLogin . userName ) )
+                //{
+                //    row [ "BRB004" ] = string . Empty;
+                //    row [ "BRB005" ] = DBNull . Value;
+                //}
+            //}
         }
         private void gridView1_CustomDrawCell ( object sender ,DevExpress . XtraGrid . Views . Base . RowCellCustomDrawEventArgs e )
         {

@@ -131,21 +131,39 @@ namespace ProductionErp
         }
         private void resBut_Click ( object sender ,System . EventArgs e )
         {
-            DataRow row = gridView1 . GetFocusedDataRow ( );
-            if ( row != null )
+            //DataRow row = gridView1 . GetFocusedDataRow ( );
+            //if ( row != null )
+            //{
+            //    _geb . GEB005 = row [ "GEB005" ] . ToString ( );
+            //    if ( string . IsNullOrEmpty ( _geb . GEB005 ) )
+            //    {
+            //        row [ "GEB005" ] = UserLogin . userName;
+            //        row [ "GEB007" ] = UserLogin . userDt;
+            //    }
+            //    else if ( _geb . GEB005 . Equals ( UserLogin . userName ) )
+            //    {
+            //        row [ "GEB005" ] = string . Empty;
+            //        row [ "GEB007" ] = DBNull . Value;
+            //    }
+            //}
+
+            gridView1 . CloseEditor ( );
+            gridView1 . UpdateCurrentRow ( );
+
+            foreach ( DataRow row in tableView . Rows )
             {
-                _geb . GEB005 = row [ "GEB005" ] . ToString ( );
-                if ( string . IsNullOrEmpty ( _geb . GEB005 ) )
+                if ( row [ "GEB005" ] == null || row [ "GEB005" ] . ToString ( ) == string . Empty )
                 {
                     row [ "GEB005" ] = UserLogin . userName;
                     row [ "GEB007" ] = UserLogin . userDt;
                 }
-                else if ( _geb . GEB005 . Equals ( UserLogin . userName ) )
+                else if ( row [ "GEB005" ] . ToString ( ) . Trim ( ) . Equals ( UserLogin . userName ) )
                 {
                     row [ "GEB005" ] = string . Empty;
                     row [ "GEB007" ] = DBNull . Value;
                 }
             }
+
         }
         private void gridView1_ShowingEditor ( object sender ,CancelEventArgs e )
         {

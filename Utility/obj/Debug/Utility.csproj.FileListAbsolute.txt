@@ -42,3 +42,10 @@ D:\ProjectData\MaTuo\ProductionErp\Setup\Utility.pdb
 D:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
 D:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.dll
 D:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.pdb
+F:\ProjectData\MaTuo\ProductionErp\Setup\Utility.dll
+F:\ProjectData\MaTuo\ProductionErp\Setup\Utility.pdb
+F:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.csprojAssemblyReference.cache
+F:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+F:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.csproj.CopyComplete
+F:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.dll
+F:\ProjectData\MaTuo\ProductionErp\Utility\obj\Debug\Utility.pdb

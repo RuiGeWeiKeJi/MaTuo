@@ -1,0 +1,1178 @@
+10:41:31.300 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:41:31.729 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:41:31.766 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:41:31.827 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:49.284 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:49.322 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:50.786 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:52.721 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:52.742 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:52.755 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:43:52.779 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.865 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.879 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.890 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.902 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.910 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.922 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:06.929 @BRB002 粘摩擦片
+10:44:06.939 @BRB003 
+10:44:06.949 @BRB004 制动器测试员
+10:44:06.959 @BRB005 2019/7/10 10:41:31
+10:44:06.965 @idx 16
+10:44:06.977 @BRB007 
+10:44:06.987 @BRB008 
+10:44:07.008 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:07.039 @BRB002 装电磁铁
+10:44:07.046 @BRB003 
+10:44:07.053 @BRB004 制动器测试员
+10:44:07.063 @BRB005 2019/7/10 10:41:31
+10:44:07.073 @idx 17
+10:44:07.079 @BRB007 
+10:44:07.085 @BRB008 
+10:44:07.092 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:07.100 @BRB002 装配衔铁
+10:44:07.106 @BRB003 
+10:44:07.112 @BRB004 制动器测试员
+10:44:07.119 @BRB005 2019/7/10 10:41:31
+10:44:07.123 @idx 20
+10:44:07.129 @BRB007 
+10:44:07.136 @BRB008 
+10:44:07.145 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:07.151 @BRB002 检验
+10:44:07.158 @BRB003 1、耐压：绕组对地 
+2、绝缘：绕组对地 
+3、电阻
+4、最低吸合电磁下能启动
+5、吸合、释放噪音
+6、制动器开关动作（5次可靠算合格）
+10:44:07.165 @BRB004 制动器测试员
+10:44:07.173 @BRB005 2019/7/10 10:41:31
+10:44:07.179 @idx 27
+10:44:07.185 @BRB007 
+10:44:07.197 @BRB008 
+10:44:07.206 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:07.217 @BRB002 装减震垫
+10:44:07.228 @BRB003 
+10:44:07.235 @BRB004 制动器测试员
+10:44:07.243 @BRB005 2019/7/10 10:41:31
+10:44:07.248 @idx 26
+10:44:07.253 @BRB007 
+10:44:07.264 @BRB008 
+10:44:07.272 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:10.275 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:12.637 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:12.660 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:12.675 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:12.691 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:13.752 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:15.466 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:15.515 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:15.534 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:15.560 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:16.672 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:18.596 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:18.618 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:18.641 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:44:18.669 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:45:45.618 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:45:46.499 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:45:46.536 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:45:46.660 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:07.614 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:08.806 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.201 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.253 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.292 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.342 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.361 @STD001 0002020021800010
+10:46:11.372 @STD002 检验
+10:46:11.388 @STD003 (黄-绿)线间电阻(Ω)
+10:46:11.399 @STD004 5.44
+10:46:11.487 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.502 @STD001 0002020021800010
+10:46:11.513 @STD002 检验
+10:46:11.523 @STD003 耐压2260V,测试一分钟无击穿
+10:46:11.531 @STD004 True
+10:46:11.569 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.579 @STD001 0002020021800010
+10:46:11.585 @STD002 检验
+10:46:11.591 @STD003 匝间检验合格
+10:46:11.600 @STD004 True
+10:46:11.634 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.643 @STD001 0002020021800010
+10:46:11.651 @STD002 检验
+10:46:11.657 @STD003 (黄-红)线间电阻(Ω)
+10:46:11.664 @STD004 5.43
+10:46:11.713 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.721 @STD001 0002020021800010
+10:46:11.729 @STD002 检验
+10:46:11.734 @STD003 环境温度(℃)
+10:46:11.741 @STD004 14.3
+10:46:11.774 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.782 @STD001 0002020021800010
+10:46:11.788 @STD002 检验
+10:46:11.796 @STD003 电阻不平衡度
+10:46:11.803 @STD004 0.117
+10:46:11.839 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.846 @STD001 0002020021800010
+10:46:11.855 @STD002 检验
+10:46:11.863 @STD003 绝缘电阻(MΩ)
+10:46:11.871 @STD004 >500
+10:46:11.912 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.925 @STD001 0002020021800010
+10:46:11.934 @STD002 绕线
+10:46:11.943 @STD003 并联路数
+10:46:11.951 @STD004 1
+10:46:11.986 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:11.994 @STD001 0002020021800010
+10:46:12.002 @STD002 检验
+10:46:12.011 @STD003 (绿-红)线间电阻(Ω)
+10:46:12.021 @STD004 5.43
+10:46:12.062 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:12.071 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:46:13.112 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:10.840 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:11.246 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:11.668 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:11.786 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:14.605 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:15.932 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.064 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.090 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.120 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.149 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.165 @STD001 0002020021800010
+10:48:17.175 @STD002 检验
+10:48:17.185 @STD003 (黄-红)线间电阻(Ω)
+10:48:17.193 @STD004 5.43
+10:48:17.269 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.286 @STD001 0002020021800010
+10:48:17.292 @STD002 检验
+10:48:17.299 @STD003 (绿-红)线间电阻(Ω)
+10:48:17.309 @STD004 5.43
+10:48:17.340 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.349 @STD001 0002020021800010
+10:48:17.355 @STD002 检验
+10:48:17.365 @STD003 耐压2260V,测试一分钟无击穿
+10:48:17.372 @STD004 True
+10:48:17.408 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.419 @STD001 0002020021800010
+10:48:17.431 @STD002 检验
+10:48:17.437 @STD003 (黄-绿)线间电阻(Ω)
+10:48:17.444 @STD004 5.44
+10:48:17.478 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.488 @STD001 0002020021800010
+10:48:17.496 @STD002 检验
+10:48:17.503 @STD003 匝间检验合格
+10:48:17.509 @STD004 True
+10:48:17.548 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.557 @STD001 0002020021800010
+10:48:17.565 @STD002 检验
+10:48:17.571 @STD003 环境温度(℃)
+10:48:17.577 @STD004 14.3
+10:48:17.608 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.619 @STD001 0002020021800010
+10:48:17.630 @STD002 检验
+10:48:17.639 @STD003 绝缘电阻(MΩ)
+10:48:17.651 @STD004 >500
+10:48:17.681 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.688 @STD001 0002020021800010
+10:48:17.694 @STD002 绕线
+10:48:17.700 @STD003 并联路数
+10:48:17.706 @STD004 1
+10:48:17.735 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.741 @STD001 0002020021800010
+10:48:17.747 @STD002 检验
+10:48:17.754 @STD003 电阻不平衡度
+10:48:17.759 @STD004 0.117
+10:48:17.788 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.796 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:48:17.846 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:50:43.979 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:50:44.706 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:50:44.761 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:50:44.830 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:25.037 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:28.396 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.405 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.444 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.479 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.512 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.521 @STD001 0002020231800003
+10:51:29.527 @STD002 检验
+10:51:29.534 @STD003 (黄-绿)线间电阻(Ω)
+10:51:29.541 @STD004 9.20
+10:51:29.640 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.655 @STD001 0002020231800003
+10:51:29.662 @STD002 检验
+10:51:29.670 @STD003 耐压2260V,测试一分钟无击穿
+10:51:29.679 @STD004 True
+10:51:29.709 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.716 @STD001 0002020231800003
+10:51:29.724 @STD002 检验
+10:51:29.732 @STD003 匝间检验合格
+10:51:29.742 @STD004 True
+10:51:29.787 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.795 @STD001 0002020231800003
+10:51:29.806 @STD002 检验
+10:51:29.814 @STD003 (黄-红)线间电阻(Ω)
+10:51:29.822 @STD004 9.19
+10:51:29.862 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.890 @STD001 0002020231800003
+10:51:29.898 @STD002 检验
+10:51:29.904 @STD003 环境温度(℃)
+10:51:29.912 @STD004 9.1
+10:51:29.951 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:29.961 @STD001 0002020231800003
+10:51:29.968 @STD002 检验
+10:51:29.978 @STD003 电阻不平衡度
+10:51:29.989 @STD004 0.049
+10:51:30.028 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:30.035 @STD001 0002020231800003
+10:51:30.043 @STD002 检验
+10:51:30.051 @STD003 绝缘电阻(MΩ)
+10:51:30.057 @STD004 >500
+10:51:30.092 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:30.098 @STD001 0002020231800003
+10:51:30.104 @STD002 绕线
+10:51:30.113 @STD003 并联路数
+10:51:30.120 @STD004 1
+10:51:30.152 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:30.159 @STD001 0002020231800003
+10:51:30.164 @STD002 检验
+10:51:30.170 @STD003 (绿-红)线间电阻(Ω)
+10:51:30.181 @STD004 9.20
+10:51:30.221 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:30.230 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:30.286 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.102 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.108 @idx 7213
+10:51:39.116 @STD004 
+10:51:39.126 @STD006 0
+10:51:39.135 @STD007 陆芳芳
+10:51:39.145 @STD008 2019/7/10 10:50:44
+10:51:39.154 @STD012 
+10:51:39.163 @STD013 
+10:51:39.199 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.206 @idx 7214
+10:51:39.214 @STD004 0
+10:51:39.220 @STD006 0
+10:51:39.227 @STD007 陆芳芳
+10:51:39.233 @STD008 2019/7/10 10:50:44
+10:51:39.239 @STD012 
+10:51:39.248 @STD013 
+10:51:39.278 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.285 @idx 7196
+10:51:39.294 @STD004 
+10:51:39.305 @STD006 0
+10:51:39.313 @STD007 陆芳芳
+10:51:39.320 @STD008 2019/7/10 10:50:44
+10:51:39.327 @STD012 
+10:51:39.337 @STD013 
+10:51:39.367 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.375 @idx 7211
+10:51:39.382 @STD004 
+10:51:39.389 @STD006 0
+10:51:39.397 @STD007 陆芳芳
+10:51:39.404 @STD008 2019/7/10 10:50:44
+10:51:39.412 @STD012 
+10:51:39.419 @STD013 
+10:51:39.447 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.454 @idx 7212
+10:51:39.463 @STD004 合格
+10:51:39.471 @STD006 0
+10:51:39.480 @STD007 陆芳芳
+10:51:39.492 @STD008 2019/7/10 10:50:44
+10:51:39.499 @STD012 
+10:51:39.505 @STD013 
+10:51:39.535 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.543 @idx 7205
+10:51:39.549 @STD004 57
+10:51:39.559 @STD006 0
+10:51:39.565 @STD007 陆芳芳
+10:51:39.571 @STD008 2019/7/10 10:50:44
+10:51:39.577 @STD012 
+10:51:39.585 @STD013 
+10:51:39.611 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.620 @idx 7202
+10:51:39.627 @STD004 
+10:51:39.632 @STD006 0
+10:51:39.639 @STD007 陆芳芳
+10:51:39.647 @STD008 2019/7/10 10:50:44
+10:51:39.655 @STD012 
+10:51:39.663 @STD013 
+10:51:39.697 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.720 @idx 7200
+10:51:39.739 @STD004 4
+10:51:39.747 @STD006 0
+10:51:39.755 @STD007 陆芳芳
+10:51:39.763 @STD008 2019/7/10 10:50:44
+10:51:39.772 @STD012 
+10:51:39.781 @STD013 
+10:51:39.827 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:39.842 @idx 7204
+10:51:39.852 @STD004 合格
+10:51:39.868 @STD006 0
+10:51:39.877 @STD007 陆芳芳
+10:51:39.887 @STD008 2019/7/10 10:50:44
+10:51:39.900 @STD012 
+10:51:39.909 @STD013 
+10:51:39.972 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.022 @idx 7198
+10:51:40.029 @STD004 >500
+10:51:40.044 @STD006 0
+10:51:40.052 @STD007 陆芳芳
+10:51:40.059 @STD008 2019/7/10 10:50:44
+10:51:40.074 @STD012 
+10:51:40.083 @STD013 
+10:51:40.133 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.146 @idx 7216
+10:51:40.153 @STD004 
+10:51:40.159 @STD006 0
+10:51:40.166 @STD007 陆芳芳
+10:51:40.174 @STD008 2019/7/10 10:50:44
+10:51:40.182 @STD012 
+10:51:40.188 @STD013 
+10:51:40.214 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.223 @idx 7207
+10:51:40.230 @STD004 0.049
+10:51:40.237 @STD006 0
+10:51:40.244 @STD007 陆芳芳
+10:51:40.252 @STD008 2019/7/10 10:50:44
+10:51:40.258 @STD012 
+10:51:40.266 @STD013 
+10:51:40.291 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.297 @idx 7195
+10:51:40.305 @STD004 9.20
+10:51:40.312 @STD006 0
+10:51:40.319 @STD007 陆芳芳
+10:51:40.326 @STD008 2019/7/10 10:50:44
+10:51:40.335 @STD012 
+10:51:40.341 @STD013 
+10:51:40.376 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.383 @idx 7209
+10:51:40.390 @STD004 9.20
+10:51:40.397 @STD006 0
+10:51:40.403 @STD007 陆芳芳
+10:51:40.411 @STD008 2019/7/10 10:50:44
+10:51:40.418 @STD012 
+10:51:40.424 @STD013 
+10:51:40.454 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.463 @idx 7203
+10:51:40.469 @STD004 9.19
+10:51:40.476 @STD006 0
+10:51:40.482 @STD007 陆芳芳
+10:51:40.489 @STD008 2019/7/10 10:50:44
+10:51:40.496 @STD012 
+10:51:40.502 @STD013 
+10:51:40.536 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.543 @idx 7215
+10:51:40.553 @STD004 9.1
+10:51:40.561 @STD006 0
+10:51:40.568 @STD007 陆芳芳
+10:51:40.576 @STD008 2019/7/10 10:50:44
+10:51:40.584 @STD012 
+10:51:40.590 @STD013 
+10:51:40.621 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.629 @idx 7197
+10:51:40.635 @STD004 
+10:51:40.643 @STD006 0
+10:51:40.650 @STD007 陆芳芳
+10:51:40.656 @STD008 2019/7/10 10:50:44
+10:51:40.663 @STD012 
+10:51:40.671 @STD013 
+10:51:40.700 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.709 @idx 7208
+10:51:40.715 @STD004 250
+10:51:40.721 @STD006 0
+10:51:40.727 @STD007 陆芳芳
+10:51:40.734 @STD008 2019/7/10 10:50:44
+10:51:40.744 @STD012 
+10:51:40.751 @STD013 
+10:51:40.784 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.791 @idx 7201
+10:51:40.798 @STD004 
+10:51:40.804 @STD006 0
+10:51:40.811 @STD007 陆芳芳
+10:51:40.817 @STD008 2019/7/10 10:50:44
+10:51:40.824 @STD012 
+10:51:40.831 @STD013 
+10:51:40.858 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.867 @idx 7206
+10:51:40.872 @STD004 0
+10:51:40.879 @STD006 0
+10:51:40.885 @STD007 陆芳芳
+10:51:40.891 @STD008 2019/7/10 10:50:44
+10:51:40.897 @STD012 
+10:51:40.904 @STD013 
+10:51:40.930 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:40.939 @idx 7199
+10:51:40.945 @STD004 
+10:51:40.953 @STD006 0
+10:51:40.962 @STD007 陆芳芳
+10:51:40.970 @STD008 2019/7/10 10:50:44
+10:51:40.978 @STD012 
+10:51:40.984 @STD013 
+10:51:41.018 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:41.025 @idx 7210
+10:51:41.034 @STD004 1
+10:51:41.041 @STD006 0
+10:51:41.048 @STD007 陆芳芳
+10:51:41.055 @STD008 2019/7/10 10:50:44
+10:51:41.061 @STD012 
+10:51:41.068 @STD013 
+10:51:41.097 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:41.104 @STC001 0002020231800003
+10:51:41.113 @STC005 0
+10:51:41.119 @STC006 
+10:51:41.125 @STC007 
+10:51:41.132 @STC008 
+10:51:41.142 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:44.408 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.104 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.156 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.185 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.231 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.242 @STD001 0002020381800009
+10:51:46.261 @STD002 绕线
+10:51:46.277 @STD003 并联路数
+10:51:46.286 @STD004 1
+10:51:46.343 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.356 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:46.405 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:47.672 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.287 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.323 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.338 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.366 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.374 @STD001 0002020231800003
+10:51:50.383 @STD002 绕线
+10:51:50.389 @STD003 并联路数
+10:51:50.398 @STD004 1
+10:51:50.436 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.445 @STD001 0002020231800003
+10:51:50.459 @STD002 检验
+10:51:50.466 @STD003 匝间检验合格
+10:51:50.474 @STD004 True
+10:51:50.502 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.508 @STD001 0002020231800003
+10:51:50.514 @STD002 检验
+10:51:50.535 @STD003 (绿-红)线间电阻(Ω)
+10:51:50.544 @STD004 9.20
+10:51:50.573 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.580 @STD001 0002020231800003
+10:51:50.585 @STD002 检验
+10:51:50.591 @STD003 (黄-红)线间电阻(Ω)
+10:51:50.597 @STD004 9.19
+10:51:50.625 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.631 @STD001 0002020231800003
+10:51:50.637 @STD002 检验
+10:51:50.642 @STD003 电阻不平衡度
+10:51:50.651 @STD004 0.049
+10:51:50.685 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.691 @STD001 0002020231800003
+10:51:50.697 @STD002 检验
+10:51:50.702 @STD003 (黄-绿)线间电阻(Ω)
+10:51:50.709 @STD004 9.20
+10:51:50.738 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.745 @STD001 0002020231800003
+10:51:50.751 @STD002 检验
+10:51:50.756 @STD003 环境温度(℃)
+10:51:50.762 @STD004 9.1
+10:51:50.788 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.795 @STD001 0002020231800003
+10:51:50.802 @STD002 检验
+10:51:50.807 @STD003 绝缘电阻(MΩ)
+10:51:50.813 @STD004 >500
+10:51:50.840 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.846 @STD001 0002020231800003
+10:51:50.852 @STD002 检验
+10:51:50.858 @STD003 耐压2260V,测试一分钟无击穿
+10:51:50.868 @STD004 True
+10:51:50.903 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.910 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:51:50.943 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:02.807 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.242 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.263 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.280 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.307 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.314 @STD001 0002020231800003
+10:52:05.321 @STD002 检验
+10:52:05.327 @STD003 (黄-红)线间电阻(Ω)
+10:52:05.334 @STD004 9.19
+10:52:05.435 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.447 @STD001 0002020231800003
+10:52:05.453 @STD002 检验
+10:52:05.460 @STD003 耐压2260V,测试一分钟无击穿
+10:52:05.466 @STD004 True
+10:52:05.505 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.511 @STD001 0002020231800003
+10:52:05.520 @STD002 检验
+10:52:05.527 @STD003 (绿-红)线间电阻(Ω)
+10:52:05.533 @STD004 9.20
+10:52:05.561 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.567 @STD001 0002020231800003
+10:52:05.573 @STD002 检验
+10:52:05.578 @STD003 匝间检验合格
+10:52:05.584 @STD004 True
+10:52:05.616 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.623 @STD001 0002020231800003
+10:52:05.631 @STD002 检验
+10:52:05.637 @STD003 环境温度(℃)
+10:52:05.643 @STD004 9.1
+10:52:05.677 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.684 @STD001 0002020231800003
+10:52:05.690 @STD002 绕线
+10:52:05.695 @STD003 并联路数
+10:52:05.701 @STD004 1
+10:52:05.728 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.736 @STD001 0002020231800003
+10:52:05.741 @STD002 检验
+10:52:05.748 @STD003 电阻不平衡度
+10:52:05.753 @STD004 0.049
+10:52:05.782 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.789 @STD001 0002020231800003
+10:52:05.794 @STD002 检验
+10:52:05.800 @STD003 绝缘电阻(MΩ)
+10:52:05.808 @STD004 >500
+10:52:05.835 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.841 @STD001 0002020231800003
+10:52:05.849 @STD002 检验
+10:52:05.855 @STD003 (黄-绿)线间电阻(Ω)
+10:52:05.862 @STD004 9.20
+10:52:05.895 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.913 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:05.950 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:09.478 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.260 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.282 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.298 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.339 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.347 @STD001 0002020021800002
+10:52:11.354 @STD002 检验
+10:52:11.360 @STD003 (黄-绿)线间电阻(Ω)
+10:52:11.368 @STD004 5.49
+10:52:11.403 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.411 @STD001 0002020021800002
+10:52:11.417 @STD002 检验
+10:52:11.429 @STD003 电阻不平衡度
+10:52:11.437 @STD004 0.066
+10:52:11.475 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.482 @STD001 0002020021800002
+10:52:11.492 @STD002 检验
+10:52:11.497 @STD003 耐压2260V,测试一分钟无击穿
+10:52:11.505 @STD004 True
+10:52:11.541 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.547 @STD001 0002020021800002
+10:52:11.553 @STD002 检验
+10:52:11.564 @STD003 (绿-红)线间电阻(Ω)
+10:52:11.573 @STD004 5.49
+10:52:11.601 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.607 @STD001 0002020021800002
+10:52:11.614 @STD002 检验
+10:52:11.620 @STD003 环境温度(℃)
+10:52:11.626 @STD004 15.0
+10:52:11.653 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.660 @STD001 0002020021800002
+10:52:11.666 @STD002 检验
+10:52:11.672 @STD003 绝缘电阻(MΩ)
+10:52:11.678 @STD004 >500
+10:52:11.708 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.716 @STD001 0002020021800002
+10:52:11.723 @STD002 检验
+10:52:11.731 @STD003 (黄-红)线间电阻(Ω)
+10:52:11.740 @STD004 5.48
+10:52:11.769 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.778 @STD001 0002020021800002
+10:52:11.784 @STD002 检验
+10:52:11.790 @STD003 匝间检验合格
+10:52:11.795 @STD004 True
+10:52:11.825 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.838 @STD001 0002020021800002
+10:52:11.844 @STD002 绕线
+10:52:11.849 @STD003 并联路数
+10:52:11.855 @STD004 1
+10:52:11.881 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.889 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:11.923 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:21.919 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:21.933 @idx 7170
+10:52:21.944 @STD004 300
+10:52:21.953 @STD006 0
+10:52:21.961 @STD007 陆芳芳
+10:52:21.970 @STD008 2019/7/10 10:50:44
+10:52:21.979 @STD012 
+10:52:21.987 @STD013 
+10:52:22.022 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.033 @idx 7166
+10:52:22.041 @STD004 1
+10:52:22.053 @STD006 0
+10:52:22.062 @STD007 陆芳芳
+10:52:22.069 @STD008 2019/7/10 10:50:44
+10:52:22.075 @STD012 
+10:52:22.082 @STD013 
+10:52:22.108 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.115 @idx 7156
+10:52:22.123 @STD004 5.49
+10:52:22.130 @STD006 0
+10:52:22.136 @STD007 陆芳芳
+10:52:22.142 @STD008 2019/7/10 10:50:44
+10:52:22.152 @STD012 
+10:52:22.159 @STD013 
+10:52:22.190 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.196 @idx 7154
+10:52:22.205 @STD004 
+10:52:22.214 @STD006 0
+10:52:22.222 @STD007 陆芳芳
+10:52:22.229 @STD008 2019/7/10 10:50:44
+10:52:22.237 @STD012 
+10:52:22.248 @STD013 
+10:52:22.283 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.289 @idx 7163
+10:52:22.296 @STD004 
+10:52:22.306 @STD006 0
+10:52:22.312 @STD007 陆芳芳
+10:52:22.319 @STD008 2019/7/10 10:50:44
+10:52:22.326 @STD012 
+10:52:22.332 @STD013 
+10:52:22.362 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.371 @idx 7158
+10:52:22.385 @STD004 
+10:52:22.391 @STD006 0
+10:52:22.400 @STD007 陆芳芳
+10:52:22.408 @STD008 2019/7/10 10:50:44
+10:52:22.416 @STD012 
+10:52:22.423 @STD013 
+10:52:22.456 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.471 @idx 7152
+10:52:22.482 @STD004 58
+10:52:22.492 @STD006 0
+10:52:22.500 @STD007 陆芳芳
+10:52:22.508 @STD008 2019/7/10 10:50:44
+10:52:22.517 @STD012 
+10:52:22.526 @STD013 
+10:52:22.558 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.566 @idx 7165
+10:52:22.574 @STD004 
+10:52:22.582 @STD006 0
+10:52:22.589 @STD007 陆芳芳
+10:52:22.597 @STD008 2019/7/10 10:50:44
+10:52:22.603 @STD012 
+10:52:22.612 @STD013 
+10:52:22.645 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.654 @idx 7159
+10:52:22.664 @STD004 6
+10:52:22.675 @STD006 0
+10:52:22.688 @STD007 陆芳芳
+10:52:22.695 @STD008 2019/7/10 10:50:44
+10:52:22.703 @STD012 
+10:52:22.713 @STD013 
+10:52:22.745 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.753 @idx 7171
+10:52:22.759 @STD004 
+10:52:22.767 @STD006 0
+10:52:22.773 @STD007 陆芳芳
+10:52:22.780 @STD008 2019/7/10 10:50:44
+10:52:22.787 @STD012 
+10:52:22.794 @STD013 
+10:52:22.823 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.832 @idx 7157
+10:52:22.840 @STD004 
+10:52:22.846 @STD006 0
+10:52:22.854 @STD007 陆芳芳
+10:52:22.860 @STD008 2019/7/10 10:50:44
+10:52:22.871 @STD012 
+10:52:22.880 @STD013 
+10:52:22.919 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:22.926 @idx 7160
+10:52:22.938 @STD004 0.066
+10:52:22.945 @STD006 0
+10:52:22.951 @STD007 陆芳芳
+10:52:22.957 @STD008 2019/7/10 10:50:44
+10:52:22.965 @STD012 
+10:52:22.970 @STD013 
+10:52:23.001 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.008 @idx 7164
+10:52:23.018 @STD004 合格
+10:52:23.027 @STD006 0
+10:52:23.034 @STD007 陆芳芳
+10:52:23.041 @STD008 2019/7/10 10:50:44
+10:52:23.048 @STD012 
+10:52:23.057 @STD013 
+10:52:23.089 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.096 @idx 7169
+10:52:23.102 @STD004 5.48
+10:52:23.108 @STD006 0
+10:52:23.116 @STD007 陆芳芳
+10:52:23.123 @STD008 2019/7/10 10:50:44
+10:52:23.129 @STD012 
+10:52:23.136 @STD013 
+10:52:23.165 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.172 @idx 7153
+10:52:23.180 @STD004 
+10:52:23.187 @STD006 0
+10:52:23.194 @STD007 陆芳芳
+10:52:23.202 @STD008 2019/7/10 10:50:44
+10:52:23.210 @STD012 
+10:52:23.218 @STD013 
+10:52:23.245 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.252 @idx 7172
+10:52:23.258 @STD004 5.49
+10:52:23.267 @STD006 0
+10:52:23.276 @STD007 陆芳芳
+10:52:23.283 @STD008 2019/7/10 10:50:44
+10:52:23.289 @STD012 
+10:52:23.294 @STD013 
+10:52:23.333 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.339 @idx 7161
+10:52:23.345 @STD004 合格
+10:52:23.352 @STD006 0
+10:52:23.360 @STD007 陆芳芳
+10:52:23.369 @STD008 2019/7/10 10:50:44
+10:52:23.374 @STD012 
+10:52:23.381 @STD013 
+10:52:23.411 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.418 @idx 7151
+10:52:23.424 @STD004 
+10:52:23.431 @STD006 0
+10:52:23.437 @STD007 陆芳芳
+10:52:23.443 @STD008 2019/7/10 10:50:44
+10:52:23.449 @STD012 
+10:52:23.455 @STD013 
+10:52:23.483 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.496 @idx 7155
+10:52:23.505 @STD004 0
+10:52:23.511 @STD006 0
+10:52:23.519 @STD007 陆芳芳
+10:52:23.531 @STD008 2019/7/10 10:50:44
+10:52:23.538 @STD012 
+10:52:23.544 @STD013 
+10:52:23.575 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.582 @idx 7168
+10:52:23.589 @STD004 4
+10:52:23.596 @STD006 0
+10:52:23.601 @STD007 陆芳芳
+10:52:23.607 @STD008 2019/7/10 10:50:44
+10:52:23.613 @STD012 
+10:52:23.620 @STD013 
+10:52:23.646 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.653 @idx 7167
+10:52:23.660 @STD004 >500
+10:52:23.670 @STD006 0
+10:52:23.680 @STD007 陆芳芳
+10:52:23.689 @STD008 2019/7/10 10:50:44
+10:52:23.701 @STD012 
+10:52:23.713 @STD013 
+10:52:23.753 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.762 @STC001 0002020021800002
+10:52:23.770 @STC005 0
+10:52:23.779 @STC006 
+10:52:23.785 @STC007 
+10:52:23.791 @STC008 
+10:52:23.801 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:23.809 @idx 7162
+10:52:23.816 @STD004 15.0
+10:52:23.823 @STD006 0
+10:52:23.831 @STD007 陆芳芳
+10:52:23.839 @STD008 2019/7/10 10:50:44
+10:52:23.847 @STD012 
+10:52:23.853 @STD013 
+10:52:23.883 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:26.231 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.233 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.264 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.276 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.297 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.309 @STD001 0002020021800002
+10:52:28.318 @STD002 检验
+10:52:28.330 @STD003 (黄-绿)线间电阻(Ω)
+10:52:28.343 @STD004 5.49
+10:52:28.406 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.424 @STD001 0002020021800002
+10:52:28.446 @STD002 检验
+10:52:28.458 @STD003 (绿-红)线间电阻(Ω)
+10:52:28.467 @STD004 5.49
+10:52:28.509 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.519 @STD001 0002020021800002
+10:52:28.527 @STD002 检验
+10:52:28.535 @STD003 匝间检验合格
+10:52:28.541 @STD004 True
+10:52:28.571 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.578 @STD001 0002020021800002
+10:52:28.586 @STD002 检验
+10:52:28.593 @STD003 电阻不平衡度
+10:52:28.598 @STD004 0.066
+10:52:28.636 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.651 @STD001 0002020021800002
+10:52:28.662 @STD002 检验
+10:52:28.673 @STD003 (黄-红)线间电阻(Ω)
+10:52:28.685 @STD004 5.48
+10:52:28.721 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.727 @STD001 0002020021800002
+10:52:28.732 @STD002 检验
+10:52:28.739 @STD003 环境温度(℃)
+10:52:28.746 @STD004 15.0
+10:52:28.777 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.784 @STD001 0002020021800002
+10:52:28.790 @STD002 绕线
+10:52:28.796 @STD003 并联路数
+10:52:28.802 @STD004 1
+10:52:28.833 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.846 @STD001 0002020021800002
+10:52:28.853 @STD002 检验
+10:52:28.861 @STD003 绝缘电阻(MΩ)
+10:52:28.874 @STD004 >500
+10:52:28.910 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.921 @STD001 0002020021800002
+10:52:28.931 @STD002 检验
+10:52:28.938 @STD003 耐压2260V,测试一分钟无击穿
+10:52:28.945 @STD004 True
+10:52:28.977 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:28.984 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:29.006 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:53.131 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.404 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.435 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.449 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.476 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.483 @STD001 0002020021800002
+10:52:55.495 @STD002 绕线
+10:52:55.504 @STD003 并联路数
+10:52:55.510 @STD004 1
+10:52:55.563 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.573 @STD001 0002020021800002
+10:52:55.588 @STD002 检验
+10:52:55.599 @STD003 环境温度(℃)
+10:52:55.606 @STD004 15.0
+10:52:55.638 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.649 @STD001 0002020021800002
+10:52:55.654 @STD002 检验
+10:52:55.663 @STD003 匝间检验合格
+10:52:55.670 @STD004 True
+10:52:55.702 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.708 @STD001 0002020021800002
+10:52:55.714 @STD002 检验
+10:52:55.720 @STD003 耐压2260V,测试一分钟无击穿
+10:52:55.726 @STD004 True
+10:52:55.809 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.816 @STD001 0002020021800002
+10:52:55.822 @STD002 检验
+10:52:55.828 @STD003 绝缘电阻(MΩ)
+10:52:55.835 @STD004 >500
+10:52:55.863 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.871 @STD001 0002020021800002
+10:52:55.877 @STD002 检验
+10:52:55.882 @STD003 电阻不平衡度
+10:52:55.888 @STD004 0.066
+10:52:55.917 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.926 @STD001 0002020021800002
+10:52:55.933 @STD002 检验
+10:52:55.939 @STD003 (黄-红)线间电阻(Ω)
+10:52:55.947 @STD004 5.48
+10:52:55.981 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:55.987 @STD001 0002020021800002
+10:52:55.995 @STD002 检验
+10:52:56.000 @STD003 (绿-红)线间电阻(Ω)
+10:52:56.007 @STD004 5.49
+10:52:56.034 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+10:52:56.041 @STD001 0002020021800002
+10:52:56.046 @STD002 检验
+10:52:56.052 @STD003 (黄-绿)线间电阻(Ω)
+10:52:56.062 @STD004 5.49
+10:52:56.089 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:31.066 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:31.394 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:31.429 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:31.471 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:35.923 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:37.395 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:37.428 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:37.448 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:37.477 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:39.826 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:41.297 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:41.324 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:41.331 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:41.386 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:42.721 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:45.695 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:45.713 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:45.732 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:45.787 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:47.331 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:48.815 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:48.833 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:48.852 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:48.928 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:53.319 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:55.142 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:55.155 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:55.169 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:03:55.203 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.058 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.075 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.090 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.108 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.126 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.148 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.169 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.182 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.199 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.213 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.228 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.240 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.254 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.269 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.280 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.295 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.310 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.328 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.350 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.374 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.390 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.408 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.421 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.434 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.450 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.463 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.478 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.490 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.510 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.527 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.541 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.556 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.577 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.592 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.603 @GEB002 装制动器
+11:04:05.613 @GEB003 编码器左条码
+11:04:05.621 @GEB004 
+11:04:05.631 @GEB005 陆芳芳
+11:04:05.638 @GEB007 2019/7/10 11:03:31
+11:04:05.647 @idx 243
+11:04:05.662 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.675 @GEB002 检验
+11:04:05.682 @GEB003 制动器释放噪音(dB)
+11:04:05.689 @GEB004 
+11:04:05.696 @GEB005 陆芳芳
+11:04:05.702 @GEB007 2019/7/10 11:03:31
+11:04:05.709 @idx 256
+11:04:05.719 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.728 @GEB002 压线圈
+11:04:05.734 @GEB003 机座条码
+11:04:05.741 @GEB004 
+11:04:05.749 @GEB005 陆芳芳
+11:04:05.758 @GEB007 2019/7/10 11:03:31
+11:04:05.764 @idx 246
+11:04:05.779 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.795 @GEB002 检验
+11:04:05.801 @GEB003 制动力矩(电流法）1
+11:04:05.810 @GEB004 
+11:04:05.820 @GEB005 陆芳芳
+11:04:05.831 @GEB007 2019/7/10 11:03:31
+11:04:05.843 @idx 262
+11:04:05.859 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.867 @GEB002 压线圈
+11:04:05.874 @GEB003 定子绕组条码
+11:04:05.882 @GEB004 
+11:04:05.892 @GEB005 陆芳芳
+11:04:05.898 @GEB007 2019/7/10 11:03:31
+11:04:05.904 @idx 250
+11:04:05.918 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.927 @GEB002 总装合成
+11:04:05.935 @GEB003 制动器条码
+11:04:05.941 @GEB004 
+11:04:05.950 @GEB005 陆芳芳
+11:04:05.957 @GEB007 2019/7/10 11:03:31
+11:04:05.965 @idx 252
+11:04:05.976 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:05.989 @GEB002 检验
+11:04:05.999 @GEB003 直流电阻UW(V)
+11:04:06.009 @GEB004 
+11:04:06.016 @GEB005 陆芳芳
+11:04:06.024 @GEB007 2019/7/10 11:03:31
+11:04:06.032 @idx 266
+11:04:06.044 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.052 @GEB002 检验
+11:04:06.060 @GEB003 制动器吸合噪音(dB)
+11:04:06.070 @GEB004 
+11:04:06.076 @GEB005 陆芳芳
+11:04:06.083 @GEB007 2019/7/10 11:03:31
+11:04:06.091 @idx 268
+11:04:06.102 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.110 @GEB002 检验
+11:04:06.117 @GEB003 直流电阻判定结果
+11:04:06.122 @GEB004 
+11:04:06.132 @GEB005 陆芳芳
+11:04:06.139 @GEB007 2019/7/10 11:03:31
+11:04:06.147 @idx 270
+11:04:06.156 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.167 @GEB002 压轴承
+11:04:06.175 @GEB003 转轴条码
+11:04:06.182 @GEB004 
+11:04:06.193 @GEB005 陆芳芳
+11:04:06.202 @GEB007 2019/7/10 11:03:31
+11:04:06.215 @idx 247
+11:04:06.224 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.238 @GEB002 检验
+11:04:06.245 @GEB003 制动力矩(电流法）2
+11:04:06.252 @GEB004 
+11:04:06.262 @GEB005 陆芳芳
+11:04:06.274 @GEB007 2019/7/10 11:03:31
+11:04:06.281 @idx 255
+11:04:06.292 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.299 @GEB002 装制动器
+11:04:06.305 @GEB003 编码器右条码
+11:04:06.312 @GEB004 
+11:04:06.321 @GEB005 陆芳芳
+11:04:06.329 @GEB007 2019/7/10 11:03:31
+11:04:06.335 @idx 261
+11:04:06.343 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.352 @GEB002 压轴承
+11:04:06.358 @GEB003 小轴承条码
+11:04:06.366 @GEB004 
+11:04:06.372 @GEB005 陆芳芳
+11:04:06.380 @GEB007 2019/7/10 11:03:31
+11:04:06.388 @idx 267
+11:04:06.398 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.405 @GEB002 压轴承
+11:04:06.417 @GEB003 大轴承条码
+11:04:06.430 @GEB004 
+11:04:06.438 @GEB005 陆芳芳
+11:04:06.453 @GEB007 2019/7/10 11:03:31
+11:04:06.461 @idx 249
+11:04:06.472 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.484 @GEB002 检验
+11:04:06.494 @GEB003 振动速度(mm/s)
+11:04:06.504 @GEB004 
+11:04:06.514 @GEB005 陆芳芳
+11:04:06.524 @GEB007 2019/7/10 11:03:31
+11:04:06.534 @idx 273
+11:04:06.548 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.557 @GEB002 检验
+11:04:06.567 @GEB003 绝缘（电机线圈对机壳）
+11:04:06.578 @GEB004 
+11:04:06.586 @GEB005 陆芳芳
+11:04:06.599 @GEB007 2019/7/10 11:03:31
+11:04:06.611 @idx 253
+11:04:06.636 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.646 @GEB002 检验
+11:04:06.653 @GEB003 空载电流(A)
+11:04:06.659 @GEB004 
+11:04:06.668 @GEB005 陆芳芳
+11:04:06.675 @GEB007 2019/7/10 11:03:31
+11:04:06.681 @idx 259
+11:04:06.691 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.700 @GEB002 检验
+11:04:06.709 @GEB003 绝缘（制动器线圈对机壳）
+11:04:06.716 @GEB004 
+11:04:06.724 @GEB005 陆芳芳
+11:04:06.734 @GEB007 2019/7/10 11:03:31
+11:04:06.741 @idx 263
+11:04:06.752 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.760 @GEB002 检验
+11:04:06.769 @GEB003 制动器最低启动电压能吸合
+11:04:06.776 @GEB004 
+11:04:06.781 @GEB005 陆芳芳
+11:04:06.792 @GEB007 2019/7/10 11:03:31
+11:04:06.800 @idx 260
+11:04:06.810 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.819 @GEB002 检验
+11:04:06.825 @GEB003 直流电阻平均值(V)
+11:04:06.835 @GEB004 
+11:04:06.844 @GEB005 陆芳芳
+11:04:06.854 @GEB007 2019/7/10 11:03:31
+11:04:06.861 @idx 241
+11:04:06.875 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.886 @GEB002 检验
+11:04:06.895 @GEB003 空载电压(V)
+11:04:06.903 @GEB004 
+11:04:06.909 @GEB005 陆芳芳
+11:04:06.917 @GEB007 2019/7/10 11:03:31
+11:04:06.924 @idx 248
+11:04:06.934 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.942 @GEB002 装曳引轮和转子
+11:04:06.949 @GEB003 曳引轮条码
+11:04:06.957 @GEB004 
+11:04:06.963 @GEB005 陆芳芳
+11:04:06.971 @GEB007 2019/7/10 11:03:31
+11:04:06.979 @idx 258
+11:04:06.989 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:06.998 @GEB002 检验
+11:04:07.006 @GEB003 耐压（电机线圈对机壳）
+11:04:07.013 @GEB004 
+11:04:07.020 @GEB005 陆芳芳
+11:04:07.026 @GEB007 2019/7/10 11:03:31
+11:04:07.033 @idx 254
+11:04:07.047 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.059 @GEB002 检验
+11:04:07.069 @GEB003 制动器电阻数值2
+11:04:07.081 @GEB004 
+11:04:07.089 @GEB005 陆芳芳
+11:04:07.097 @GEB007 2019/7/10 11:03:31
+11:04:07.107 @idx 244
+11:04:07.119 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.128 @GEB002 检验
+11:04:07.138 @GEB003 耐压（制动器线圈对机壳）
+11:04:07.147 @GEB004 
+11:04:07.155 @GEB005 陆芳芳
+11:04:07.161 @GEB007 2019/7/10 11:03:31
+11:04:07.168 @idx 245
+11:04:07.182 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.188 @GEB002 贴磁钢
+11:04:07.200 @GEB003 磁钢条码
+11:04:07.208 @GEB004 
+11:04:07.216 @GEB005 陆芳芳
+11:04:07.222 @GEB007 2019/7/10 11:03:31
+11:04:07.229 @idx 271
+11:04:07.239 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.246 @GEB002 检验
+11:04:07.254 @GEB003 检测制动器开关动作次数(次)
+11:04:07.265 @GEB004 
+11:04:07.277 @GEB005 陆芳芳
+11:04:07.284 @GEB007 2019/7/10 11:03:31
+11:04:07.297 @idx 274
+11:04:07.306 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.315 @GEB002 检验
+11:04:07.323 @GEB003 噪音(dB)
+11:04:07.339 @GEB004 
+11:04:07.355 @GEB005 陆芳芳
+11:04:07.369 @GEB007 2019/7/10 11:03:31
+11:04:07.388 @idx 264
+11:04:07.407 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.426 @GEB002 检验
+11:04:07.443 @GEB003 空载功率(KW)
+11:04:07.464 @GEB004 
+11:04:07.488 @GEB005 陆芳芳
+11:04:07.503 @GEB007 2019/7/10 11:03:31
+11:04:07.522 @idx 242
+11:04:07.544 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.561 @GEB002 装曳引轮和转子
+11:04:07.578 @GEB003 转子条码
+11:04:07.592 @GEB004 
+11:04:07.610 @GEB005 陆芳芳
+11:04:07.626 @GEB007 2019/7/10 11:03:31
+11:04:07.644 @idx 269
+11:04:07.674 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.716 @GEB002 检验
+11:04:07.739 @GEB003 直流电阻VW(V)
+11:04:07.762 @GEB004 
+11:04:07.782 @GEB005 陆芳芳
+11:04:07.807 @GEB007 2019/7/10 11:03:31
+11:04:07.822 @idx 251
+11:04:07.840 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.858 @GEB002 检验
+11:04:07.871 @GEB003 直流电阻UV(V)
+11:04:07.892 @GEB004 
+11:04:07.913 @GEB005 陆芳芳
+11:04:07.926 @GEB007 2019/7/10 11:03:31
+11:04:07.940 @idx 272
+11:04:07.951 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+11:04:07.962 @GEB002 检验
+11:04:07.973 @GEB003 制动器电阻数值1
+11:04:07.980 @GEB004 
+11:04:07.991 @GEB005 陆芳芳
+11:04:07.999 @GEB007 2019/7/10 11:03:31
+11:04:08.008 @idx 265
+11:04:08.020 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1

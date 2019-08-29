@@ -28,7 +28,11 @@
         /// </summary>
         private void InitializeComponent ( )
         {
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.txtCode = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
@@ -321,7 +325,7 @@
             // 
             this.resBut.AutoHeight = false;
             this.resBut.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "签字", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject2, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "签字", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.resBut.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.resBut.Name = "resBut";
             this.resBut.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
@@ -379,9 +383,9 @@
             this.lupUser.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lupUser.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB001", 100, "品号"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB002", 100, "品名"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB003", 100, "规格")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB001", "品号", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB002", "品名", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB003", "规格", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lupUser.Name = "lupUser";
             this.lupUser.NullText = "";
             this.lupUser.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
@@ -410,9 +414,9 @@
             this.repositoryItemGridLookUpEdit1.ImmediatePopup = true;
             this.repositoryItemGridLookUpEdit1.Name = "repositoryItemGridLookUpEdit1";
             this.repositoryItemGridLookUpEdit1.NullText = "";
+            this.repositoryItemGridLookUpEdit1.PopupView = this.gridView2;
             this.repositoryItemGridLookUpEdit1.ShowDropDown = DevExpress.XtraEditors.Controls.ShowDropDown.DoubleClick;
             this.repositoryItemGridLookUpEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.repositoryItemGridLookUpEdit1.View = this.gridView2;
             // 
             // gridView2
             // 
@@ -439,8 +443,8 @@
             this.editData.Name = "editData";
             this.editData.NullText = "";
             this.editData.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.editData.PopupView = this.View;
             this.editData.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.editData.View = this.View;
             // 
             // View
             // 
@@ -474,8 +478,8 @@
             this.editOne.Name = "editOne";
             this.editOne.NullText = "";
             this.editOne.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.editOne.PopupView = this.View1;
             this.editOne.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.editOne.View = this.View1;
             // 
             // View1
             // 

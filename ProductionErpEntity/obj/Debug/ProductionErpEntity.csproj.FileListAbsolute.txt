@@ -8,3 +8,9 @@ D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\bin\Debug\ProductionErpEn
 D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.dll
 D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.pdb
 D:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.csprojResolveAssemblyReference.cache
+F:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\bin\Debug\ProductionErpEntity.dll
+F:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\bin\Debug\ProductionErpEntity.pdb
+F:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.csprojAssemblyReference.cache
+F:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.csproj.CoreCompileInputs.cache
+F:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.dll
+F:\ProjectData\MaTuo\ProductionErp\ProductionErpEntity\obj\Debug\ProductionErpEntity.pdb

@@ -144,7 +144,7 @@ namespace ProductionErp
                 txtNum . Text = _stc . STC006;
                 txtJobNum . Text = _stc . STC003;
                 txtCodeNum . Text = _stc . STC001;
-                txtUser . EditValue = _stc . STC007;
+                txtUser . EditValue = _stc . STC007 . Trim ( );
             }
         }
         private void gridView1_CustomRowCellEditForEditing ( object sender ,DevExpress . XtraGrid . Views . Grid . CustomRowCellEditEventArgs e )
@@ -206,34 +206,51 @@ namespace ProductionErp
         }
         private void resButton_Click ( object sender ,EventArgs e )
         {
-            DataRow row = gridView1 . GetFocusedDataRow ( );
-            if ( row != null )
+            //DataRow row = gridView1 . GetFocusedDataRow ( );
+            //if ( row != null )
+            //{
+            //    _std . STD007 = row [ "STD007" ] . ToString ( );
+            //    _std . STD002 = row [ "STD002" ] . ToString ( );
+            //    if ( string . IsNullOrEmpty ( _std . STD007 ) )
+            //    {
+            //        for ( int i = 0 ; i < gridView1 . DataRowCount ; i++ )
+            //        {
+            //            row = gridView1 . GetDataRow ( i );
+            //            if ( row [ "STD002" ] . ToString ( ) . Equals ( _std . STD002 ) )
+            //            {
+            //                row [ "STD007" ] = UserLogin . userName;
+            //                row [ "STD008" ] = UserLogin . userDt;
+            //            }
+            //        }
+            //    }
+            //    else if ( _std . STD007 . Equals ( UserLogin . userName ) )
+            //    {
+            //        for ( int i = 0 ; i < gridView1 . DataRowCount ; i++ )
+            //        {
+            //            row = gridView1 . GetDataRow ( i );
+            //            if ( row [ "STD002" ] . ToString ( ) . Equals ( _std . STD002 ) )
+            //            {
+            //                row [ "STD007" ] = string . Empty;
+            //                row [ "STD008" ] = DBNull . Value;
+            //            }
+            //        }
+            //    }
+            //}
+
+            gridView1 . CloseEditor ( );
+            gridView1 . UpdateCurrentRow ( );
+
+            foreach(DataRow row in tableView . Rows )
             {
-                _std . STD007 = row [ "STD007" ] . ToString ( );
-                _std . STD002 = row [ "STD002" ] . ToString ( );
-                if ( string . IsNullOrEmpty ( _std . STD007 ) )
+                if ( row [ "STD007" ] == null || row [ "STD007" ] . ToString ( ) == String . Empty )
                 {
-                    for ( int i = 0 ; i < gridView1 . DataRowCount ; i++ )
-                    {
-                        row = gridView1 . GetDataRow ( i );
-                        if ( row [ "STD002" ] . ToString ( ) . Equals ( _std . STD002 ) )
-                        {
-                            row [ "STD007" ] = UserLogin . userName;
-                            row [ "STD008" ] = UserLogin . userDt;
-                        }
-                    }
+                    row [ "STD007" ] = UserLogin . userName;
+                    row [ "STD008" ] = UserLogin . userDt;
                 }
-                else if ( _std . STD007 . Equals ( UserLogin . userName ) )
+                else if ( row [ "STD007" ] . ToString ( ) . Trim ( ) . Equals ( UserLogin . userName ) )
                 {
-                    for ( int i = 0 ; i < gridView1 . DataRowCount ; i++ )
-                    {
-                        row = gridView1 . GetDataRow ( i );
-                        if ( row [ "STD002" ] . ToString ( ) . Equals ( _std . STD002 ) )
-                        {
-                            row [ "STD007" ] = string . Empty;
-                            row [ "STD008" ] = DBNull . Value;
-                        }
-                    }
+                    row [ "STD007" ] = string . Empty;
+                    row [ "STD008" ] = DBNull . Value;
                 }
             }
         }

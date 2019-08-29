@@ -18,7 +18,7 @@ namespace ProductionErpBll . Dao
         public DataTable getTableOne ( string strWhere )
         {
             StringBuilder strSql = new StringBuilder ( );
-            strSql . Append ( "SELECT idx,SRT001,SRT002,SRT003,SRT004,SRT005,SRT006,SRT007,SRT008,SRT009 FROM MOXSRT " );
+            strSql . Append ("SELECT idx,SRT001,SRT002,SRT003,SRT004,SRT005,SRT006,SRT007,SRT008,SRT009,RAA021 FROM MOXSRT  A INNER JOIN SGMRAA B ON A.SRT002=B.RAA001 ");
             strSql . AppendFormat ( "WHERE " + strWhere );
 
             return SqlHelper . ExecuteDataTable ( strSql . ToString ( ) );

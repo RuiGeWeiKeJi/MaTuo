@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent ( )
         {
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.txtUser = new DevExpress.XtraEditors.SearchLookUpEdit();
             this.View = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -99,7 +102,7 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 33);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.txtUser);
             this.splitContainerControl1.Panel1.Controls.Add(this.labelControl8);
@@ -120,7 +123,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 440);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 433);
             this.splitContainerControl1.SplitterPosition = 70;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -135,7 +138,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.txtUser.Properties.NullText = "";
             this.txtUser.Properties.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
-            this.txtUser.Properties.View = this.View;
+            this.txtUser.Properties.PopupView = this.View;
             this.txtUser.Size = new System.Drawing.Size(133, 20);
             this.txtUser.TabIndex = 15;
             // 
@@ -333,7 +336,7 @@
             this.repositoryItemGridLookUpEdit1,
             this.repositoryItemDateEdit1,
             this.resButton});
-            this.gridControl1.Size = new System.Drawing.Size(1235, 358);
+            this.gridControl1.Size = new System.Drawing.Size(1235, 351);
             this.gridControl1.TabIndex = 7;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -498,7 +501,7 @@
             // 
             this.resButton.AutoHeight = false;
             this.resButton.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "签字", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "签字", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.resButton.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.Style3D;
             this.resButton.Name = "resButton";
             this.resButton.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
@@ -549,12 +552,10 @@
             // lupUser
             // 
             this.lupUser.AutoHeight = false;
-            this.lupUser.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Ellipsis, "签字", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleRight, null, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject2, "", null, null, true)});
             this.lupUser.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB001", 100, "品号"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB002", 100, "品名"),
-            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB003", 100, "规格")});
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB001", "品号", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB002", "品名", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default),
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("WIB003", "规格", 100, DevExpress.Utils.FormatType.None, "", true, DevExpress.Utils.HorzAlignment.Default, DevExpress.Data.ColumnSortOrder.None, DevExpress.Utils.DefaultBoolean.Default)});
             this.lupUser.Name = "lupUser";
             this.lupUser.NullText = "";
             this.lupUser.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
@@ -581,9 +582,9 @@
             this.repositoryItemGridLookUpEdit1.ImmediatePopup = true;
             this.repositoryItemGridLookUpEdit1.Name = "repositoryItemGridLookUpEdit1";
             this.repositoryItemGridLookUpEdit1.NullText = "";
+            this.repositoryItemGridLookUpEdit1.PopupView = this.gridView2;
             this.repositoryItemGridLookUpEdit1.ShowDropDown = DevExpress.XtraEditors.Controls.ShowDropDown.DoubleClick;
             this.repositoryItemGridLookUpEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.repositoryItemGridLookUpEdit1.View = this.gridView2;
             // 
             // gridView2
             // 
@@ -691,5 +692,22 @@
         private DevExpress . XtraGrid . Views . Grid . GridView View;
         private DevExpress . XtraGrid . Columns . GridColumn DBA001;
         private DevExpress . XtraGrid . Columns . GridColumn DBA002;
+        //private DevExpress . XtraBars . BarDockControl barDockControlTop;
+        //private DevExpress . XtraBars . BarManager barManager1;
+        //private DevExpress . XtraBars . Bar barMenu;
+        //private DevExpress . XtraBars . BarButtonItem toolQuery;
+        //private DevExpress . XtraBars . BarButtonItem toolAdd;
+        //private DevExpress . XtraBars . BarButtonItem toolEdit;
+        //private DevExpress . XtraBars . BarButtonItem toolDelete;
+        //private DevExpress . XtraBars . BarButtonItem toolSave;
+        //private DevExpress . XtraBars . BarButtonItem toolCancel;
+        //private DevExpress . XtraBars . BarButtonItem toolPrint;
+        //private DevExpress . XtraBars . BarButtonItem toolExport;
+        //private DevExpress . XtraBars . BarDockControl barDockControlBottom;
+        //private DevExpress . XtraBars . BarDockControl barDockControlLeft;
+        //private DevExpress . XtraBars . BarDockControl barDockControlRight;
+        //private DevExpress . XtraBars . BarButtonItem toolReview;
+        //private DevExpress . XtraBars . BarButtonItem toolExamin;
+        //private DevExpress . XtraBars . BarButtonItem toolCancellation;
     }
 }

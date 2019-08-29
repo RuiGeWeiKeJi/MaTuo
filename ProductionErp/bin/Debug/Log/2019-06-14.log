@@ -1,0 +1,424 @@
+13:06:33.461 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:06:33.693 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:06:33.717 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:06:33.740 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:06:48.802 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:06:48.873 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:06:49.838 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:07:08.205 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:08:18.953 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:11:59.276 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:00.342 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.691 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.711 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.730 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.750 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.756 @STD001 0002020021800008
+13:12:01.760 @STD002 检验
+13:12:01.765 @STD003 (绿-红)线间电阻(Ω)
+13:12:01.770 @STD004 5.42
+13:12:01.814 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.827 @STD001 0002020021800008
+13:12:01.832 @STD002 检验
+13:12:01.837 @STD003 (黄-红)线间电阻(Ω)
+13:12:01.842 @STD004 5.42
+13:12:01.863 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.869 @STD001 0002020021800008
+13:12:01.874 @STD002 检验
+13:12:01.879 @STD003 匝间检验合格
+13:12:01.884 @STD004 True
+13:12:01.908 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.915 @STD001 0002020021800008
+13:12:01.921 @STD002 检验
+13:12:01.928 @STD003 (黄-绿)线间电阻(Ω)
+13:12:01.936 @STD004 5.46
+13:12:01.964 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:01.972 @STD001 0002020021800008
+13:12:01.977 @STD002 检验
+13:12:01.983 @STD003 绝缘电阻(MΩ)
+13:12:01.989 @STD004 >500
+13:12:02.012 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:02.018 @STD001 0002020021800008
+13:12:02.023 @STD002 绕线
+13:12:02.029 @STD003 并联路数
+13:12:02.034 @STD004 1
+13:12:02.057 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:02.063 @STD001 0002020021800008
+13:12:02.069 @STD002 检验
+13:12:02.074 @STD003 耐压2260V,测试一分钟无击穿
+13:12:02.080 @STD004 True
+13:12:02.103 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:02.110 @STD001 0002020021800008
+13:12:02.116 @STD002 检验
+13:12:02.121 @STD003 电阻不平衡度
+13:12:02.127 @STD004 0.817
+13:12:02.153 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:02.173 @STD001 0002020021800008
+13:12:02.179 @STD002 检验
+13:12:02.185 @STD003 环境温度(℃)
+13:12:02.191 @STD004 17.9
+13:12:02.214 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:02.222 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:02.264 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:12.052 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:12.065 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:13.110 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.589 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.602 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.623 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.628 @BRB001 0001800116
+13:12:14.636 @BRB002 装配衔铁
+13:12:14.642 @BRB003 动板条码
+13:12:14.647 @BRB004 
+13:12:14.652 @BRB005 
+13:12:14.658 @BRB006 4
+13:12:14.663 @BRB007 
+13:12:14.675 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.682 @BRA001 0001800116
+13:12:14.689 @BRA002 MTA2700D1
+13:12:14.697 @BRA003 摩擦片组件
+13:12:14.704 @BRA004 
+13:12:14.713 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.720 @BRB001 0001800116
+13:12:14.728 @BRB002 检验
+13:12:14.734 @BRB003 绝缘电阻
+13:12:14.741 @BRB004 
+13:12:14.746 @BRB005 
+13:12:14.752 @BRB006 7
+13:12:14.759 @BRB007 
+13:12:14.767 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.773 @BRB001 0001800116
+13:12:14.779 @BRB002 检验
+13:12:14.786 @BRB003 直流电阻(KΩ)
+13:12:14.793 @BRB004 
+13:12:14.801 @BRB005 
+13:12:14.808 @BRB006 8
+13:12:14.815 @BRB007 
+13:12:14.822 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.829 @BRB001 0001800116
+13:12:14.836 @BRB002 检验
+13:12:14.842 @BRB003 制动器吸合释放噪音(dB)
+13:12:14.849 @BRB004 
+13:12:14.855 @BRB005 
+13:12:14.863 @BRB006 11
+13:12:14.869 @BRB007 
+13:12:14.876 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.891 @BRB001 0001800116
+13:12:14.896 @BRB002 装线圈
+13:12:14.904 @BRB003 漆包线厂家
+13:12:14.910 @BRB004 
+13:12:14.916 @BRB005 
+13:12:14.922 @BRB006 1
+13:12:14.930 @BRB007 浙江洪波
+13:12:14.937 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.943 @BRB001 0001800116
+13:12:14.950 @BRB002 装电磁铁
+13:12:14.956 @BRB003 铁芯条码
+13:12:14.962 @BRB004 
+13:12:14.968 @BRB005 
+13:12:14.974 @BRB006 2
+13:12:14.980 @BRB007 
+13:12:14.987 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:14.994 @BRB001 0001800116
+13:12:15.000 @BRB002 装减震垫
+13:12:15.006 @BRB003 减震垫供应商
+13:12:15.012 @BRB004 
+13:12:15.018 @BRB005 
+13:12:15.023 @BRB006 3
+13:12:15.029 @BRB007 杭州万康
+13:12:15.036 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.043 @BRB001 0001800116
+13:12:15.049 @BRB002 检验
+13:12:15.055 @BRB003 制动器最低启动电压能吸合
+13:12:15.063 @BRB004 
+13:12:15.069 @BRB005 
+13:12:15.077 @BRB006 9
+13:12:15.083 @BRB007 
+13:12:15.091 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.098 @BRB001 0001800116
+13:12:15.104 @BRB002 检验
+13:12:15.110 @BRB003 工频耐压
+13:12:15.116 @BRB004 
+13:12:15.123 @BRB005 
+13:12:15.129 @BRB006 6
+13:12:15.136 @BRB007 
+13:12:15.143 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.150 @BRB001 0001800116
+13:12:15.158 @BRB002 检验
+13:12:15.164 @BRB003 制动器开关动作判定
+13:12:15.172 @BRB004 
+13:12:15.178 @BRB005 
+13:12:15.183 @BRB006 10
+13:12:15.190 @BRB007 
+13:12:15.199 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.205 @BRB001 0001800116
+13:12:15.211 @BRB002 粘摩擦片
+13:12:15.217 @BRB003 摩擦片条码
+13:12:15.224 @BRB004 
+13:12:15.231 @BRB005 
+13:12:15.237 @BRB006 5
+13:12:15.243 @BRB007 
+13:12:15.250 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.260 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.268 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:12:15.284 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:29:42.931 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:29:43.203 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:29:43.223 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:29:43.252 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:29:47.650 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:20.039 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.252 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.275 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.296 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.318 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.325 @STD001 0002020381800009
+13:30:21.330 @STD002 绕线
+13:30:21.338 @STD003 并联路数
+13:30:21.359 @STD004 1
+13:30:21.410 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.426 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:30:21.467 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:34.868 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:35.059 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:35.068 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:35.077 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:37.789 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:40.891 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.135 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.152 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.164 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.184 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.191 @STD001 0002020381800009
+13:31:42.197 @STD002 绕线
+13:31:42.202 @STD003 并联路数
+13:31:42.208 @STD004 1
+13:31:42.234 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.246 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:31:42.261 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.185 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.192 @idx 174
+13:32:17.198 @STD004 30
+13:32:17.206 @STD006 0
+13:32:17.213 @STD007 陆芳芳
+13:32:17.220 @STD008 2019/6/14 13:31:34
+13:32:17.226 @STD012 
+13:32:17.234 @STD013 
+13:32:17.265 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.271 @idx 171
+13:32:17.277 @STD004 
+13:32:17.283 @STD006 0
+13:32:17.289 @STD007 
+13:32:17.295 @STD008 
+13:32:17.300 @STD012 
+13:32:17.306 @STD013 
+13:32:17.326 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.332 @idx 168
+13:32:17.338 @STD004 
+13:32:17.343 @STD006 0
+13:32:17.350 @STD007 
+13:32:17.356 @STD008 
+13:32:17.361 @STD012 
+13:32:17.368 @STD013 
+13:32:17.389 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.397 @idx 160
+13:32:17.404 @STD004 
+13:32:17.411 @STD006 0
+13:32:17.417 @STD007 
+13:32:17.423 @STD008 
+13:32:17.428 @STD012 
+13:32:17.435 @STD013 
+13:32:17.453 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.459 @idx 157
+13:32:17.466 @STD004 
+13:32:17.472 @STD006 0
+13:32:17.479 @STD007 陆芳芳
+13:32:17.484 @STD008 2019/6/14 13:31:34
+13:32:17.490 @STD012 
+13:32:17.496 @STD013 
+13:32:17.515 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.521 @idx 165
+13:32:17.527 @STD004 1
+13:32:17.533 @STD006 0
+13:32:17.539 @STD007 陆芳芳
+13:32:17.544 @STD008 2019/6/14 13:31:34
+13:32:17.549 @STD012 
+13:32:17.555 @STD013 
+13:32:17.574 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.580 @idx 172
+13:32:17.586 @STD004 
+13:32:17.593 @STD006 0
+13:32:17.600 @STD007 
+13:32:17.607 @STD008 
+13:32:17.614 @STD012 
+13:32:17.621 @STD013 
+13:32:17.643 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.648 @idx 156
+13:32:17.655 @STD004 
+13:32:17.661 @STD006 0
+13:32:17.668 @STD007 陆芳芳
+13:32:17.673 @STD008 2019/6/14 13:31:34
+13:32:17.679 @STD012 
+13:32:17.684 @STD013 
+13:32:17.708 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.716 @idx 175
+13:32:17.723 @STD004 
+13:32:17.730 @STD006 0
+13:32:17.737 @STD007 
+13:32:17.743 @STD008 
+13:32:17.748 @STD012 
+13:32:17.754 @STD013 
+13:32:17.772 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.778 @idx 159
+13:32:17.784 @STD004 6
+13:32:17.790 @STD006 0
+13:32:17.795 @STD007 陆芳芳
+13:32:17.800 @STD008 2019/6/14 13:31:34
+13:32:17.806 @STD012 
+13:32:17.811 @STD013 
+13:32:17.831 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.838 @idx 158
+13:32:17.844 @STD004 
+13:32:17.850 @STD006 0
+13:32:17.855 @STD007 陆芳芳
+13:32:17.861 @STD008 2019/6/14 13:31:34
+13:32:17.868 @STD012 
+13:32:17.873 @STD013 
+13:32:17.893 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.901 @idx 164
+13:32:17.906 @STD004 
+13:32:17.911 @STD006 0
+13:32:17.917 @STD007 
+13:32:17.922 @STD008 
+13:32:17.928 @STD012 
+13:32:17.933 @STD013 
+13:32:17.954 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:17.960 @idx 161
+13:32:17.966 @STD004 
+13:32:17.971 @STD006 0
+13:32:17.977 @STD007 
+13:32:17.982 @STD008 
+13:32:17.987 @STD012 
+13:32:17.993 @STD013 
+13:32:18.015 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.021 @idx 162
+13:32:18.028 @STD004 0
+13:32:18.033 @STD006 0
+13:32:18.040 @STD007 陆芳芳
+13:32:18.045 @STD008 2019/6/14 13:31:34
+13:32:18.051 @STD012 
+13:32:18.057 @STD013 
+13:32:18.082 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.088 @STC001 0002020381800009
+13:32:18.093 @STC005 0
+13:32:18.100 @STC006 
+13:32:18.105 @STC007 
+13:32:18.111 @STC008 
+13:32:18.121 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.127 @idx 176
+13:32:18.135 @STD004 
+13:32:18.140 @STD006 0
+13:32:18.147 @STD007 
+13:32:18.153 @STD008 
+13:32:18.158 @STD012 
+13:32:18.165 @STD013 
+13:32:18.189 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.195 @idx 169
+13:32:18.201 @STD004 
+13:32:18.206 @STD006 0
+13:32:18.211 @STD007 
+13:32:18.216 @STD008 
+13:32:18.224 @STD012 
+13:32:18.229 @STD013 
+13:32:18.249 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.256 @idx 173
+13:32:18.264 @STD004 
+13:32:18.270 @STD006 0
+13:32:18.275 @STD007 陆芳芳
+13:32:18.280 @STD008 2019/6/14 13:31:34
+13:32:18.288 @STD012 
+13:32:18.293 @STD013 
+13:32:18.311 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.320 @idx 167
+13:32:18.326 @STD004 
+13:32:18.332 @STD006 0
+13:32:18.337 @STD007 
+13:32:18.343 @STD008 
+13:32:18.350 @STD012 
+13:32:18.356 @STD013 
+13:32:18.378 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.385 @idx 166
+13:32:18.390 @STD004 32
+13:32:18.396 @STD006 0
+13:32:18.401 @STD007 陆芳芳
+13:32:18.408 @STD008 2019/6/14 13:31:34
+13:32:18.413 @STD012 
+13:32:18.418 @STD013 
+13:32:18.438 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.444 @idx 155
+13:32:18.449 @STD004 6
+13:32:18.455 @STD006 0
+13:32:18.461 @STD007 陆芳芳
+13:32:18.466 @STD008 2019/6/14 13:31:34
+13:32:18.472 @STD012 
+13:32:18.478 @STD013 
+13:32:18.496 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.503 @idx 163
+13:32:18.508 @STD004 
+13:32:18.513 @STD006 0
+13:32:18.520 @STD007 
+13:32:18.525 @STD008 
+13:32:18.532 @STD012 
+13:32:18.537 @STD013 
+13:32:18.556 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:32:18.562 @idx 170
+13:32:18.567 @STD004 
+13:32:18.572 @STD006 0
+13:32:18.578 @STD007 
+13:32:18.583 @STD008 
+13:32:18.589 @STD012 
+13:32:18.595 @STD013 
+13:32:18.619 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:37.581 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:37.722 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:38.835 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:39.632 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:40.406 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:40.785 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:41.504 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:42.297 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:42.601 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:43.337 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:43.982 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:44.552 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:45.857 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:47.211 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:47.523 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:36:48.053 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:37:26.598 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:35.444 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:35.726 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:35.742 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:35.753 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:39.386 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:39.477 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:40.742 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:42.591 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:43.470 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:44.327 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:44.716 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:45.618 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:46.637 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:47.494 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:48.680 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:49.415 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:50.426 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:50.798 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:51.792 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:52.119 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:38:52.451 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:40:38.937 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:40:40.438 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:40:40.859 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:40:41.323 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1
+13:40:45.210 Data Source=.;Initial Catalog=MT;User Id=sa;Password=1

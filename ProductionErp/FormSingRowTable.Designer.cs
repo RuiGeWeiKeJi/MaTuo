@@ -55,6 +55,7 @@
             this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.schedulerStorage1 = new DevExpress.XtraScheduler.SchedulerStorage(this.components);
+            this.RAA021 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lupProduct.Properties)).BeginInit();
@@ -76,7 +77,7 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 33);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.lupProduct);
             this.splitContainerControl1.Panel1.Controls.Add(this.label2);
@@ -85,7 +86,7 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1240, 421);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1240, 414);
             this.splitContainerControl1.SplitterPosition = 30;
             this.splitContainerControl1.TabIndex = 0;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -160,7 +161,7 @@
             this.repositoryItemCheckEdit1,
             this.repositoryItemCheckEdit2,
             this.repositoryItemCheckEdit3});
-            this.gridControl1.Size = new System.Drawing.Size(1240, 379);
+            this.gridControl1.Size = new System.Drawing.Size(1240, 372);
             this.gridControl1.TabIndex = 8;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -180,7 +181,8 @@
             this.SRT007,
             this.SRT008,
             this.SRT009,
-            this.idx});
+            this.idx,
+            this.RAA021});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.IndicatorWidth = 45;
             this.gridView1.Name = "gridView1";
@@ -204,7 +206,7 @@
             this.SRT001.Name = "SRT001";
             this.SRT001.Visible = true;
             this.SRT001.VisibleIndex = 1;
-            this.SRT001.Width = 122;
+            this.SRT001.Width = 113;
             // 
             // SRT002
             // 
@@ -218,7 +220,7 @@
             this.SRT002.OptionsColumn.AllowEdit = false;
             this.SRT002.Visible = true;
             this.SRT002.VisibleIndex = 2;
-            this.SRT002.Width = 115;
+            this.SRT002.Width = 107;
             // 
             // SRT003
             // 
@@ -232,7 +234,7 @@
             this.SRT003.OptionsColumn.AllowEdit = false;
             this.SRT003.Visible = true;
             this.SRT003.VisibleIndex = 3;
-            this.SRT003.Width = 144;
+            this.SRT003.Width = 134;
             // 
             // SRT004
             // 
@@ -246,7 +248,7 @@
             this.SRT004.OptionsColumn.AllowEdit = false;
             this.SRT004.Visible = true;
             this.SRT004.VisibleIndex = 4;
-            this.SRT004.Width = 114;
+            this.SRT004.Width = 106;
             // 
             // SRT005
             // 
@@ -260,7 +262,7 @@
             this.SRT005.OptionsColumn.AllowEdit = false;
             this.SRT005.Visible = true;
             this.SRT005.VisibleIndex = 5;
-            this.SRT005.Width = 126;
+            this.SRT005.Width = 117;
             // 
             // SRT006
             // 
@@ -276,7 +278,7 @@
             new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, "SRT006", "{0}")});
             this.SRT006.Visible = true;
             this.SRT006.VisibleIndex = 6;
-            this.SRT006.Width = 83;
+            this.SRT006.Width = 77;
             // 
             // SRT007
             // 
@@ -288,8 +290,8 @@
             this.SRT007.FieldName = "SRT007";
             this.SRT007.Name = "SRT007";
             this.SRT007.Visible = true;
-            this.SRT007.VisibleIndex = 7;
-            this.SRT007.Width = 99;
+            this.SRT007.VisibleIndex = 8;
+            this.SRT007.Width = 72;
             // 
             // SRT008
             // 
@@ -301,8 +303,8 @@
             this.SRT008.FieldName = "SRT008";
             this.SRT008.Name = "SRT008";
             this.SRT008.Visible = true;
-            this.SRT008.VisibleIndex = 8;
-            this.SRT008.Width = 106;
+            this.SRT008.VisibleIndex = 9;
+            this.SRT008.Width = 78;
             // 
             // SRT009
             // 
@@ -314,8 +316,8 @@
             this.SRT009.FieldName = "SRT009";
             this.SRT009.Name = "SRT009";
             this.SRT009.Visible = true;
-            this.SRT009.VisibleIndex = 9;
-            this.SRT009.Width = 110;
+            this.SRT009.VisibleIndex = 10;
+            this.SRT009.Width = 91;
             // 
             // idx
             // 
@@ -398,6 +400,20 @@
             this.repositoryItemCheckEdit3.AutoHeight = false;
             this.repositoryItemCheckEdit3.Name = "repositoryItemCheckEdit3";
             // 
+            // RAA021
+            // 
+            this.RAA021.AppearanceCell.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.RAA021.AppearanceCell.Options.UseFont = true;
+            this.RAA021.AppearanceHeader.Font = new System.Drawing.Font("宋体", 10.5F);
+            this.RAA021.AppearanceHeader.Options.UseFont = true;
+            this.RAA021.Caption = "备注";
+            this.RAA021.FieldName = "RAA021";
+            this.RAA021.Name = "RAA021";
+            this.RAA021.ToolTip = "工单单头";
+            this.RAA021.Visible = true;
+            this.RAA021.VisibleIndex = 7;
+            this.RAA021.Width = 124;
+            // 
             // FormSingRowTable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -454,5 +470,6 @@
         private DevExpress . XtraGrid . Columns . GridColumn SRT008;
         private DevExpress . XtraGrid . Columns . GridColumn SRT009;
         private DevExpress . XtraGrid . Columns . GridColumn idx;
+        private DevExpress.XtraGrid.Columns.GridColumn RAA021;
     }
 }

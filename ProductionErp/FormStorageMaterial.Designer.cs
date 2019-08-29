@@ -30,6 +30,7 @@
         {
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.btnClear = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lupOrder = new DevExpress.XtraEditors.GridLookUpEdit();
@@ -73,7 +74,6 @@
             this.STM007 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).BeginInit();
@@ -97,13 +97,13 @@
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(0, 26);
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 33);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.splitContainerControl2);
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.Controls.Add(this.splitContainerControl3);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 433);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1235, 426);
             this.splitContainerControl1.SplitterPosition = 187;
             this.splitContainerControl1.TabIndex = 4;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -127,6 +127,19 @@
             this.splitContainerControl2.SplitterPosition = 34;
             this.splitContainerControl2.TabIndex = 6;
             this.splitContainerControl2.Text = "splitContainerControl2";
+            // 
+            // btnClear
+            // 
+            this.btnClear.AutoSize = true;
+            this.btnClear.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnClear.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(726, 4);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(59, 28);
+            this.btnClear.TabIndex = 15;
+            this.btnClear.Text = "清空";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // label2
             // 
@@ -160,8 +173,8 @@
             this.lupOrder.Properties.ImmediatePopup = true;
             this.lupOrder.Properties.NullText = "";
             this.lupOrder.Properties.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.lupOrder.Properties.PopupView = this.View1;
             this.lupOrder.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.lupOrder.Properties.View = this.View1;
             this.lupOrder.Size = new System.Drawing.Size(176, 20);
             this.lupOrder.TabIndex = 12;
             this.lupOrder.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lupOrder_KeyPress);
@@ -214,8 +227,8 @@
             this.lupProNum.Properties.ImmediatePopup = true;
             this.lupProNum.Properties.NullText = "";
             this.lupProNum.Properties.PopupFilterMode = DevExpress.XtraEditors.PopupFilterMode.Contains;
+            this.lupProNum.Properties.PopupView = this.View2;
             this.lupProNum.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
-            this.lupProNum.Properties.View = this.View2;
             this.lupProNum.Size = new System.Drawing.Size(176, 20);
             this.lupProNum.TabIndex = 14;
             this.lupProNum.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lupProNum_KeyPress);
@@ -433,7 +446,7 @@
             this.splitContainerControl3.Panel2.Controls.Add(this.waitPro);
             this.splitContainerControl3.Panel2.Controls.Add(this.gridControl2);
             this.splitContainerControl3.Panel2.Text = "Panel2";
-            this.splitContainerControl3.Size = new System.Drawing.Size(1235, 234);
+            this.splitContainerControl3.Size = new System.Drawing.Size(1235, 227);
             this.splitContainerControl3.SplitterPosition = 43;
             this.splitContainerControl3.TabIndex = 37;
             this.splitContainerControl3.Text = "splitContainerControl3";
@@ -513,7 +526,7 @@
             this.gridControl2.Location = new System.Drawing.Point(0, 0);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(1235, 179);
+            this.gridControl2.Size = new System.Drawing.Size(1235, 172);
             this.gridControl2.TabIndex = 5;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -657,19 +670,6 @@
             this.backgroundWorker2.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker2_DoWork);
             this.backgroundWorker2.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker2_RunWorkerCompleted);
             // 
-            // btnClear
-            // 
-            this.btnClear.AutoSize = true;
-            this.btnClear.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.btnClear.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(726, 4);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(59, 28);
-            this.btnClear.TabIndex = 15;
-            this.btnClear.Text = "清空";
-            this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
             // FormStorageMaterial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -677,7 +677,7 @@
             this.ClientSize = new System.Drawing.Size(1235, 459);
             this.Controls.Add(this.splitContainerControl1);
             this.Name = "FormStorageMaterial";
-            this.Text = "入库材料条码管理程序";
+            this.Text = "入库材料条码管理作业";
             this.Controls.SetChildIndex(this.splitContainerControl1, 0);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);

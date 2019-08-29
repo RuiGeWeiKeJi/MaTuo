@@ -10,8 +10,9 @@
 
 namespace UIControl.Properties {
     using System;
-    
-    
+    using System . Drawing;
+
+
     /// <summary>
     ///   一个强类型的资源类，用于查找本地化的字符串等。
     /// </summary>
@@ -19,11 +20,12 @@ namespace UIControl.Properties {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Bitmap frameBorderEffect_mouseDownDraw;
+        internal static Bitmap frameBorderEffect_normalDraw;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -47,7 +49,7 @@ namespace UIControl.Properties {
         }
         
         /// <summary>
-        ///   使用此强类型资源类，为所有资源查找
+        ///   重写当前线程的 CurrentUICulture 属性
         ///   重写当前线程的 CurrentUICulture 属性。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -57,198 +59,6 @@ namespace UIControl.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap allbtn_down
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "allbtn_down" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap allbtn_highlight
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "allbtn_highlight" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap btn_down
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "btn_down" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap btn_focus_down
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "btn_focus_down" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap btn_normal
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "btn_normal" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap button_login_down
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "button_login_down" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap button_login_hover
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "button_login_hover" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap button_login_normal
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "button_login_normal" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap close_down
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "close_down" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap close_mouseover
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "close_mouseover" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap close_normal
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "close_normal" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap frameBorderEffect_mouseDownDraw
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "frameBorderEffect_mouseDownDraw" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap frameBorderEffect_normalDraw
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "frameBorderEffect_normalDraw" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap login_inputbtn_down
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "login_inputbtn_down" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap login_inputbtn_highlight
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "login_inputbtn_highlight" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
-            }
-        }
-
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System . Drawing . Bitmap login_inputbtn_normal
-        {
-            get
-            {
-                object obj = ResourceManager . GetObject ( "login_inputbtn_normal" ,resourceCulture );
-                return ( ( System . Drawing . Bitmap ) ( obj ) );
             }
         }
     }

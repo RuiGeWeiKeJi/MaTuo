@@ -60,6 +60,7 @@ namespace ProductionErpBll . Dao
             for ( int i = 0 ; i < table . Rows . Count ; i++ )
             {
                 _model . Idx = string . IsNullOrEmpty ( table . Rows [ i ] [ "idx" ] . ToString ( ) ) == true ? 0 : Convert . ToInt32 ( table . Rows [ i ] [ "idx" ] . ToString ( ) );
+                //_model . Idx = table . Rows [ i ] . getValueForType<int> ( "idx" );
                 _model . Art001 = table . Rows [ i ] [ "ART001" ] . ToString ( );
                 _model . Art002 = table . Rows [ i ] [ "ART002" ] . ToString ( );
                 if ( Exists ( _model ) == false )
@@ -80,6 +81,33 @@ namespace ProductionErpBll . Dao
 
             return SqlHelper . ExecuteSqlTran ( SQLString );
         }
+
+        /// <summary>
+        /// 泛型获取
+        /// </summary>
+        /// <param name="_model"></param>
+        /// <returns></returns>
+        //T getValueForType<T> ( DataRow row , string name )
+        //{
+        //    T result = default ( T );
+        //    var value = row [ name ];
+        //    if ( value != null || !Convert . IsDBNull ( value ) )
+        //    {
+        //        result = ( T ) value;
+        //    }
+        //    return result;
+        //}
+
+        //static T getValueForType<T> ( this DataRow row , string name )
+        //{
+        //    T result = default ( T );
+        //    var value = row [ name ];
+        //    if ( value != null && !Convert . IsDBNull ( value ) )
+        //    {
+        //        result = ( T ) value;
+        //    }
+        //    return result;
+        //}
 
         bool Exists ( ProductionErpEntity . ArtEntity _model )
         {

@@ -1,4 +1,5 @@
-﻿using System . Data;
+﻿using System.Collections.Generic;
+using System . Data;
 using System . Windows . Forms;
 
 namespace ProductionErp
@@ -9,6 +10,7 @@ namespace ProductionErp
         {
             InitializeComponent ( );
         }
+
 
         private void FormMain_Load ( object sender ,System . EventArgs e )
         {
